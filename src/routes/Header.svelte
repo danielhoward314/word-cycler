@@ -25,6 +25,9 @@
 			<li aria-current={$page.url.pathname.startsWith('/epithets') ? 'page' : undefined}>
 				<a href="/epithets">Epithets</a>
 			</li>
+			<li aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}>
+				<a href="/greek-latin-roots">Greek / Latin Roots</a>
+			</li>
 		</ul>
 	</nav>
 </header>

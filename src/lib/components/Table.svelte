@@ -1,47 +1,77 @@
 <script>
 	/**
-	 * @type {string}
-	 */
-	export let name;
-
-	let size = name === 'epithets' || name === 'binary_adjective_pairs' ? '1.5rem' : '2.5rem';
-
-	/**
-	 * @type {string[]}
+	 * @type {any[]}
 	 */
 	export let list;
 
 	/**
-	 * @type {string}
+	 * @type {any}
 	 */
-	let item = list[0];
-	console.log(item.length);
+	let randomSubset = list.slice(0, 7);
 
 	function handleClick() {
-		item = list[Math.floor(Math.random() * list.length)];
+		let randomSubsetStartIdx = Math.floor(Math.random() * (list.length - 10));
+		randomSubset = list.slice(randomSubsetStartIdx, randomSubsetStartIdx + 7);
 	}
 </script>
 
-<section class="card">
-	<h1 style="font-size: {size}">{@html item}</h1>
-	<!-- svelte-ignore a11y-autofocus -->
-	<button on:click={handleClick} autofocus>Shuffle</button>
-</section>
+<table>
+	<thead>
+		<th>Root</th>
+		<th>Meaning in English</th>
+		<th>Origin language</th>
+		<th>Etymology (root language)</th>
+		<th>English examples</th>
+	</thead>
+	<tbody>
+		{#each randomSubset as row}
+			<tr>
+				<td>{row.Root}</td>
+				<td>{row.MeaningInEnglish}</td>
+				<td>{row.OriginLanguage}</td>
+				<td>{row.RootOrigin}</td>
+				<td>{row.EnglishExamples}</td>
+			</tr>
+		{/each}
+	</tbody>
+</table>
+<!-- svelte-ignore a11y-autofocus -->
+<button on:click={handleClick} autofocus>Shuffle</button>
 
 <style>
-	.card {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
-		margin: 0 auto;
-		width: 40vw;
-		height: 50vh;
-		color: var(--color-text-0);
+	table {
+		overflow: auto;
+		table-layout: fixed;
+		width: 100%;
+		border-collapse: collapse;
+		border: 3px solid #095359c2;
 		background: var(--color-bg-1);
-		border-radius: 10px;
-		box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25), 0 10px 30px rgba(0, 0, 0, 0.22);
+		color: #f2e4bb;
+	}
+
+	th,
+	td {
+		padding: 15px;
+	}
+
+	th {
+		letter-spacing: 2px;
+	}
+
+	td {
+		letter-spacing: 1px;
+	}
+
+	tbody td {
+		text-align: center;
+	}
+
+	tbody tr:nth-child(odd) {
+		background-color: #095359c2;
+	}
+
+	tbody tr:nth-child(even) {
+		background-color: var(--color-bg-1);
 	}
 
 	button {
