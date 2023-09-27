@@ -28,6 +28,9 @@
 			<li aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}>
 				<a href="/greek-latin-roots">Greek / Latin Roots</a>
 			</li>
+			<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
+				<a href="/idioms">Idioms</a>
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -60,7 +63,7 @@
 	li {
 		position: relative;
 		height: 100%;
-		padding-right: 3em;
+		padding-right: 1em;
 	}
 
 	nav a {

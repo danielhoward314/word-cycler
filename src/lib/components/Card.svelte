@@ -4,7 +4,8 @@
 	 */
 	export let name;
 
-	let size = name === 'epithets' || name === 'binary_adjective_pairs' ? '1.5rem' : '2.5rem';
+	let longerEntries = name === 'epithets' || name === 'binary_adjective_pairs' || name === 'idioms';
+	let size = longerEntries ? '1.5rem' : '2.5rem';
 
 	/**
 	 * @type {string[]}
@@ -23,7 +24,7 @@
 </script>
 
 <section class="card">
-	<h1 style="font-size: {size}">{@html item}</h1>
+	<p style="font-size: {size}">{@html item}</p>
 	<!-- svelte-ignore a11y-autofocus -->
 	<button on:click={handleClick} autofocus>Shuffle</button>
 </section>
@@ -33,11 +34,11 @@
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-evenly;
 		align-items: center;
 		margin: 0 auto;
-		width: 40vw;
-		height: 50vh;
+		width: 60vw;
+		height: 60vh;
 		color: var(--color-text-0);
 		background: var(--color-bg-1);
 		border-radius: 10px;
@@ -90,5 +91,10 @@
 	button:active {
 		box-shadow: #d6d6e7 0 3px 7px inset;
 		transform: translateY(2px);
+	}
+
+	p {
+		overflow-wrap: break-word;
+		margin: 20px;
 	}
 </style>
