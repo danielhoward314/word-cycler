@@ -2985,5 +2985,5 @@ export const epithets = [
 	'a gray day, tinting mauve the flat undersides of clouds beyond the deserted shipyard where two great cranes slanted against the sky',
 	'sudden erotic curiosity',
 	'staining berries that had dropped on his yellow Buick convertible',
-	'knitted wool jersey',
+	'knitted wool jersey'
 ];

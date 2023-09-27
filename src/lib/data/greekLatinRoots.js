@@ -11740,2387 +11740,2345 @@ export const greekLatinRoots = [
 	},
 
 	{
-		Root: 'spond-',
-		MeaningInEnglish: 'Greek',
-		OriginLanguage: '',
-		RootOrigin: '',
-		EnglishExamples: 'spond-, spons-'
+		Root: 'spond-, spons-',
+		MeaningInEnglish: 'a surety, guarantee; give assurance, promise solemnly',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'spondere, sponsus',
+		EnglishExamples:
+			'correspond, correspondence, correspondent, corresponsive, cosponsor, despond, despondency, despondent, desponsage, desponsate, desponsation, disespouse, espousage, espousal, espouse, interspousal, irresponsibility, irresponsible, irresponsive, nonresponsive, respond, respondee, respondence, respondent, response, responsibility, responsible, responsion, responsive, responsivity, riposte, sponsal, sponsion, sponsional, sponsor, spousal, spouse'
 	},
 
 	{
-		Root: 'a surety, guarantee; give assurance, promise solemnly',
-		MeaningInEnglish: 'Latin',
-		OriginLanguage: 'spondere, sponsus',
+		Root: 'spondyl-',
+		MeaningInEnglish: 'vertebra',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'σπόνδυλος (spóndulos)',
+		EnglishExamples:
+			'platyspondyly, spondylid, spondylolisthesis, spondylolysis, spondylopyosis, spondyloschisis, spondylosis, spondylosyndesis, Spondylus'
+	},
+
+	{
+		Root: 'spu-, sput-',
+		MeaningInEnglish: 'spew, spit',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'spuere',
+		EnglishExamples: 'exspuition, sputum'
+	},
+
+	{
+		Root: 'squal-',
+		MeaningInEnglish: 'scaly, dirty, filthy',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'squalere',
+		EnglishExamples: 'squalid, squalidity, squalor'
+	},
+
+	{
+		Root: 'squam-',
+		MeaningInEnglish: 'scale',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'squama',
+		EnglishExamples: 'squamous'
+	},
+
+	{
+		Root: 'squarros-',
+		MeaningInEnglish: 'spreading at tips',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'squarrosus',
+		EnglishExamples: 'squarrose'
+	},
+
+	{
+		Root: 'st- (ΣΤΑ)',
+		MeaningInEnglish: 'cause to stand',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ἵστημι histēmi, histánai, στατικός, στάσις, στατήρ, στήλη',
+		EnglishExamples:
+			'acrostatic, actinostele, anastasis, antistatic, apostasy, apostate, astasia, astasis, astatic, astatine, catastasis, chronostasis, diastase, diastasis, diastatic, diasystem, ecstasy, ecstatic, epistasis, episteme, epistemic, epistemology, eustasis, eustatic, eustele, haplostele, homeostasis, homeostatic, hydrostatic, hypostasis, hypostasize, hypostatic, hypostatize, mesostatic, metastasis, metastasize, metastatic, metasystem, orthostates, orthostatic, protostele, stasimon, stasis, stater, static, statoblast, statocyst, statolith, stela, stele, systasis, system, systematic, systematize, systematology, systemic, teleutostatic'
+	},
+
+	{
+		Root: 'st-',
+		MeaningInEnglish: 'stand',
+		OriginLanguage: 'Latin',
 		RootOrigin:
-			'correspond, correspondence, correspondent, corresponsive, cosponsor, despond, despondency, despondent, desponsage, desponsate, desponsation, disespouse, espousage, espousal, espouse, interspousal, irresponsibility, irresponsible, irresponsive, nonresponsive, respond, respondee, respondence, respondent, response, responsibility, responsible, responsion, responsive, responsivity, riposte, sponsal, sponsion, sponsional, sponsor, spousal, spouse',
-		EnglishExamples: 'spondyl-'
-	},
-
-	{
-		Root: 'vertebra',
-		MeaningInEnglish: 'Greek',
-		OriginLanguage: 'σπόνδυλος (spóndulos)',
-		RootOrigin:
-			'platyspondyly, spondylid, spondylolisthesis, spondylolysis, spondylopyosis, spondyloschisis, spondylosis, spondylosyndesis, Spondylus',
-		EnglishExamples: 'spor-'
-	},
-
-	{
-		Root: 'Greek',
-		MeaningInEnglish: '',
-		OriginLanguage: '',
-		RootOrigin: 'spu-, sput-',
-		EnglishExamples: 'spew, spit'
-	},
-
-	{
-		Root: 'Latin',
-		MeaningInEnglish: 'spuere',
-		OriginLanguage: 'exspuition, sputum',
-		RootOrigin: 'squal-',
-		EnglishExamples: 'scaly, dirty, filthy'
-	},
-
-	{
-		Root: 'Latin',
-		MeaningInEnglish: 'squalere',
-		OriginLanguage: 'squalid, squalidity, squalor',
-		RootOrigin: 'squam-',
-		EnglishExamples: 'scale'
-	},
-
-	{
-		Root: 'Latin',
-		MeaningInEnglish: 'squama',
-		OriginLanguage: 'squamous',
-		RootOrigin: 'squarros-',
-		EnglishExamples: 'spreading at tips'
-	},
-
-	{
-		Root: 'Latin',
-		MeaningInEnglish: 'squarrosus',
-		OriginLanguage: 'squarrose',
-		RootOrigin: 'st- (ΣΤΑ)',
-		EnglishExamples: 'cause to stand'
-	},
-
-	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ἵστημι histēmi, histánai, στατικός, στάσις, στατήρ, στήλη',
-		OriginLanguage:
-			'acrostatic, actinostele, anastasis, antistatic, apostasy, apostate, astasia, astasis, astatic, astatine, catastasis, chronostasis, diastase, diastasis, diastatic, diasystem, ecstasy, ecstatic, epistasis, episteme, epistemic, epistemology, eustasis, eustatic, eustele, haplostele, homeostasis, homeostatic, hydrostatic, hypostasis, hypostasize, hypostatic, hypostatize, mesostatic, metastasis, metastasize, metastatic, metasystem, orthostates, orthostatic, protostele, stasimon, stasis, stater, static, statoblast, statocyst, statolith, stela, stele, systasis, system, systematic, systematize, systematology, systemic, teleutostatic',
-		RootOrigin: 'st-',
-		EnglishExamples: 'stand'
-	},
-
-	{
-		Root: 'Latin',
-		MeaningInEnglish:
 			'stare "to stand", also causative form statuere "to enact, set", from status "condition, position"',
-		OriginLanguage:
-			'antestature, arrest, arrestant, arrestee, bistability, bistable, bistate, circumstance, circumstantial, consist, constable, constabulary, constancy, constant, constitute, consubstantiation, contrast, distance, distant, equidistance, equidistant, establish, estate, extant, inconstancy, inconstant, instability, instance, instant, obstacle, presto, stable, stamen, stamina, stance, stanchion, stanza, state, station, stationary, statistic, statue, status, staunch, stay, substance, substantial, substantiality, substantiate, substantiation, substantive, substate, substation, substitute, superstation, superstition, superstitious, transubstantiate, transubstantiation, tristate',
-		RootOrigin: 'stagn-',
-		EnglishExamples: 'pool of standing water'
+		EnglishExamples:
+			'antestature, arrest, arrestant, arrestee, bistability, bistable, bistate, circumstance, circumstantial, consist, constable, constabulary, constancy, constant, constitute, consubstantiation, contrast, distance, distant, equidistance, equidistant, establish, estate, extant, inconstancy, inconstant, instability, instance, instant, obstacle, presto, stable, stamen, stamina, stance, stanchion, stanza, state, station, stationary, statistic, statue, status, staunch, stay, substance, substantial, substantiality, substantiate, substantiation, substantive, substate, substation, substitute, superstation, superstition, superstitious, transubstantiate, transubstantiation, tristate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stagnare',
-		OriginLanguage: 'stagnant',
-		RootOrigin: 'stala-',
-		EnglishExamples: 'dripping, trickling'
+		Root: 'stagn-',
+		MeaningInEnglish: 'pool of standing water',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stagnare',
+		EnglishExamples: 'stagnant'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'stala-',
+		MeaningInEnglish: 'dripping, trickling',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'σταλακτός (stalaktós) and σταλαγμός (stalagmós), both from σταλάζειν (stalázein) "to drip"',
-		OriginLanguage: 'stalactite, stalagmite',
-		RootOrigin: 'stann-',
-		EnglishExamples: 'tin'
+		EnglishExamples: 'stalactite, stalagmite'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stannum',
-		OriginLanguage: 'stannous',
-		RootOrigin: 'staphyl-[177]',
-		EnglishExamples: 'bunch of grapes'
+		Root: 'stann-',
+		MeaningInEnglish: 'tin',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stannum',
+		EnglishExamples: 'stannous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'σταφυλή (staphulḗ)',
-		OriginLanguage: 'staphyledema, staphylion, staphylococcus, staphyloderma, staphyloplasty',
-		RootOrigin: 'statu-, -stitu-',
-		EnglishExamples: 'stand'
+		Root: 'staphyl-[177]',
+		MeaningInEnglish: 'bunch of grapes',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'σταφυλή (staphulḗ)',
+		EnglishExamples: 'staphyledema, staphylion, staphylococcus, staphyloderma, staphyloplasty'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'statuere',
-		OriginLanguage: 'institution, statute',
-		RootOrigin: 'steat-[178]',
-		EnglishExamples: 'fat, tallow'
+		Root: 'statu-, -stitu-',
+		MeaningInEnglish: 'stand',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'statuere',
+		EnglishExamples: 'institution, statute'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στέαρ, στέατος (stéar, stéatos)',
-		OriginLanguage: 'stearic acid, steatolysis, steatolytic, steatosis',
-		RootOrigin: 'steg-[179]',
-		EnglishExamples: 'cover'
+		Root: 'steat-[178]',
+		MeaningInEnglish: 'fat, tallow',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στέαρ, στέατος (stéar, stéatos)',
+		EnglishExamples: 'stearic acid, steatolysis, steatolytic, steatosis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στέγειν, στέγη (stégē), στεγανός (steganós)',
-		OriginLanguage: 'steganography, steganopod, Stegosaurus',
-		RootOrigin: 'stell-, stol-[180]',
-		EnglishExamples: 'send'
+		Root: 'steg-[179]',
+		MeaningInEnglish: 'cover',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στέγειν, στέγη (stégē), στεγανός (steganós)',
+		EnglishExamples: 'steganography, steganopod, Stegosaurus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στέλλω (stéllō), στάλσις (stálsis), στολή (stolḗ)',
-		OriginLanguage:
-			'apostle, centrostaltic, diastole, epistle, epistolic, epistolize, epistolography, eusystole, hypodiastole, peristalsis, peristaltic, peristole, stole, systaltic, systole',
-		RootOrigin: 'stell-',
-		EnglishExamples: 'star'
+		Root: 'stell-, stol-[180]',
+		MeaningInEnglish: 'send',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στέλλω (stéllō), στάλσις (stálsis), στολή (stolḗ)',
+		EnglishExamples:
+			'apostle, centrostaltic, diastole, epistle, epistolic, epistolize, epistolography, eusystole, hypodiastole, peristalsis, peristaltic, peristole, stole, systaltic, systole'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stella',
-		OriginLanguage: 'constellate, constellation, stellar',
-		RootOrigin: 'sten-',
-		EnglishExamples: 'stand'
+		Root: 'stell-',
+		MeaningInEnglish: 'star',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stella',
+		EnglishExamples: 'constellate, constellation, stellar'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στεναί (stenaí)',
-		OriginLanguage: 'apostasy, apostate',
-		RootOrigin: 'sten-[181]',
-		EnglishExamples: 'narrow'
+		Root: 'sten-',
+		MeaningInEnglish: 'stand',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στεναί (stenaí)',
+		EnglishExamples: 'apostasy, apostate'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στενός (stenós)',
-		OriginLanguage: 'stenography, stenosis',
-		RootOrigin: 'stere-[182]',
-		EnglishExamples: 'solid'
+		Root: 'sten-[181]',
+		MeaningInEnglish: 'narrow',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στενός (stenós)',
+		EnglishExamples: 'stenography, stenosis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στερεός (stereós)',
-		OriginLanguage:
-			'allosteric, stereochemistry, stereochromy, stereographic, stereography, stereoisomer, stereometry, stereophonic, stereopsis, stereoscope, stereoscopy, stereotaxis, stereotomy, stereotype, stereotypic, steric',
-		RootOrigin: 'stern-[183]',
-		EnglishExamples: 'breastbone'
+		Root: 'stere-[182]',
+		MeaningInEnglish: 'solid',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στερεός (stereós)',
+		EnglishExamples:
+			'allosteric, stereochemistry, stereochromy, stereographic, stereography, stereoisomer, stereometry, stereophonic, stereopsis, stereoscope, stereoscopy, stereotaxis, stereotomy, stereotype, stereotypic, steric'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στέρνον (stérnon)',
-		OriginLanguage: 'metasternum, prosternum, sternum',
-		RootOrigin: 'stern-, strat-',
-		EnglishExamples: 'spread, strew'
+		Root: 'stern-[183]',
+		MeaningInEnglish: 'breastbone',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στέρνον (stérnon)',
+		EnglishExamples: 'metasternum, prosternum, sternum'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sternere, stratus',
-		OriginLanguage: 'consternation, prostrate, stratify, stratum, stratus, street',
-		RootOrigin: 'steth-[184]',
-		EnglishExamples: 'chest'
+		Root: 'stern-, strat-',
+		MeaningInEnglish: 'spread, strew',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sternere, stratus',
+		EnglishExamples: 'consternation, prostrate, stratify, stratum, stratus, street'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στῆθος (stêthos)',
-		OriginLanguage: 'stethoscope',
-		RootOrigin: 'sthen-[185]',
-		EnglishExamples: 'strength'
+		Root: 'steth-[184]',
+		MeaningInEnglish: 'chest',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στῆθος (stêthos)',
+		EnglishExamples: 'stethoscope'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'σθένος (sthénos)',
-		OriginLanguage: 'asthenia, asthenosphere, callisthenics, hyposthenia, sthène, sthenia',
-		RootOrigin: 'stich-[186]',
-		EnglishExamples: 'line, row'
+		Root: 'sthen-[185]',
+		MeaningInEnglish: 'strength',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'σθένος (sthénos)',
+		EnglishExamples: 'asthenia, asthenosphere, callisthenics, hyposthenia, sthène, sthenia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στείχειν (steíkhein), στίχος (stíkhos)',
-		OriginLanguage:
-			'acrostic, cadastre, distich, distichous, haplostichous, hemistich, heptastich, monostich, monostichous, orthostichy, pentastich, polystichia, polystichous, stich, stichic, stichomancy, stichometry, stichomythia, telestich',
-		RootOrigin: 'stich-[187]',
-		EnglishExamples: 'tunic'
+		Root: 'stich-[186]',
+		MeaningInEnglish: 'line, row',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στείχειν (steíkhein), στίχος (stíkhos)',
+		EnglishExamples:
+			'acrostic, cadastre, distich, distichous, haplostichous, hemistich, heptastich, monostich, monostichous, orthostichy, pentastich, polystichia, polystichous, stich, stichic, stichomancy, stichometry, stichomythia, telestich'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στίχη (stíkhē), στιχάριον (stikhárion)',
-		OriginLanguage: 'sticharion',
-		RootOrigin: 'stig-[188]',
-		EnglishExamples: 'mark, puncture'
+		Root: 'stich-[187]',
+		MeaningInEnglish: 'tunic',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στίχη (stíkhē), στιχάριον (stikhárion)',
+		EnglishExamples: 'sticharion'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στίζειν (stízein), στίξις (stíxis), στίγμα, στίγματος (stígma, stígmatos)',
-		OriginLanguage:
-			'anastigmat, anastigmatic, astigmatic, astigmatism, stigma, stigmata, stigmatic',
-		RootOrigin: 'still-',
-		EnglishExamples: 'drip'
+		Root: 'stig-[188]',
+		MeaningInEnglish: 'mark, puncture',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στίζειν (stízein), στίξις (stíxis), στίγμα, στίγματος (stígma, stígmatos)',
+		EnglishExamples:
+			'anastigmat, anastigmatic, astigmatic, astigmatism, stigma, stigmata, stigmatic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stilla, stillare',
-		OriginLanguage: 'distillation, instill',
-		RootOrigin: 'stimul-',
-		EnglishExamples: 'goad, rouse, excite'
+		Root: 'still-',
+		MeaningInEnglish: 'drip',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stilla, stillare',
+		EnglishExamples: 'distillation, instill'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stimulus',
-		OriginLanguage: 'stimulate',
-		RootOrigin: 'stin-',
-		EnglishExamples: 'stand'
+		Root: 'stimul-',
+		MeaningInEnglish: 'goad, rouse, excite',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stimulus',
+		EnglishExamples: 'stimulate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stinare',
-		OriginLanguage: 'destination, obstinate',
-		RootOrigin: 'stingu-, stinct-',
-		EnglishExamples: 'apart'
+		Root: 'stin-',
+		MeaningInEnglish: 'stand',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stinare',
+		EnglishExamples: 'destination, obstinate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stinguere',
-		OriginLanguage: 'distinction, distinguish',
-		RootOrigin: 'stoch-[189]',
-		EnglishExamples: 'aim'
+		Root: 'stingu-, stinct-',
+		MeaningInEnglish: 'apart',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stinguere',
+		EnglishExamples: 'distinction, distinguish'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στόχος (stókhos), στοχαστικός (stokhastikós), στόχασμα',
-		OriginLanguage: 'stochastic',
-		RootOrigin: 'stom-',
-		EnglishExamples: 'mouth'
+		Root: 'stoch-[189]',
+		MeaningInEnglish: 'aim',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στόχος (stókhos), στοχαστικός (stokhastikós), στόχασμα',
+		EnglishExamples: 'stochastic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στόμα, στόματος (stóma, stómatos)',
-		OriginLanguage:
-			'anastomosis, anastomotic, deuterostome, monostomous, ozostomia, pentastomid, protostome, stoma, stomach, stomatalgia, stomatic, stomatoplasty, -stome',
-		RootOrigin: 'stor-[190] (ΣΤΟΡ)[191]',
-		EnglishExamples: 'spread, strew'
+		Root: 'stom-',
+		MeaningInEnglish: 'mouth',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στόμα, στόματος (stóma, stómatos)',
+		EnglishExamples:
+			'anastomosis, anastomotic, deuterostome, monostomous, ozostomia, pentastomid, protostome, stoma, stomach, stomatalgia, stomatic, stomatoplasty, -stome'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στορέννυμι (storénnumi), στόρνυμι, στρῶμα (strôma)',
-		OriginLanguage: 'biostrome, stroma',
-		RootOrigin: 'strat-',
-		EnglishExamples: 'army'
+		Root: 'stor-[190] (ΣΤΟΡ)[191]',
+		MeaningInEnglish: 'spread, strew',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στορέννυμι (storénnumi), στόρνυμι, στρῶμα (strôma)',
+		EnglishExamples: 'biostrome, stroma'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στρατός (stratós), στρατηγία (stratēgía)',
-		OriginLanguage:
-			'stratagem, strategic, strategist, strategus, strategy, stratocracy, stratography, stratonic',
-		RootOrigin: 'streper-',
-		EnglishExamples: 'noise'
+		Root: 'strat-',
+		MeaningInEnglish: 'army',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στρατός (stratós), στρατηγία (stratēgía)',
+		EnglishExamples:
+			'stratagem, strategic, strategist, strategus, strategy, stratocracy, stratography, stratonic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'strepere',
-		OriginLanguage: 'obstreperous',
-		RootOrigin: 'streph-, stroph-, strob-, stromb-[192]',
-		EnglishExamples: 'turn'
+		Root: 'streper-',
+		MeaningInEnglish: 'noise',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'strepere',
+		EnglishExamples: 'obstreperous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στρέφειν (stréphein), στρεπτός (streptós), στροφή (strophḗ)',
-		OriginLanguage:
-			'anastrophe, antistrophe, apostrophe, boustrophedon, catastrophe, catastrophic, catastrophism, epistrophe, monostrophe, monostrophic, strophe, strophic',
-		RootOrigin: 'strept-',
-		EnglishExamples: 'twisted'
+		Root: 'streph-, stroph-, strob-, stromb-[192]',
+		MeaningInEnglish: 'turn',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στρέφειν (stréphein), στρεπτός (streptós), στροφή (strophḗ)',
+		EnglishExamples:
+			'anastrophe, antistrophe, apostrophe, boustrophedon, catastrophe, catastrophic, catastrophism, epistrophe, monostrophe, monostrophic, strophe, strophic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στρέφειν, στρεπτός (streptós), στρεψίς (strepsís)',
-		OriginLanguage: 'Strepsiptera, strepsirrhine, streptococcus',
-		RootOrigin: 'strig-',
-		EnglishExamples: 'compress'
+		Root: 'strept-',
+		MeaningInEnglish: 'twisted',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στρέφειν, στρεπτός (streptós), στρεψίς (strepsís)',
+		EnglishExamples: 'Strepsiptera, strepsirrhine, streptococcus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'strix, strigis',
-		OriginLanguage: 'strigogyps',
-		RootOrigin: 'strigos-',
-		EnglishExamples: 'having stiff bristles'
+		Root: 'strig-',
+		MeaningInEnglish: 'compress',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'strix, strigis',
+		EnglishExamples: 'strigogyps'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'strigosus from striga',
-		OriginLanguage: 'strigose',
-		RootOrigin: 'string-, strict-',
-		EnglishExamples: 'tight, upright, stiff'
+		Root: 'strigos-',
+		MeaningInEnglish: 'having stiff bristles',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'strigosus from striga',
+		EnglishExamples: 'strigose'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stringere, strictus',
-		OriginLanguage:
-			'astringent, constrain, constrict, constringe, restrict, strain, strict, stringent',
-		RootOrigin: 'stroph-',
-		EnglishExamples: 'turn'
+		Root: 'string-, strict-',
+		MeaningInEnglish: 'tight, upright, stiff',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stringere, strictus',
+		EnglishExamples:
+			'astringent, constrain, constrict, constringe, restrict, strain, strict, stringent'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: '',
-		OriginLanguage: '',
-		RootOrigin: 'stru-, struct-',
-		EnglishExamples: 'to make up, build'
+		Root: 'stru-, struct-',
+		MeaningInEnglish: 'to make up, build',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'struere, structus',
+		EnglishExamples:
+			'construct, construction, construe, destroy, destruct, instruct, obstruct, structure'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'struere, structus',
-		OriginLanguage:
-			'construct, construction, construe, destroy, destruct, instruct, obstruct, structure',
-		RootOrigin: 'stud-',
-		EnglishExamples: 'dedication'
+		Root: 'stud-',
+		MeaningInEnglish: 'dedication',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'studere',
+		EnglishExamples: 'étude, student'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'studere',
-		OriginLanguage: 'étude, student',
-		RootOrigin: 'stup-',
-		EnglishExamples: 'wonder'
+		Root: 'stup-',
+		MeaningInEnglish: 'wonder',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'stupere',
+		EnglishExamples: 'stupid, stupor'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'stupere',
-		OriginLanguage: 'stupid, stupor',
-		RootOrigin: 'styg-[193]',
-		EnglishExamples: 'Styx'
+		Root: 'styg-[193]',
+		MeaningInEnglish: 'Styx',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'Στύξ, Στυγός (Stúx, Stugós), Στύγιος',
+		EnglishExamples: 'Stygian, stygiophobia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'Στύξ, Στυγός (Stúx, Stugós), Στύγιος',
-		OriginLanguage: 'Stygian, stygiophobia',
-		RootOrigin: 'styl-[194]',
-		EnglishExamples: 'column, pillar'
+		Root: 'styl-[194]',
+		MeaningInEnglish: 'column, pillar',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'στῦλος (stûlos), στυλόω (stulóō)',
+		EnglishExamples:
+			'amphiprostyle, amphistyly, anastylosis, araeostyle, araeosystyle, blastostyle, diastyle, epistyle, eustyle, hexastyle, hyostyly, hypostyle, monostylous, octastyle, orthostyle, peristyle, prostyle, pycnostyle, stylite, Stylites, stylobate, styloid, stylolite, stylus, systyle'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'στῦλος (stûlos), στυλόω (stulóō)',
-		OriginLanguage:
-			'amphiprostyle, amphistyly, anastylosis, araeostyle, araeosystyle, blastostyle, diastyle, epistyle, eustyle, hexastyle, hyostyly, hypostyle, monostylous, octastyle, orthostyle, peristyle, prostyle, pycnostyle, stylite, Stylites, stylobate, styloid, stylolite, stylus, systyle',
-		RootOrigin: 'su-, sut-',
-		EnglishExamples: 'sew'
+		Root: 'su-, sut-',
+		MeaningInEnglish: 'sew',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'suere, sutus',
+		EnglishExamples: 'couture, suture'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'suere, sutus',
-		OriginLanguage: 'couture, suture',
-		RootOrigin: 'suad-, suas-',
-		EnglishExamples: 'urge'
+		Root: 'suad-, suas-',
+		MeaningInEnglish: 'urge',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'suadere, suasus',
+		EnglishExamples: 'persuasion'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'suadere, suasus',
-		OriginLanguage: 'persuasion',
-		RootOrigin: 'suav-',
-		EnglishExamples: 'sweet'
+		Root: 'suav-',
+		MeaningInEnglish: 'sweet',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'suavis',
+		EnglishExamples: 'assuage, suave, suavity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'suavis',
-		OriginLanguage: 'assuage, suave, suavity',
-		RootOrigin: 'sub-, su-, suf-, sug-, sup-, sus-',
-		EnglishExamples: 'below'
+		Root: 'sub-, su-, suf-, sug-, sup-, sus-',
+		MeaningInEnglish: 'below',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sub',
+		EnglishExamples: 'submarine, submerge, suffix, suggest, support'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sub',
-		OriginLanguage: 'submarine, submerge, suffix, suggest, support',
-		RootOrigin: 'subter-',
-		EnglishExamples: 'under'
+		Root: 'subter-',
+		MeaningInEnglish: 'under',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'subter',
+		EnglishExamples: 'subterfuge'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'subter',
-		OriginLanguage: 'subterfuge',
-		RootOrigin: 'sucr-',
-		EnglishExamples: 'sugar'
+		Root: 'sucr-',
+		MeaningInEnglish: 'sugar',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'succarum',
+		EnglishExamples: 'sucrose'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'succarum',
-		OriginLanguage: 'sucrose',
-		RootOrigin: 'sud-',
-		EnglishExamples: 'sweat'
+		Root: 'sud-',
+		MeaningInEnglish: 'sweat',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sudare',
+		EnglishExamples: 'exudate, exude, sudarium, sudoriferous, transudate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sudare',
-		OriginLanguage: 'exudate, exude, sudarium, sudoriferous, transudate',
-		RootOrigin: 'sui-',
-		EnglishExamples: 'self'
+		Root: 'sui-',
+		MeaningInEnglish: 'self',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sui',
+		EnglishExamples: 'sui generis, suicide'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sui',
-		OriginLanguage: 'sui generis, suicide',
-		RootOrigin: 'sulc-',
-		EnglishExamples: 'furrow'
+		Root: 'sulc-',
+		MeaningInEnglish: 'furrow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sulcus',
+		EnglishExamples: 'sulcus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sulcus',
-		OriginLanguage: 'sulcus',
-		RootOrigin: 'sum-',
-		EnglishExamples: 'sum'
+		Root: 'sum-',
+		MeaningInEnglish: 'sum',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'summare "to sum up", from summa "sum"',
+		EnglishExamples: 'consummate, consummation, sum, summa cum laude, summary, summation'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'summare "to sum up", from summa "sum"',
-		OriginLanguage: 'consummate, consummation, sum, summa cum laude, summary, summation',
-		RootOrigin: 'sum-, sumpt-',
-		EnglishExamples: 'take'
+		Root: 'sum-, sumpt-',
+		MeaningInEnglish: 'take',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'sumere, sumptus',
+		EnglishExamples: 'assume, assumption, consume, consumption, presumption, subsume'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'sumere, sumptus',
-		OriginLanguage: 'assume, assumption, consume, consumption, presumption, subsume',
-		RootOrigin: 'super-',
-		EnglishExamples: 'above, over'
+		Root: 'super-',
+		MeaningInEnglish: 'above, over',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'super',
+		EnglishExamples:
+			'insuperable, soprano, sovereign, summit, superable, superb, supercilious, supercomputer, superficial, superfluous, superimpose, superior, superlative, supermarket, supernal, supernatural, supernova, superposition, superpower, superscript, supersede, supersonic, superstition, supervene, supervise, supreme, supremum, surname, surplus, surround, survive'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'super',
-		OriginLanguage:
-			'insuperable, soprano, sovereign, summit, superable, superb, supercilious, supercomputer, superficial, superfluous, superimpose, superior, superlative, supermarket, supernal, supernatural, supernova, superposition, superpower, superscript, supersede, supersonic, superstition, supervene, supervise, supreme, supremum, surname, surplus, surround, survive',
-		RootOrigin: 'supin-',
-		EnglishExamples: 'lying back'
+		Root: 'supin-',
+		MeaningInEnglish: 'lying back',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'supinus',
+		EnglishExamples: 'supination, supine'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'supinus',
-		OriginLanguage: 'supination, supine',
-		RootOrigin: 'supra-',
-		EnglishExamples: 'above, over'
+		Root: 'supra-',
+		MeaningInEnglish: 'above, over',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'supra',
+		EnglishExamples: 'supranationalism'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'supra',
-		OriginLanguage: 'supranationalism',
-		RootOrigin: 'surd-',
-		EnglishExamples: 'deaf'
+		Root: 'surd-',
+		MeaningInEnglish: 'deaf',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'surdus',
+		EnglishExamples: 'absurdity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'surdus',
-		OriginLanguage: 'absurdity',
-		RootOrigin: 'surg-',
-		EnglishExamples: 'rise'
+		Root: 'surg-',
+		MeaningInEnglish: 'rise',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'surgere',
+		EnglishExamples: 'insurgent, insurrection, resurgent, resurrection'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'surgere',
-		OriginLanguage: 'insurgent, insurrection, resurgent, resurrection',
-		RootOrigin: 'sybar-[195]',
-		EnglishExamples: 'Sybaris'
+		Root: 'sybar-[195]',
+		MeaningInEnglish: 'Sybaris',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'Σύβαρις, συβάρεως, Συβαρίτης Sybarī́tēs, Συβαριτικός',
+		EnglishExamples: 'Sybarite, sybaritic, sybaritism'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'Σύβαρις, συβάρεως, Συβαρίτης Sybarī́tēs, Συβαριτικός',
-		OriginLanguage: 'Sybarite, sybaritic, sybaritism',
-		RootOrigin: 'syc-',
-		EnglishExamples: 'fig'
+		Root: 'syc-',
+		MeaningInEnglish: 'fig',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'συκῆ, σῦκον (sûkon)',
+		EnglishExamples: 'sycomancy, sycophant'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'συκῆ, σῦκον (sûkon)',
-		OriginLanguage: 'sycomancy, sycophant',
-		RootOrigin: 'syn-, sy-, syg-, syl-, sym-, sys-[196]',
-		EnglishExamples: 'with'
+		Root: 'syn-, sy-, syg-, syl-, sym-, sys-[196]',
+		MeaningInEnglish: 'with',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'σύν (sún)',
+		EnglishExamples: 'syllogism, symbol, symmetry, sympathy, synonym, synchronous, system'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'σύν (sún)',
-		OriginLanguage: 'syllogism, symbol, symmetry, sympathy, synonym, synchronous, system',
-		RootOrigin: 'syring-',
-		EnglishExamples: 'pipe'
+		Root: 'syring-',
+		MeaningInEnglish: 'pipe',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'σύριγξ, σύριγγος (súrinx, súringos)',
+		EnglishExamples:
+			'syringe, Syringodea, Syringoderma, Syringogaster, syringoma, syringomyelia, syrinx'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'σύριγξ, σύριγγος (súrinx, súringos)',
-		OriginLanguage:
-			'syringe, Syringodea, Syringoderma, Syringogaster, syringoma, syringomyelia, syrinx',
-		RootOrigin: 'tac-, -tic-',
-		EnglishExamples: 'be silent'
+		Root: 'tac-, -tic-',
+		MeaningInEnglish: 'be silent',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tacere, tacitus',
+		EnglishExamples: 'reticent, reticence, tacit, taciturn'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tacere, tacitus',
-		OriginLanguage: 'reticent, reticence, tacit, taciturn',
-		RootOrigin: 'tach-',
-		EnglishExamples: 'swift'
+		Root: 'tach-',
+		MeaningInEnglish: 'swift',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ταχύς (takhús), τάχος (tákhos)',
+		EnglishExamples: 'tachometer, tachycardia, tachyrhythmia, tachytelic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ταχύς (takhús), τάχος (tákhos)',
-		OriginLanguage: 'tachometer, tachycardia, tachyrhythmia, tachytelic',
-		RootOrigin: 'taeni-',
-		EnglishExamples: 'ribbon'
+		Root: 'taeni-',
+		MeaningInEnglish: 'ribbon',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τείνειν (teínein), ταινία (tainía), ταινίδιον (tainídion)',
+		EnglishExamples:
+			'diplotene, leptotene, pachytene, taenia, taenidia, taenidium, taeniodont, Taeniolabis, zygotene'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τείνειν (teínein), ταινία (tainía), ταινίδιον (tainídion)',
-		OriginLanguage:
-			'diplotene, leptotene, pachytene, taenia, taenidia, taenidium, taeniodont, Taeniolabis, zygotene',
-		RootOrigin: 'tag- (ΤΑΓ)[197]',
-		EnglishExamples: 'arrange, order'
-	},
-
-	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'tag- (ΤΑΓ)[197]',
+		MeaningInEnglish: 'arrange, order',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τάσσειν (tássein), τακτός (taktós), τακτικός (taktikós), τάξις (táxis), τάγμα (tágma)',
-		OriginLanguage:
-			'ataxia, chemotaxis, epitaxis, eutaxy, hypotaxis, magnetotaxis, metasyntactic, parataxis, phonotactic, phonotactics, phototaxis, rheotaxis, syntactic, syntagma, syntagmatic, syntax, tactic, tagma, taxis, taxonomy, thermotaxis',
-		RootOrigin: 'tal-',
-		EnglishExamples: 'ankle'
+		EnglishExamples:
+			'ataxia, chemotaxis, epitaxis, eutaxy, hypotaxis, magnetotaxis, metasyntactic, parataxis, phonotactic, phonotactics, phototaxis, rheotaxis, syntactic, syntagma, syntagmatic, syntax, tactic, tagma, taxis, taxonomy, thermotaxis'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'talus',
-		OriginLanguage: 'talus',
-		RootOrigin: 'tang-, -ting-, tact-, tag-',
-		EnglishExamples: 'touch'
+		Root: 'tal-',
+		MeaningInEnglish: 'ankle',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'talus',
+		EnglishExamples: 'talus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tangere (past participle tactus)',
-		OriginLanguage:
-			'attain, contact, contagious, contingent, contingency, contiguous, intact, tactile, tangent, tangible',
-		RootOrigin: 'tapet-',
-		EnglishExamples: 'carpet'
+		Root: 'tang-, -ting-, tact-, tag-',
+		MeaningInEnglish: 'touch',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tangere (past participle tactus)',
+		EnglishExamples:
+			'attain, contact, contagious, contingent, contingency, contiguous, intact, tactile, tangent, tangible'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tapete, tapetis',
-		OriginLanguage: 'tapestry, tapetum, tapis',
-		RootOrigin: 'tarac- (ΤΑΡΑΧ)[198]',
-		EnglishExamples: 'stir'
+		Root: 'tapet-',
+		MeaningInEnglish: 'carpet',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tapete, tapetis',
+		EnglishExamples: 'tapestry, tapetum, tapis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ταράσσειν (tarássein), ταρακτός, ταρακτικός, τάραγμα, θράσσω',
-		OriginLanguage: 'ataractic, ataraxia',
-		RootOrigin: 'tard-',
-		EnglishExamples: 'slow'
+		Root: 'tarac- (ΤΑΡΑΧ)[198]',
+		MeaningInEnglish: 'stir',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ταράσσειν (tarássein), ταρακτός, ταρακτικός, τάραγμα, θράσσω',
+		EnglishExamples: 'ataractic, ataraxia'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tardus',
-		OriginLanguage: 'retard, tardigrade, tardy',
-		RootOrigin: 'tars-',
-		EnglishExamples: 'ankle'
+		Root: 'tard-',
+		MeaningInEnglish: 'slow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tardus',
+		EnglishExamples: 'retard, tardigrade, tardy'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ταρσός (tarsós, "a flat basket")',
-		OriginLanguage: 'metatarsus, tarsal, tarsoclasis, tarsometatarsus, tarsus',
-		RootOrigin: 'taur-',
-		EnglishExamples: 'bull'
+		Root: 'tars-',
+		MeaningInEnglish: 'ankle',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ταρσός (tarsós, "a flat basket")',
+		EnglishExamples: 'metatarsus, tarsal, tarsoclasis, tarsometatarsus, tarsus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ταῦρος (taûros)',
-		OriginLanguage: 'Minotaur, taurobolium, taurocholic, tauromachy',
-		RootOrigin: 'taur-',
-		EnglishExamples: 'bull'
+		Root: 'taur-',
+		MeaningInEnglish: 'bull',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ταῦρος (taûros)',
+		EnglishExamples: 'Minotaur, taurobolium, taurocholic, tauromachy'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'taurus',
-		OriginLanguage: 'Taurus',
-		RootOrigin: 'tec- (ΤΑΚ)[199]',
-		EnglishExamples: 'melt'
+		Root: 'taur-',
+		MeaningInEnglish: 'bull',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'taurus',
+		EnglishExamples: 'Taurus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τήκειν',
-		OriginLanguage: 'eutectic, eutectoid',
-		RootOrigin: 'tec-, toc- (ΤΕΚ)[200]',
-		EnglishExamples: 'childbirth'
+		Root: 'tec- (ΤΑΚ)[199]',
+		MeaningInEnglish: 'melt',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τήκειν',
+		EnglishExamples: 'eutectic, eutectoid'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τίκτειν, τόκος (tókos)',
-		OriginLanguage:
-			'ditokous, dystocia, embiotocid, monotocous, teknonymous, teknonymy, tokophobia',
-		RootOrigin: 'techn- (ΤΕΚ)[201]',
-		EnglishExamples: 'art, skill'
+		Root: 'tec-, toc- (ΤΕΚ)[200]',
+		MeaningInEnglish: 'childbirth',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τίκτειν, τόκος (tókos)',
+		EnglishExamples:
+			'ditokous, dystocia, embiotocid, monotocous, teknonymous, teknonymy, tokophobia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'techn- (ΤΕΚ)[201]',
+		MeaningInEnglish: 'art, skill',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τίκτειν (tíktein), τέχνη (tékhnē), τέκτων, τέκτονος (téktōn, téktonos), τεκτονικός (tektonikós)',
-		OriginLanguage:
-			'architect, polytechnic, techne, technique, technocracy, technocrat, technogaianism, technology, technophilia, technophobia, tectonic',
-		RootOrigin: 'tecn- (ΤΕΚ)[202]',
-		EnglishExamples: 'child'
+		EnglishExamples:
+			'architect, polytechnic, techne, technique, technocracy, technocrat, technogaianism, technology, technophilia, technophobia, tectonic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τίκτω, τέκνον, τέκνου (téknon, téknou)',
-		OriginLanguage: 'teknonymous, teknonymy',
-		RootOrigin: 'teg-, tect-',
-		EnglishExamples: 'cover'
+		Root: 'tecn- (ΤΕΚ)[202]',
+		MeaningInEnglish: 'child',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τίκτω, τέκνον, τέκνου (téknon, téknou)',
+		EnglishExamples: 'teknonymous, teknonymy'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tegere, tectus',
-		OriginLanguage:
-			'contection, detect, detectable, detection, detective, detector, integument, integumentary, obtect, pretectal, pretectum, protect, protection, protective, protector, protectorate, protectory, protectress, protectrix, protégé, protégée, tectrix, tectum, tegmen, tegmental, tegula, tegular, tegument, tile, tog, toga, togate, togavirus, toggery',
-		RootOrigin: 'tele-',
-		EnglishExamples: 'far, end'
+		Root: 'teg-, tect-',
+		MeaningInEnglish: 'cover',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tegere, tectus',
+		EnglishExamples:
+			'contection, detect, detectable, detection, detective, detector, integument, integumentary, obtect, pretectal, pretectum, protect, protection, protective, protector, protectorate, protectory, protectress, protectrix, protégé, protégée, tectrix, tectum, tegmen, tegmental, tegula, tegular, tegument, tile, tog, toga, togate, togavirus, toggery'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τῆλε (têle)',
-		OriginLanguage: 'telegram, telegraph, telemetry, telepathy, telephone, telescope, television',
-		RootOrigin: 'tele-',
-		EnglishExamples: 'complete'
+		Root: 'tele-',
+		MeaningInEnglish: 'far, end',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τῆλε (têle)',
+		EnglishExamples: 'telegram, telegraph, telemetry, telepathy, telephone, telescope, television'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τέλος, τέλεος (télos, téleos), τέλεσις (télesis)',
-		OriginLanguage: 'atelectasis, ateleiosis, atelophobia, teleology, telesis, toll',
-		RootOrigin: 'tem-, tom- [203](ΤΕΜ[204])',
-		EnglishExamples: 'cut'
+		Root: 'tele-',
+		MeaningInEnglish: 'complete',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τέλος, τέλεος (télos, téleos), τέλεσις (télesis)',
+		EnglishExamples: 'atelectasis, ateleiosis, atelophobia, teleology, telesis, toll'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
-			'τέμνειν (témnein), τομός (tomós), τόμος (tómos), τομή (tomḗ), τμῆσις (tmêsis)',
-		OriginLanguage:
-			'acrotomophilia, anatomy, apotemnophilia, atom, atomic, autotomy, diatom, dichotomous, dichotomy, ectomy, entomology, entomomancy, entomophagous, entomophilous, epitome, monatomic, pentatomic, polyatomic, polytomy, Temnospondyli, tmesis, tome, tomogram, tomography, trichotomous, trichotomy',
-		RootOrigin: 'temn-, tempt-',
-		EnglishExamples: '–'
+		Root: 'tem-, tom- [203](ΤΕΜ[204])',
+		MeaningInEnglish: 'cut',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τέμνειν (témnein), τομός (tomós), τόμος (tómos), τομή (tomḗ), τμῆσις (tmêsis)',
+		EnglishExamples:
+			'acrotomophilia, anatomy, apotemnophilia, atom, atomic, autotomy, diatom, dichotomous, dichotomy, ectomy, entomology, entomomancy, entomophagous, entomophilous, epitome, monatomic, pentatomic, polyatomic, polytomy, Temnospondyli, tmesis, tome, tomogram, tomography, trichotomous, trichotomy'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'temnere',
-		OriginLanguage:
-			'contemn, contemnible, contempt, contemptible, contumacious, contumacy, contumelious, contumely',
-		RootOrigin: 'tempor-',
-		EnglishExamples: 'time'
+		Root: 'temn-, tempt-',
+		MeaningInEnglish: '–',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'temnere',
+		EnglishExamples:
+			'contemn, contemnible, contempt, contemptible, contumacious, contumacy, contumelious, contumely'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tempus, temporis',
-		OriginLanguage: 'contemporaneous, contemporary, extemporaneous, tempo, temporal, temporary',
-		RootOrigin: 'ten-, ton- [205](ΤΑΝ[206])',
-		EnglishExamples: 'stretch'
+		Root: 'tempor-',
+		MeaningInEnglish: 'time',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tempus, temporis',
+		EnglishExamples: 'contemporaneous, contemporary, extemporaneous, tempo, temporal, temporary'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'ten-, ton- [205](ΤΑΝ[206])',
+		MeaningInEnglish: 'stretch',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τείνειν (teínein), τεινόμενον, τανύειν (tanúein), τετανός (tetanós), τόνος (tónos), τονικός (tonikós), τονή (tonḗ), τάσις (tásis), ταινία',
-		OriginLanguage:
-			'anhemitonic, atelectasis, atonic, atritonic, barytone, catatonia, catatoniac, catatonic, decatonic, diatonic, ditone, dodecatonic, dystonia, ectasia, enneatonic, entasia, entasis, epitasis, hemitonia, hemitonic, heptatonic, hexatonic, hyperisotonic, hypertonia, hypertonic, hypotenuse, hypotonia, hypotonic, isotonic, microtone, monotone, monotonic, monotonous, monotony, neoteny, octatonic, oxytone, paroxytone, pentatonic, peritoneum, polytonic, proparoxytone, protasis, pyelectasis, syntonic, tetanolysin, tetanospasmin, tetanus, tetany, tetratonic, tone, tonic, tonoplast, tritonic, tune',
-		RootOrigin: 'ten-, -tin-, tent-, tain-, tinu-',
-		EnglishExamples: 'hold, keep'
+		EnglishExamples:
+			'anhemitonic, atelectasis, atonic, atritonic, barytone, catatonia, catatoniac, catatonic, decatonic, diatonic, ditone, dodecatonic, dystonia, ectasia, enneatonic, entasia, entasis, epitasis, hemitonia, hemitonic, heptatonic, hexatonic, hyperisotonic, hypertonia, hypertonic, hypotenuse, hypotonia, hypotonic, isotonic, microtone, monotone, monotonic, monotonous, monotony, neoteny, octatonic, oxytone, paroxytone, pentatonic, peritoneum, polytonic, proparoxytone, protasis, pyelectasis, syntonic, tetanolysin, tetanospasmin, tetanus, tetany, tetratonic, tone, tonic, tonoplast, tritonic, tune'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tenere, tentus',
-		OriginLanguage:
-			'abstain, abstention, abstinence, abstinent, appertain, appertinent, appurtenance, appurtenant, contain, containment, content, contentive, contentment, continence, continent, continental, continual, continuance, continuant, continuation, continuative, continue, continuity, continuous, continuum, contratenor, countenance, detain, detainder, detainee, detainer, detainment, detention, detinue, discontent, discontentment, discontinuance, discontinuation, discontinue, discontinuity, discontinuous, entertain, entertainment, equicontinuity, equicontinuous, impertinence, impertinent, incontinence, incontinent, intenible, intercontinental, irretentive, lieutenant, maintain, maintenance, malcontent, obtain, obtainment, obtention, pertain, pertinacious, pertinacity, pertinence, pertinent, purtenance, reobtain, retain, retainer, retainment, retention, retentive, retinue, se-tenant, sustenance, sustentacular, sustentaculum, sustentation, sustention, tenable, tenace, tenacious, tenacity, tenancy, tenant, tenet, tenor, tenure, tenurial, tenuto, transcontinental',
-		RootOrigin: 'tend-, tens-',
-		EnglishExamples: 'stretch, strain'
+		Root: 'ten-, -tin-, tent-, tain-, tinu-',
+		MeaningInEnglish: 'hold, keep',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tenere, tentus',
+		EnglishExamples:
+			'abstain, abstention, abstinence, abstinent, appertain, appertinent, appurtenance, appurtenant, contain, containment, content, contentive, contentment, continence, continent, continental, continual, continuance, continuant, continuation, continuative, continue, continuity, continuous, continuum, contratenor, countenance, detain, detainder, detainee, detainer, detainment, detention, detinue, discontent, discontentment, discontinuance, discontinuation, discontinue, discontinuity, discontinuous, entertain, entertainment, equicontinuity, equicontinuous, impertinence, impertinent, incontinence, incontinent, intenible, intercontinental, irretentive, lieutenant, maintain, maintenance, malcontent, obtain, obtainment, obtention, pertain, pertinacious, pertinacity, pertinence, pertinent, purtenance, reobtain, retain, retainer, retainment, retention, retentive, retinue, se-tenant, sustenance, sustentacular, sustentaculum, sustentation, sustention, tenable, tenace, tenacious, tenacity, tenancy, tenant, tenet, tenor, tenure, tenurial, tenuto, transcontinental'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tendere (past participle tensus)',
-		OriginLanguage:
-			'ambitendency, attempt, attend, attendee, attent, attention, attentive, coextend, coextension, coextensive, contend, contention, contentious, detent, détente, distend, distension, distent, distention, entendre, entente, extend, extensible, extension, extensional, extensionality, extensive, extensivity, extensor, extent, inattention, inattentive, inextensible, intend, intense, intensification, intension, intensional, intensity, intensive, intent, obtend, obtension, ostensible, ostension, ostensive, ostensory, ostent, ostentation, ostentatious, portend, portension, portent, portentous, pretend, pretense, pretension, subtend, subtense, superintend, superintendency, superintendent, tempt, temptation, tend, tendency, tendential, tendentious, tender, tense, tensible, tensile, tensility, tension, tensure, tent, tentacle, tentacular, tentage, tentation, tentative, tentiginous, tentorium',
-		RootOrigin: 'tenu-',
-		EnglishExamples: 'slender, thin'
+		Root: 'tend-, tens-',
+		MeaningInEnglish: 'stretch, strain',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tendere (past participle tensus)',
+		EnglishExamples:
+			'ambitendency, attempt, attend, attendee, attent, attention, attentive, coextend, coextension, coextensive, contend, contention, contentious, detent, détente, distend, distension, distent, distention, entendre, entente, extend, extensible, extension, extensional, extensionality, extensive, extensivity, extensor, extent, inattention, inattentive, inextensible, intend, intense, intensification, intension, intensional, intensity, intensive, intent, obtend, obtension, ostensible, ostension, ostensive, ostensory, ostent, ostentation, ostentatious, portend, portension, portent, portentous, pretend, pretense, pretension, subtend, subtense, superintend, superintendency, superintendent, tempt, temptation, tend, tendency, tendential, tendentious, tender, tense, tensible, tensile, tensility, tension, tensure, tent, tentacle, tentacular, tentage, tentation, tentative, tentiginous, tentorium'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tenuare "make thin", from tenuis "thin"',
-		OriginLanguage: 'attenuate, extenuate, tenuous',
-		RootOrigin: 'tep-',
-		EnglishExamples: 'be warm'
+		Root: 'tenu-',
+		MeaningInEnglish: 'slender, thin',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tenuare "make thin", from tenuis "thin"',
+		EnglishExamples: 'attenuate, extenuate, tenuous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tepere',
-		OriginLanguage: 'subtepid, tepefaction, tepid, tepidarium, tepidity, tepor',
-		RootOrigin: 'ter-, trit-',
-		EnglishExamples: 'rub, wear'
+		Root: 'tep-',
+		MeaningInEnglish: 'be warm',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tepere',
+		EnglishExamples: 'subtepid, tepefaction, tepid, tepidarium, tepidity, tepor'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'terere, tritus',
-		OriginLanguage:
-			'attrition, contrite, contrition, detriment, detrimental, detrital, detrition, detritivore, detritivorous, detritus, retriment, tribulation, trite, triturate, trituration, triture',
-		RootOrigin: 'tere-',
-		EnglishExamples: 'guard'
+		Root: 'ter-, trit-',
+		MeaningInEnglish: 'rub, wear',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'terere, tritus',
+		EnglishExamples:
+			'attrition, contrite, contrition, detriment, detrimental, detrital, detrition, detritivore, detritivorous, detritus, retriment, tribulation, trite, triturate, trituration, triture'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τηρεῖν (tēreîn), τήρησις (tḗrēsis)',
-		OriginLanguage: 'synteresis',
-		RootOrigin: 'teret-',
-		EnglishExamples: 'rounded'
+		Root: 'tere-',
+		MeaningInEnglish: 'guard',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τηρεῖν (tēreîn), τήρησις (tḗrēsis)',
+		EnglishExamples: 'synteresis'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'teres, teretis',
-		OriginLanguage: 'subterete, teretial',
-		RootOrigin: 'terg-, ters-',
-		EnglishExamples: 'wipe'
+		Root: 'teret-',
+		MeaningInEnglish: 'rounded',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'teres, teretis',
+		EnglishExamples: 'subterete, teretial'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tergere, tersus',
-		OriginLanguage:
-			'absterge, abstergent, abstersion, abstersive, deterge, detergency, detergent, terse',
-		RootOrigin: 'termin-',
-		EnglishExamples: 'boundary, limit, end'
+		Root: 'terg-, ters-',
+		MeaningInEnglish: 'wipe',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tergere, tersus',
+		EnglishExamples:
+			'absterge, abstergent, abstersion, abstersive, deterge, detergency, detergent, terse'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'terminus',
-		OriginLanguage: 'determine, interminable, terminal, termination',
-		RootOrigin: 'tern-',
-		EnglishExamples: 'three each'
+		Root: 'termin-',
+		MeaningInEnglish: 'boundary, limit, end',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'terminus',
+		EnglishExamples: 'determine, interminable, terminal, termination'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'terni',
-		OriginLanguage: 'ternary, ternion',
-		RootOrigin: 'terr-',
-		EnglishExamples: 'earth'
+		Root: 'tern-',
+		MeaningInEnglish: 'three each',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'terni',
+		EnglishExamples: 'ternary, ternion'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'terra',
-		OriginLanguage:
-			'inter, subterranean, terrace, terracotta, terrain, terrarium, terrestrial, territory',
-		RootOrigin: 'terti-',
-		EnglishExamples: 'third'
+		Root: 'terr-',
+		MeaningInEnglish: 'earth',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'terra',
+		EnglishExamples:
+			'inter, subterranean, terrace, terracotta, terrain, terrarium, terrestrial, territory'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tertius',
-		OriginLanguage: 'tertian, tertiary',
-		RootOrigin: 'test-',
-		EnglishExamples: 'witness'
+		Root: 'terti-',
+		MeaningInEnglish: 'third',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tertius',
+		EnglishExamples: 'tertian, tertiary'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'testis',
-		OriginLanguage: 'attest, contest, detest, protest, testament, testify, testimony',
-		RootOrigin: 'tetart-[207]',
-		EnglishExamples: 'fourth'
+		Root: 'test-',
+		MeaningInEnglish: 'witness',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'testis',
+		EnglishExamples: 'attest, contest, detest, protest, testament, testify, testimony'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τέταρτος (tétartos)',
-		OriginLanguage: 'tetartanopsia, tetartohedric',
-		RootOrigin: 'tetr-',
-		EnglishExamples: 'four'
+		Root: 'tetart-[207]',
+		MeaningInEnglish: 'fourth',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τέταρτος (tétartos)',
+		EnglishExamples: 'tetartanopsia, tetartohedric'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τέτϝαρες, τέσσαρες, τεσσάρων (téssares, tessárōn)',
-		OriginLanguage:
-			'diatessaron, tetragon, tetrahedron, tetralogy, tetrameter, tetraphobia, tetrapod, tetrode',
-		RootOrigin: 'teuch-',
-		EnglishExamples: 'make'
+		Root: 'tetr-',
+		MeaningInEnglish: 'four',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τέτϝαρες, τέσσαρες, τεσσάρων (téssares, tessárōn)',
+		EnglishExamples:
+			'diatessaron, tetragon, tetrahedron, tetralogy, tetrameter, tetraphobia, tetrapod, tetrode'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'teuch-',
+		MeaningInEnglish: 'make',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τεύχειν (teúkhein), τυγχάνω, τευκτός, τευκτικός, τεῦξις (teûxis), τεῦγμα (teûgma), τεῦχος, τεύχεος (teûkhos, teúkheos), τύχη (túkhē), τυκτός (tuktós)',
-		OriginLanguage: 'Heptateuch, octateuch, Pentateuch',
-		RootOrigin: 'tex-, text-',
-		EnglishExamples: 'weave'
+		EnglishExamples: 'Heptateuch, octateuch, Pentateuch'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'texere, textus',
-		OriginLanguage: 'context, subtle, pretext, text, textile, texture',
-		RootOrigin: 'thalam-',
-		EnglishExamples: 'chamber, bed'
+		Root: 'tex-, text-',
+		MeaningInEnglish: 'weave',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'texere, textus',
+		EnglishExamples: 'context, subtle, pretext, text, textile, texture'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θάλαμος (thálamos)',
-		OriginLanguage: 'epithalamion, hypothalamus, prothalamion, thalamotomy, thalamus',
-		RootOrigin: 'thalass-',
-		EnglishExamples: 'sea'
+		Root: 'thalam-',
+		MeaningInEnglish: 'chamber, bed',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θάλαμος (thálamos)',
+		EnglishExamples: 'epithalamion, hypothalamus, prothalamion, thalamotomy, thalamus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θάλασσα (thálassa)',
-		OriginLanguage: 'Panthalassa, thalassemia, thalassic, thalassophobia',
-		RootOrigin: 'than- (ΘΑΝ)[208][209]',
-		EnglishExamples: 'death'
+		Root: 'thalass-',
+		MeaningInEnglish: 'sea',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θάλασσα (thálassa)',
+		EnglishExamples: 'Panthalassa, thalassemia, thalassic, thalassophobia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θνήσκειν, θάνατος (thánatos)',
-		OriginLanguage:
-			'euthanasia, thanatocoenosis, thanatoid, thanatology, thanatophobia, thanatophoric, thanatopsis',
-		RootOrigin: 'thaumat-',
-		EnglishExamples: 'miracle'
+		Root: 'than- (ΘΑΝ)[208][209]',
+		MeaningInEnglish: 'death',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θνήσκειν, θάνατος (thánatos)',
+		EnglishExamples:
+			'euthanasia, thanatocoenosis, thanatoid, thanatology, thanatophobia, thanatophoric, thanatopsis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θαυματ (thaumat)',
-		OriginLanguage: 'thaumatology, thaumaturge, thaumaturgy',
-		RootOrigin: 'the-, thus-',
-		EnglishExamples: 'god'
+		Root: 'thaumat-',
+		MeaningInEnglish: 'miracle',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θαυματ (thaumat)',
+		EnglishExamples: 'thaumatology, thaumaturge, thaumaturgy'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θεός (theós)',
-		OriginLanguage:
-			'atheism, atheistic, ditheism, enthusiasm, monotheism, Pantheon, polytheism, Thea, theobromine, theocracy, theodicy, Theodore, theogony, theology, theophobia, Timothy, tritheism',
-		RootOrigin: 'the- (ΘΕ)[210]',
-		EnglishExamples: 'put'
+		Root: 'the-, thus-',
+		MeaningInEnglish: 'god',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θεός (theós)',
+		EnglishExamples:
+			'atheism, atheistic, ditheism, enthusiasm, monotheism, Pantheon, polytheism, Thea, theobromine, theocracy, theodicy, Theodore, theogony, theology, theophobia, Timothy, tritheism'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'the- (ΘΕ)[210]',
+		MeaningInEnglish: 'put',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τιθέναι (tithénai), θετός (thetós), θετικός (thetikós), θέσις (thésis), θέμα (théma), θήκη (thḗkē)',
-		OriginLanguage:
-			'anathema, anathematic, antithesis, antithetic, apothecium, athematic, Bibliotheca, bodega, boutique, deem, doom, enthesis, enthetic, epenthesis, epenthetic, epitheca, epithet, hypothec, hypothesis, monothematic, nomothetic, oligosynthetic, parenthesis, parenthetic, polysynthetic, prosthesis, prosthetic, prothesis, prothetic, pseudothecium, synthesis, synthetic, theca, thecium, thematic, theme, Themis, thesaurus, thesis, treasure',
-		RootOrigin: 'thea-',
-		EnglishExamples: 'view'
+		EnglishExamples:
+			'anathema, anathematic, antithesis, antithetic, apothecium, athematic, Bibliotheca, bodega, boutique, deem, doom, enthesis, enthetic, epenthesis, epenthetic, epitheca, epithet, hypothec, hypothesis, monothematic, nomothetic, oligosynthetic, parenthesis, parenthetic, polysynthetic, prosthesis, prosthetic, prothesis, prothetic, pseudothecium, synthesis, synthetic, theca, thecium, thematic, theme, Themis, thesaurus, thesis, treasure'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θεᾶσθαι (theâsthai), θέατρον (théatron)',
-		OriginLanguage: 'amphitheatre, metatheatre, theatre, theatric',
-		RootOrigin: 'thel-',
-		EnglishExamples: 'nipple'
+		Root: 'thea-',
+		MeaningInEnglish: 'view',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θεᾶσθαι (theâsthai), θέατρον (théatron)',
+		EnglishExamples: 'amphitheatre, metatheatre, theatre, theatric'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θηλή (thēlḗ)',
-		OriginLanguage: 'athelia, endothelium, epithelium, mesothelioma, mesothelium, thelium, thelial',
-		RootOrigin: 'theori-',
-		EnglishExamples: 'speculation'
+		Root: 'thel-',
+		MeaningInEnglish: 'nipple',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θηλή (thēlḗ)',
+		EnglishExamples: 'athelia, endothelium, epithelium, mesothelioma, mesothelium, thelium, thelial'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θεωρητικός (theōrētikós), θεώρημα (theṓrēma), θεωρία (theōría)',
-		OriginLanguage: 'theorem, theoretic, theorist, theorize, theory',
-		RootOrigin: 'ther-',
-		EnglishExamples: 'beast, animal'
+		Root: 'theori-',
+		MeaningInEnglish: 'speculation',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θεωρητικός (theōrētikós), θεώρημα (theṓrēma), θεωρία (theōría)',
+		EnglishExamples: 'theorem, theoretic, theorist, theorize, theory'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θήρ, θηρός (thḗr, thērós)',
-		OriginLanguage: 'therapsid, therianthropy, theroid, theropod, theropsid',
-		RootOrigin: 'therap-',
-		EnglishExamples: 'serve'
+		Root: 'ther-',
+		MeaningInEnglish: 'beast, animal',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θήρ, θηρός (thḗr, thērós)',
+		EnglishExamples: 'therapsid, therianthropy, theroid, theropod, theropsid'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'therap-',
+		MeaningInEnglish: 'serve',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'θεράπων (therápōn), θεραπεύειν (therapeúein), θεραπευτός, θεραπευτικός (therapeutikós), θεραπεία (therapeía)',
-		OriginLanguage: 'therapeutic, therapist, therapy',
-		RootOrigin: 'therm-',
-		EnglishExamples: 'heat, warm'
+		EnglishExamples: 'therapeutic, therapist, therapy'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θέρεσθαι (théresthai), θέρμη (thérmē), θερμός (thermós)',
-		OriginLanguage:
-			'thermal, athermancy, diathermancy, ectotherm, endotherm, endothermic, exothermic, geothermic, homeothermy, hyperthermia, hypothermia, isotherm, poikilotherm, thermobaric, thermochromism, thermodynamic, thermolysis, thermometer, thermophilic, thermophobia, thermoplastic, thermoplegia, thermos, thermosphere, thermostat, thermostatic',
-		RootOrigin: 'thig- (ΘΙΓ)[211]',
-		EnglishExamples: 'touch'
+		Root: 'therm-',
+		MeaningInEnglish: 'heat, warm',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θέρεσθαι (théresthai), θέρμη (thérmē), θερμός (thermós)',
+		EnglishExamples:
+			'thermal, athermancy, diathermancy, ectotherm, endotherm, endothermic, exothermic, geothermic, homeothermy, hyperthermia, hypothermia, isotherm, poikilotherm, thermobaric, thermochromism, thermodynamic, thermolysis, thermometer, thermophilic, thermophobia, thermoplastic, thermoplegia, thermos, thermosphere, thermostat, thermostatic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θιγγάνειν (thingánein), θίξις (thíxis), θίγημα (thígēma)',
-		OriginLanguage: 'antithixotropic, thigmonasty, thigmotaxis, thixotropic, thixotropy',
-		RootOrigin: 'thorac-',
-		EnglishExamples: 'chest'
+		Root: 'thig- (ΘΙΓ)[211]',
+		MeaningInEnglish: 'touch',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θιγγάνειν (thingánein), θίξις (thíxis), θίγημα (thígēma)',
+		EnglishExamples: 'antithixotropic, thigmonasty, thigmotaxis, thixotropic, thixotropy'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θώραξ, θώρακος (thṓrax, thṓrakos)',
-		OriginLanguage: 'hemothorax, pneumothorax, thoracic, thorax',
-		RootOrigin: 'thym-',
-		EnglishExamples: 'mood'
+		Root: 'thorac-',
+		MeaningInEnglish: 'chest',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θώραξ, θώρακος (thṓrax, thṓrakos)',
+		EnglishExamples: 'hemothorax, pneumothorax, thoracic, thorax'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θυμός (thumós)',
-		OriginLanguage: 'dysthymia',
-		RootOrigin: 'thyr-',
-		EnglishExamples: 'door'
+		Root: 'thym-',
+		MeaningInEnglish: 'mood',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θυμός (thumós)',
+		EnglishExamples: 'dysthymia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θύρα (thúra)',
-		OriginLanguage: 'thyratron',
-		RootOrigin: 'thyre-',
-		EnglishExamples: 'large shield'
+		Root: 'thyr-',
+		MeaningInEnglish: 'door',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θύρα (thúra)',
+		EnglishExamples: 'thyratron'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θυρεός (thureós)',
-		OriginLanguage: 'Thyreophora, thyroid, thyrotropin, thyroxine',
-		RootOrigin: 'tim-',
-		EnglishExamples: 'be afraid'
+		Root: 'thyre-',
+		MeaningInEnglish: 'large shield',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θυρεός (thureós)',
+		EnglishExamples: 'Thyreophora, thyroid, thyrotropin, thyroxine'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'timere',
-		OriginLanguage: 'timid, timorous',
-		RootOrigin: 'ting-, tinct- (TING)[212]',
-		EnglishExamples: 'dye, moisten'
+		Root: 'tim-',
+		MeaningInEnglish: 'be afraid',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'timere',
+		EnglishExamples: 'timid, timorous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tingere, tinctus',
-		OriginLanguage:
-			'aquatint, distain, mezzotint, tinct, tinctorial, tincture, tinge, tingent, tint',
-		RootOrigin: 'tom-',
-		EnglishExamples: 'cut'
+		Root: 'ting-, tinct- (TING)[212]',
+		MeaningInEnglish: 'dye, moisten',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tingere, tinctus',
+		EnglishExamples:
+			'aquatint, distain, mezzotint, tinct, tinctorial, tincture, tinge, tingent, tint'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τομή (tomḗ), τόμος (tómos)',
-		OriginLanguage:
-			'anatomy, appendectomy, atom, dichotomy, ectomy, embolectomy, tome, tonsillectomy, vasectomy',
-		RootOrigin: 'ton- (ΤΑΝ)[213]',
-		EnglishExamples: 'stretch'
+		Root: 'tom-',
+		MeaningInEnglish: 'cut',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τομή (tomḗ), τόμος (tómos)',
+		EnglishExamples:
+			'anatomy, appendectomy, atom, dichotomy, ectomy, embolectomy, tome, tonsillectomy, vasectomy'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τείνειν (teínein), τόνος (tónos), τονικός (tonikós)',
-		OriginLanguage: 'isotonic, monotone, tone',
-		RootOrigin: 'top- [214]',
-		EnglishExamples: 'place, location'
+		Root: 'ton- (ΤΑΝ)[213]',
+		MeaningInEnglish: 'stretch',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τείνειν (teínein), τόνος (tónos), τονικός (tonikós)',
+		EnglishExamples: 'isotonic, monotone, tone'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τόπος (tópos)',
-		OriginLanguage:
-			'atopic, atopy, dystopia, ectopia, ectopic, entopic, epitope, eutopia, isotope, nomotopic, polytope, topiary, topic, topography, topology, toponomastics, toponym, toponymy, topos, utopia, zonotope',
-		RootOrigin: 'torn-[215]',
-		EnglishExamples: 'turn, rotate'
+		Root: 'top- [214]',
+		MeaningInEnglish: 'place, location',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τόπος (tópos)',
+		EnglishExamples:
+			'atopic, atopy, dystopia, ectopia, ectopic, entopic, epitope, eutopia, isotope, nomotopic, polytope, topiary, topic, topography, topology, toponomastics, toponym, toponymy, topos, utopia, zonotope'
 	},
 
 	{
-		Root: 'Latin from Greek',
-		MeaningInEnglish: 'tornare < τόρνος (tórnos)',
-		OriginLanguage: 'tornado, tournament, turn',
-		RootOrigin: 'torpe-',
-		EnglishExamples: 'be numb'
+		Root: 'torn-[215]',
+		MeaningInEnglish: 'turn, rotate',
+		OriginLanguage: 'Latin from Greek',
+		RootOrigin: 'tornare < τόρνος (tórnos)',
+		EnglishExamples: 'tornado, tournament, turn'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'torpere',
-		OriginLanguage: 'torpent, torpid, torpor',
-		RootOrigin: 'torqu-, tort-',
-		EnglishExamples: 'twist'
+		Root: 'torpe-',
+		MeaningInEnglish: 'be numb',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'torpere',
+		EnglishExamples: 'torpent, torpid, torpor'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'torquere, tortus',
-		OriginLanguage:
-			'contort, distort, extort, extortion, retort, torque, torsion, tortuous, torture',
-		RootOrigin: 'tot-',
-		EnglishExamples: 'all, whole'
+		Root: 'torqu-, tort-',
+		MeaningInEnglish: 'twist',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'torquere, tortus',
+		EnglishExamples:
+			'contort, distort, extort, extortion, retort, torque, torsion, tortuous, torture'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'totus',
-		OriginLanguage: 'subtotal, total, totality',
-		RootOrigin: 'tox-[216]',
-		EnglishExamples: 'arrow, bow, poison'
+		Root: 'tot-',
+		MeaningInEnglish: 'all, whole',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'totus',
+		EnglishExamples: 'subtotal, total, totality'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τόξον (tóxon)',
-		OriginLanguage:
-			'anatoxin, antitoxin, autotoxin, exotoxin, intoxicate, neurotoxin, psychotoxic, toxic, toxin, toxoid, toxology, toxoplasmosis',
-		RootOrigin: 'trab-',
-		EnglishExamples: 'beam'
+		Root: 'tox-[216]',
+		MeaningInEnglish: 'arrow, bow, poison',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τόξον (tóxon)',
+		EnglishExamples:
+			'anatoxin, antitoxin, autotoxin, exotoxin, intoxicate, neurotoxin, psychotoxic, toxic, toxin, toxoid, toxology, toxoplasmosis'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trabs, trabis',
-		OriginLanguage: 'trabeculae',
-		RootOrigin: 'trach-[217]',
-		EnglishExamples: 'rough'
+		Root: 'trab-',
+		MeaningInEnglish: 'beam',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trabs, trabis',
+		EnglishExamples: 'trabeculae'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τραχύς (trakhús)',
-		OriginLanguage:
-			'trachea, tracheids, tracheitis, tracheophyte, tracheostomy, tracheotomy, trachoma',
-		RootOrigin: 'trag-[218]',
-		EnglishExamples: 'he-goat'
+		Root: 'trach-[217]',
+		MeaningInEnglish: 'rough',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τραχύς (trakhús)',
+		EnglishExamples:
+			'trachea, tracheids, tracheitis, tracheophyte, tracheostomy, tracheotomy, trachoma'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τράγος (trágos)',
-		OriginLanguage: 'tragedy, tragic, tragus',
-		RootOrigin: 'trah-, tract-',
-		EnglishExamples: 'draw, pull'
+		Root: 'trag-[218]',
+		MeaningInEnglish: 'he-goat',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τράγος (trágos)',
+		EnglishExamples: 'tragedy, tragic, tragus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tractare, frequentative of trahere, tractus',
-		OriginLanguage:
-			'abstract, attract, contract, detract, retract, subtract, subtrahend, tractable, traction, tractor',
-		RootOrigin: 'trans-, tra-, tran-',
-		EnglishExamples: 'across'
+		Root: 'trah-, tract-',
+		MeaningInEnglish: 'draw, pull',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tractare, frequentative of trahere, tractus',
+		EnglishExamples:
+			'abstract, attract, contract, detract, retract, subtract, subtrahend, tractable, traction, tractor'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trans',
-		OriginLanguage:
-			'intransigent, tradition, transact, transcend, transient, transitory, transparent, transport',
-		RootOrigin: 'trapez-[219]',
-		EnglishExamples: 'four-legged, table'
+		Root: 'trans-, tra-, tran-',
+		MeaningInEnglish: 'across',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trans',
+		EnglishExamples:
+			'intransigent, tradition, transact, transcend, transient, transitory, transparent, transport'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τράπεζα (trápeza), τραπέζιον, (trapézion)',
-		OriginLanguage: 'trapeze, trapezium, trapezius, trapezohedron, trapezoid',
-		RootOrigin: 'traum-[220]',
-		EnglishExamples: 'wound'
+		Root: 'trapez-[219]',
+		MeaningInEnglish: 'four-legged, table',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τράπεζα (trápeza), τραπέζιον, (trapézion)',
+		EnglishExamples: 'trapeze, trapezium, trapezius, trapezohedron, trapezoid'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τραῦμα, τραῦματος (traûma, traûmatos)',
-		OriginLanguage: 'trauma, traumatic, traumatize, traumatophobia',
-		RootOrigin: 'trecent-',
-		EnglishExamples: 'three hundred'
+		Root: 'traum-[220]',
+		MeaningInEnglish: 'wound',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τραῦμα, τραῦματος (traûma, traûmatos)',
+		EnglishExamples: 'trauma, traumatic, traumatize, traumatophobia'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trecenti',
-		OriginLanguage: 'trecentennial, trecentillion',
-		RootOrigin: 'trech-, troch-[221]',
-		EnglishExamples: 'run, wheel'
+		Root: 'trecent-',
+		MeaningInEnglish: 'three hundred',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trecenti',
+		EnglishExamples: 'trecentennial, trecentillion'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'trech-, troch-[221]',
+		MeaningInEnglish: 'run, wheel',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τρέχειν (trékhein), τρεχόμενον, τρόχος (tróchos), τροχός, τροχοῦ (trochós), τρόχωσις, τροχαῖος (trochaîos), τροχαϊκός (trochaïkós), τροχοειδής',
-		OriginLanguage:
-			'ditrochee, epitrochoid, hypotrochoid, trochaic, trochanter, trochee, trochelminth, trochlea, trochophore, trochoid',
-		RootOrigin: 'tredec-',
-		EnglishExamples: 'thirteen'
+		EnglishExamples:
+			'ditrochee, epitrochoid, hypotrochoid, trochaic, trochanter, trochee, trochelminth, trochlea, trochophore, trochoid'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tredecim',
-		OriginLanguage: 'tredecimal',
-		RootOrigin: 'treiskaidek-',
-		EnglishExamples: 'thirteen'
+		Root: 'tredec-',
+		MeaningInEnglish: 'thirteen',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tredecim',
+		EnglishExamples: 'tredecimal'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρεισκαίδεκα (treiskaídeka)',
-		OriginLanguage: 'triskaidekaphobia, triskaidecagon',
-		RootOrigin: 'trem-',
-		EnglishExamples: 'tremble'
+		Root: 'treiskaidek-',
+		MeaningInEnglish: 'thirteen',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρεισκαίδεκα (treiskaídeka)',
+		EnglishExamples: 'triskaidekaphobia, triskaidecagon'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tremere',
-		OriginLanguage: 'tremor',
-		RootOrigin: 'trema-',
-		EnglishExamples: 'hole'
+		Root: 'trem-',
+		MeaningInEnglish: 'tremble',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tremere',
+		EnglishExamples: 'tremor'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τετραίνω, τρῆμα (trêma)',
-		OriginLanguage: 'monotrematous, monotreme, trema, tréma, trematode',
-		RootOrigin: 'trep-, trop-[222]',
-		EnglishExamples: 'turn'
+		Root: 'trema-',
+		MeaningInEnglish: 'hole',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τετραίνω, τρῆμα (trêma)',
+		EnglishExamples: 'monotrematous, monotreme, trema, tréma, trematode'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'trep-, trop-[222]',
+		MeaningInEnglish: 'turn',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'τρέπειν (trépein), τρέψις (trépsis), τρόπος, τρόπου (trópos), τροπή, τροπῆς (tropḗ), τροπικός (tropikós)',
-		OriginLanguage:
-			'allotrope, anisotropy, Atropos, ectropion, entropic, entropion, entropy, heliotropism, isentropic, isotrope, isotropic, isotropy, pleiotropic, pleiotropy, polytrope, protrepsis, protreptic, psychotropic, treponeme, treponematosis, treponemiasis, trope, tropic, tropism, tropopause, troposphere, trove',
-		RootOrigin: 'treph-, troph-[223]',
-		EnglishExamples: 'feed, grow'
+		EnglishExamples:
+			'allotrope, anisotropy, Atropos, ectropion, entropic, entropion, entropy, heliotropism, isentropic, isotrope, isotropic, isotropy, pleiotropic, pleiotropy, polytrope, protrepsis, protreptic, psychotropic, treponeme, treponematosis, treponemiasis, trope, tropic, tropism, tropopause, troposphere, trove'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρέφειν (tréphein), τροφός (trophós), τροφή (trophḗ), θρέμμα',
-		OriginLanguage:
-			'amyotrophic, atrophy, autotroph, auxotrophy, chemolithoautotroph, dystrophy, hemidystrophy, heterotroph, hypertrophy, lithoautotroph, lithotroph, mixotroph, organotroph, phagotrophy, photoheterotroph, phototroph, phototrophic, phototrophy, pogonotrophy, poliodystrophy, prototrophy, trophectoderm, trophic, trophobiosis, trophobiotic, trophoblast, trophoblastic, trophozoite',
-		RootOrigin: 'trepid-',
-		EnglishExamples: 'tremble'
+		Root: 'treph-, troph-[223]',
+		MeaningInEnglish: 'feed, grow',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρέφειν (tréphein), τροφός (trophós), τροφή (trophḗ), θρέμμα',
+		EnglishExamples:
+			'amyotrophic, atrophy, autotroph, auxotrophy, chemolithoautotroph, dystrophy, hemidystrophy, heterotroph, hypertrophy, lithoautotroph, lithotroph, mixotroph, organotroph, phagotrophy, photoheterotroph, phototroph, phototrophic, phototrophy, pogonotrophy, poliodystrophy, prototrophy, trophectoderm, trophic, trophobiosis, trophobiotic, trophoblast, trophoblastic, trophozoite'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trepidare "to tremble, hurry", from trepidus "alarmed, scared"',
-		OriginLanguage: 'intrepid, trepid, trepidation',
-		RootOrigin: 'tri-[224]',
-		EnglishExamples: 'three'
+		Root: 'trepid-',
+		MeaningInEnglish: 'tremble',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trepidare "to tremble, hurry", from trepidus "alarmed, scared"',
+		EnglishExamples: 'intrepid, trepid, trepidation'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρεῖς, τρία (tría), τριάς',
-		OriginLanguage:
-			'atritonic, triad, triadic, Triassic, tricycle, trigon, triode, tripod, trisyllabic, tritonic',
-		RootOrigin: 'tri-',
-		EnglishExamples: 'three'
+		Root: 'tri-[224]',
+		MeaningInEnglish: 'three',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρεῖς, τρία (tría), τριάς',
+		EnglishExamples:
+			'atritonic, triad, triadic, Triassic, tricycle, trigon, triode, tripod, trisyllabic, tritonic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trēs',
-		OriginLanguage: 'triangle, triumvirate, trivia',
-		RootOrigin: 'trib-, tript-[225]',
-		EnglishExamples: 'rub'
+		Root: 'tri-',
+		MeaningInEnglish: 'three',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trēs',
+		EnglishExamples: 'triangle, triumvirate, trivia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρίβειν (tríbein), τριπτός, τρῖψις',
-		OriginLanguage: 'diatribe, tribochromism, tribology, trypsin, tryptic',
-		RootOrigin: 'tribu-',
-		EnglishExamples: 'pay'
+		Root: 'trib-, tript-[225]',
+		MeaningInEnglish: 'rub',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρίβειν (tríbein), τριπτός, τρῖψις',
+		EnglishExamples: 'diatribe, tribochromism, tribology, trypsin, tryptic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tribuere "to pay", from tribus',
-		OriginLanguage:
-			'attribute, contribute,distribute, retribution, tribe, tribulation, tribunal, tribune, tributary, tribute',
-		RootOrigin: 'tricen-',
-		EnglishExamples: 'thirty each'
+		Root: 'tribu-',
+		MeaningInEnglish: 'pay',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tribuere "to pay", from tribus',
+		EnglishExamples:
+			'attribute, contribute,distribute, retribution, tribe, tribulation, tribunal, tribune, tributary, tribute'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'triceni',
-		OriginLanguage: 'tricenary',
-		RootOrigin: 'tricesim-, trigesim-',
-		EnglishExamples: 'thirtieth'
+		Root: 'tricen-',
+		MeaningInEnglish: 'thirty each',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'triceni',
+		EnglishExamples: 'tricenary'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tricesimus',
-		OriginLanguage: 'trigesimal',
-		RootOrigin: 'trich-',
-		EnglishExamples: 'hair'
+		Root: 'tricesim-, trigesim-',
+		MeaningInEnglish: 'thirtieth',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tricesimus',
+		EnglishExamples: 'trigesimal'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'θρίξ, τριχός (trikhós)',
-		OriginLanguage: 'peritrichous, trichopathophobia, Trichoptera',
-		RootOrigin: 'trin-',
-		EnglishExamples: 'three each'
+		Root: 'trich-',
+		MeaningInEnglish: 'hair',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'θρίξ, τριχός (trikhós)',
+		EnglishExamples: 'peritrichous, trichopathophobia, Trichoptera'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trini',
-		OriginLanguage: 'trinary, trine, trinity',
-		RootOrigin: 'trit- [226]',
-		EnglishExamples: 'third'
+		Root: 'trin-',
+		MeaningInEnglish: 'three each',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trini',
+		EnglishExamples: 'trinary, trine, trinity'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρίτος (trítos)',
-		OriginLanguage: 'tritagonist, tritanomaly, tritanopia, trite, tritium',
-		RootOrigin: 'tritic-',
-		EnglishExamples: 'wheat'
+		Root: 'trit- [226]',
+		MeaningInEnglish: 'third',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρίτος (trítos)',
+		EnglishExamples: 'tritagonist, tritanomaly, tritanopia, trite, tritium'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'triticum',
-		OriginLanguage: 'triticale',
-		RootOrigin: 'troch-',
-		EnglishExamples: 'wheel'
+		Root: 'tritic-',
+		MeaningInEnglish: 'wheat',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'triticum',
+		EnglishExamples: 'triticale'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τροχός (trokhós)',
-		OriginLanguage: 'trochlea',
-		RootOrigin: 'trop-',
-		EnglishExamples: 'turn'
+		Root: 'troch-',
+		MeaningInEnglish: 'wheel',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τροχός (trokhós)',
+		EnglishExamples: 'trochlea'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρόπος (tropos)',
-		OriginLanguage:
-			'contrive, heliotropism, isotrope, psychotropic, retrieve, trope, tropic, tropism, troposphere, troubadour, trove',
-		RootOrigin: 'troph-',
-		EnglishExamples: 'feed, grow'
+		Root: 'trop-',
+		MeaningInEnglish: 'turn',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρόπος (tropos)',
+		EnglishExamples:
+			'contrive, heliotropism, isotrope, psychotropic, retrieve, trope, tropic, tropism, troposphere, troubadour, trove'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τροφή, τροφός (trophós)',
-		OriginLanguage: 'dystrophy, pogonotrophy, trophic',
-		RootOrigin: 'truc-',
-		EnglishExamples: 'fierce'
+		Root: 'troph-',
+		MeaningInEnglish: 'feed, grow',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τροφή, τροφός (trophós)',
+		EnglishExamples: 'dystrophy, pogonotrophy, trophic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trux, trucis',
-		OriginLanguage: 'truculence, truculency, truculent',
-		RootOrigin: 'trud-, trus-',
-		EnglishExamples: 'thrust'
+		Root: 'truc-',
+		MeaningInEnglish: 'fierce',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trux, trucis',
+		EnglishExamples: 'truculence, truculency, truculent'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'trudere, trusus',
-		OriginLanguage:
-			'abstrude, abstruse, abstrusion, abstrusity, detrude, detrusion, detrusor, extrude, extrusible, extrusion, extrusive, inobtrusive, intrude, intrusion, intrusive, nonintrusive, obtrude, obtrusion, obtrusive, protrude, protrudent, protrusile, protrusion, protrusive, retrude, retruse, retrusion, retrusive',
-		RootOrigin: 'trunc-',
-		EnglishExamples: 'cut off'
+		Root: 'trud-, trus-',
+		MeaningInEnglish: 'thrust',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'trudere, trusus',
+		EnglishExamples:
+			'abstrude, abstruse, abstrusion, abstrusity, detrude, detrusion, detrusor, extrude, extrusible, extrusion, extrusive, inobtrusive, intrude, intrusion, intrusive, nonintrusive, obtrude, obtrusion, obtrusive, protrude, protrudent, protrusile, protrusion, protrusive, retrude, retruse, retrusion, retrusive'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'truncare "to maim, mutilate", from truncus "mutilated, cut off"',
-		OriginLanguage:
-			'detruncate, detruncation, entrench, entrenchment, intrench, intrenchment, obtruncate, obtruncation, omnitruncation, retrench, retrenchment, tranche, tranchet, trench, trenchancy, trenchant, truncate, truncation, truncheon, trunk, trunnion',
-		RootOrigin: 'tryp-[227]',
-		EnglishExamples: 'bore'
+		Root: 'trunc-',
+		MeaningInEnglish: 'cut off',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'truncare "to maim, mutilate", from truncus "mutilated, cut off"',
+		EnglishExamples:
+			'detruncate, detruncation, entrench, entrenchment, intrench, intrenchment, obtruncate, obtruncation, omnitruncation, retrench, retrenchment, tranche, tranchet, trench, trenchancy, trenchant, truncate, truncation, truncheon, trunk, trunnion'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τρυπᾶν (trupân), τρύπανον (trúpanon)',
-		OriginLanguage: 'trepan, trypanophobia, trypanosome',
-		RootOrigin: 'tum-',
-		EnglishExamples: 'be swollen'
+		Root: 'tryp-[227]',
+		MeaningInEnglish: 'bore',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τρυπᾶν (trupân), τρύπανον (trúpanon)',
+		EnglishExamples: 'trepan, trypanophobia, trypanosome'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tumere',
-		OriginLanguage:
-			'detumescence, detumescent, intumescence, tumefacient, tumefaction, tumesce, tumescence, tumescent, tumid, tumidity, tumor, tumorous, tumular, tumulose, tumulous, tumult, tumultuary, tumultuous, tumulus',
-		RootOrigin: 'turb-',
-		EnglishExamples: 'disturb'
+		Root: 'tum-',
+		MeaningInEnglish: 'be swollen',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tumere',
+		EnglishExamples:
+			'detumescence, detumescent, intumescence, tumefacient, tumefaction, tumesce, tumescence, tumescent, tumid, tumidity, tumor, tumorous, tumular, tumulose, tumulous, tumult, tumultuary, tumultuous, tumulus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'turba',
-		OriginLanguage:
-			'disturb, disturbance, nonperturbative, perturb, perturbance, perturbation, perturbative, trouble, troublous, turbid, turbidity, turbinate, turbine, turbulence, turbulent',
-		RootOrigin: 'tuss-',
-		EnglishExamples: 'cough'
+		Root: 'turb-',
+		MeaningInEnglish: 'disturb',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'turba',
+		EnglishExamples:
+			'disturb, disturbance, nonperturbative, perturb, perturbance, perturbation, perturbative, trouble, troublous, turbid, turbidity, turbinate, turbine, turbulence, turbulent'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'tussis, tussire',
-		OriginLanguage: 'pertussis, tussive',
-		RootOrigin: 'tymb-[228]',
-		EnglishExamples: 'mound'
+		Root: 'tuss-',
+		MeaningInEnglish: 'cough',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'tussis, tussire',
+		EnglishExamples: 'pertussis, tussive'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τύμβος (túmbos), τυμβεύω, τύμβευμα',
-		OriginLanguage: 'entomb, tomb',
-		RootOrigin: 'tympan-',
-		EnglishExamples: 'drum'
+		Root: 'tymb-[228]',
+		MeaningInEnglish: 'mound',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τύμβος (túmbos), τυμβεύω, τύμβευμα',
+		EnglishExamples: 'entomb, tomb'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τύμπανον (túmpanon)',
-		OriginLanguage: 'timbre, timpanist, tympani, tympanum',
-		RootOrigin: 'typ-[229] (ΤΥΠ[230])',
-		EnglishExamples: 'stamp, model'
+		Root: 'tympan-',
+		MeaningInEnglish: 'drum',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τύμπανον (túmpanon)',
+		EnglishExamples: 'timbre, timpanist, tympani, tympanum'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τύπτειν (túptein), τύπος (túpos), τυπικός (tupikós), τύμπανον (túmpanon)',
-		OriginLanguage:
-			'allotype, archetype, ecotype, ectype, epitype, ergatotype, heterotype, heterotypic, holotype, homeotypic, homotype, homotypic, isosyntype, isotype, lectotype, logotype, monotypic, neotype, paralectotype, paratype, phenotype, prototype, schizotypic, syntype, type, typography, typology',
-		RootOrigin: 'typh-[231]',
-		EnglishExamples: 'smoke'
+		Root: 'typ-[229] (ΤΥΠ[230])',
+		MeaningInEnglish: 'stamp, model',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τύπτειν (túptein), τύπος (túpos), τυπικός (tupikós), τύμπανον (túmpanon)',
+		EnglishExamples:
+			'allotype, archetype, ecotype, ectype, epitype, ergatotype, heterotype, heterotypic, holotype, homeotypic, homotype, homotypic, isosyntype, isotype, lectotype, logotype, monotypic, neotype, paralectotype, paratype, phenotype, prototype, schizotypic, syntype, type, typography, typology'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τύφειν (túphein), τῦφος (tûphos), τυφώδης',
-		OriginLanguage: 'typhoid, typhous, typhus',
-		RootOrigin: 'tyrann-[232]',
-		EnglishExamples: 'terrible, tyrant'
+		Root: 'typh-[231]',
+		MeaningInEnglish: 'smoke',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τύφειν (túphein), τῦφος (tûphos), τυφώδης',
+		EnglishExamples: 'typhoid, typhous, typhus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'τύραννος (túrannos)',
-		OriginLanguage: 'tyrannize, tyrannosaurus, tyranny, tyrant',
-		RootOrigin: 'uber-',
-		EnglishExamples: 'fruitful, udder'
+		Root: 'tyrann-[232]',
+		MeaningInEnglish: 'terrible, tyrant',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'τύραννος (túrannos)',
+		EnglishExamples: 'tyrannize, tyrannosaurus, tyranny, tyrant'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ūber, uberare',
-		OriginLanguage: 'exuberance, exuberant, exuberate, uberous, uberty',
-		RootOrigin: 'uligin-',
-		EnglishExamples: 'in marshes'
+		Root: 'uber-',
+		MeaningInEnglish: 'fruitful, udder',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ūber, uberare',
+		EnglishExamples: 'exuberance, exuberant, exuberate, uberous, uberty'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uligo, uliginis',
-		OriginLanguage: 'uliginous',
-		RootOrigin: 'ul-[233]',
-		EnglishExamples: 'gums'
+		Root: 'uligin-',
+		MeaningInEnglish: 'in marshes',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uligo, uliginis',
+		EnglishExamples: 'uliginous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'οὖλον (oûlon)',
-		OriginLanguage: 'ulorrhea',
-		RootOrigin: 'ul-[234]',
-		EnglishExamples: 'woolly'
+		Root: 'ul-[233]',
+		MeaningInEnglish: 'gums',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'οὖλον (oûlon)',
+		EnglishExamples: 'ulorrhea'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'οὖλος (oûlos)',
-		OriginLanguage: 'Ulotrichi',
-		RootOrigin: 'ultim-',
-		EnglishExamples: 'farthest'
+		Root: 'ul-[234]',
+		MeaningInEnglish: 'woolly',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'οὖλος (oûlos)',
+		EnglishExamples: 'Ulotrichi'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ultimus',
-		OriginLanguage: 'ultimate, ultimatum',
-		RootOrigin: 'ultra-',
-		EnglishExamples: 'beyond'
+		Root: 'ultim-',
+		MeaningInEnglish: 'farthest',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ultimus',
+		EnglishExamples: 'ultimate, ultimatum'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ultra',
-		OriginLanguage: 'ultrasonic',
-		RootOrigin: 'umbilic-',
-		EnglishExamples: 'navel'
+		Root: 'ultra-',
+		MeaningInEnglish: 'beyond',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ultra',
+		EnglishExamples: 'ultrasonic'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'umbilicus',
-		OriginLanguage: 'umbilical, umbilicate, umbilication',
-		RootOrigin: 'umbr-',
-		EnglishExamples: 'shade, shadow'
+		Root: 'umbilic-',
+		MeaningInEnglish: 'navel',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'umbilicus',
+		EnglishExamples: 'umbilical, umbilicate, umbilication'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'umbra',
-		OriginLanguage:
-			'adumbral, adumbrant, adumbrate, adumbration, adumbrative, antumbra, inumbrate, obumbrant, obumbrate, obumbration, penumbra, penumbral, somber, sombrero, subumbellate, umbel, umbellate, umbelliferous, umbelliform, umbellulate, umbellule, umber, umbra, umbraculum, umbrage, umbrageous, umbral, umbrella, umbriferous, umbrose',
-		RootOrigin: 'un-',
-		EnglishExamples: 'one'
+		Root: 'umbr-',
+		MeaningInEnglish: 'shade, shadow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'umbra',
+		EnglishExamples:
+			'adumbral, adumbrant, adumbrate, adumbration, adumbrative, antumbra, inumbrate, obumbrant, obumbrate, obumbration, penumbra, penumbral, somber, sombrero, subumbellate, umbel, umbellate, umbelliferous, umbelliform, umbellulate, umbellule, umber, umbra, umbraculum, umbrage, umbrageous, umbral, umbrella, umbriferous, umbrose'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ūnus, unius',
-		OriginLanguage:
-			'adunation, biunique, coadunate, coadunation, disunite, disunity, malunion, nonuniform, nonuniformity, nonunion, nonunique, nonunity, onion, reunification, reunion, reunite, triune, unanimous, unary, unate, unicorn, unific, unification, uniform, uniformity, unify, union, unique, unite, unity, universal, universe, university',
-		RootOrigin: 'unc-',
-		EnglishExamples: 'hook'
+		Root: 'un-',
+		MeaningInEnglish: 'one',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ūnus, unius',
+		EnglishExamples:
+			'adunation, biunique, coadunate, coadunation, disunite, disunity, malunion, nonuniform, nonuniformity, nonunion, nonunique, nonunity, onion, reunification, reunion, reunite, triune, unanimous, unary, unate, unicorn, unific, unification, uniform, uniformity, unify, union, unique, unite, unity, universal, universe, university'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uncus',
-		OriginLanguage: 'adunc, aduncity, aduncous, unciform, Uncinaria, uncinate, Uncinia',
-		RootOrigin: 'unci-',
-		EnglishExamples: 'ounce, twelfth'
+		Root: 'unc-',
+		MeaningInEnglish: 'hook',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uncus',
+		EnglishExamples: 'adunc, aduncity, aduncous, unciform, Uncinaria, uncinate, Uncinia'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uncia',
-		OriginLanguage: 'inch, ounce, quincuncial, semiuncial, uncial',
-		RootOrigin: 'und-',
-		EnglishExamples: 'wave'
+		Root: 'unci-',
+		MeaningInEnglish: 'ounce, twelfth',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uncia',
+		EnglishExamples: 'inch, ounce, quincuncial, semiuncial, uncial'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'unda',
-		OriginLanguage:
-			'abound, abundance, abundant, inundant, inundate, inundation, redound, redundancy, redundant, superabound, superabundance, superabundant, surround, undine, undulant, undulate, undulation, undulatory, undulatus, undulose',
-		RootOrigin: 'undecim-',
-		EnglishExamples: 'eleventh'
+		Root: 'und-',
+		MeaningInEnglish: 'wave',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'unda',
+		EnglishExamples:
+			'abound, abundance, abundant, inundant, inundate, inundation, redound, redundancy, redundant, superabound, superabundance, superabundant, surround, undine, undulant, undulate, undulation, undulatory, undulatus, undulose'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'undecimus',
-		OriginLanguage: 'undecimal',
-		RootOrigin: 'unden-',
-		EnglishExamples: 'eleven each'
+		Root: 'undecim-',
+		MeaningInEnglish: 'eleventh',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'undecimus',
+		EnglishExamples: 'undecimal'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ūndēni',
-		OriginLanguage: 'undenary',
-		RootOrigin: 'ungu-',
-		EnglishExamples: 'claw, hoof, nail'
+		Root: 'unden-',
+		MeaningInEnglish: 'eleven each',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ūndēni',
+		EnglishExamples: 'undenary'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'unguis, ungula',
-		OriginLanguage: 'ungual, unguiferous, unguiform, ungular, ungulate, unguligrade',
-		RootOrigin: 'ur-[235]',
-		EnglishExamples: 'tail'
+		Root: 'ungu-',
+		MeaningInEnglish: 'claw, hoof, nail',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'unguis, ungula',
+		EnglishExamples: 'ungual, unguiferous, unguiform, ungular, ungulate, unguligrade'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'οὐρά, οὐρᾶς (ourá, ourâs)',
-		OriginLanguage:
-			'anthurium, Anura, brachyurous, colure, cynosure, Diplura, Protura, uroborus, urochord, uroid, uropod',
-		RootOrigin: 'ur-[236]',
-		EnglishExamples: 'urine'
+		Root: 'ur-[235]',
+		MeaningInEnglish: 'tail',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'οὐρά, οὐρᾶς (ourá, ourâs)',
+		EnglishExamples:
+			'anthurium, Anura, brachyurous, colure, cynosure, Diplura, Protura, uroborus, urochord, uroid, uropod'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish:
+		Root: 'ur-[236]',
+		MeaningInEnglish: 'urine',
+		OriginLanguage: 'Greek',
+		RootOrigin:
 			'οὐρεῖν (oureîn), οὖρον, οὔρου (oûron, oúrou), οὔρησις (oúrēsis), οὐρητήρ (ourētḗr), οὐρήθρα (ourḗthra)',
-		OriginLanguage:
-			'antidiuretic, cystinuria, diuresis, diuretic, dysuria, enuresis, homocystinuria, lithuresis, polyurea, polyuria, strangury, uraemia/uremia, urea, uremic, uresiesthesia, uresis, ureter, ureteroscopy, urethra, urology',
-		RootOrigin: 'uran-[237]',
-		EnglishExamples: 'heaven, sky'
+		EnglishExamples:
+			'antidiuretic, cystinuria, diuresis, diuretic, dysuria, enuresis, homocystinuria, lithuresis, polyurea, polyuria, strangury, uraemia/uremia, urea, uremic, uresiesthesia, uresis, ureter, ureteroscopy, urethra, urology'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'οὐρανός, οὐρανοῦ (ouranós, ouranoû), οὐρανόθεν (ouranóthen)',
-		OriginLanguage: 'uraninite, uranium, uranography, uranology, uranometry, uranophobia, Uranus',
-		RootOrigin: 'urb-',
-		EnglishExamples: 'city'
+		Root: 'uran-[237]',
+		MeaningInEnglish: 'heaven, sky',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'οὐρανός, οὐρανοῦ (ouranós, ouranoû), οὐρανόθεν (ouranóthen)',
+		EnglishExamples: 'uraninite, uranium, uranography, uranology, uranometry, uranophobia, Uranus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'urbs, urbis',
-		OriginLanguage:
-			'conurbation, exurb, exurban, interurban, inurbane, inurbanity, nonurban, suburb, suburban, suburbanite, urban, urbane, urbanity',
-		RootOrigin: 'urg-',
-		EnglishExamples: 'work'
+		Root: 'urb-',
+		MeaningInEnglish: 'city',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'urbs, urbis',
+		EnglishExamples:
+			'conurbation, exurb, exurban, interurban, inurbane, inurbanity, nonurban, suburb, suburban, suburbanite, urban, urbane, urbanity, urgency, urgent'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: '',
-		OriginLanguage: '',
-		RootOrigin: 'urg-',
-		EnglishExamples: 'work'
+		Root: 'urs-',
+		MeaningInEnglish: 'bear',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ursus',
+		EnglishExamples: 'Ursa Major, ursine, Ursus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'urgere',
-		OriginLanguage: 'urgency, urgent',
-		RootOrigin: 'urs-',
-		EnglishExamples: 'bear'
+		Root: 'ut-, us-',
+		MeaningInEnglish: 'use',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uti, usus',
+		EnglishExamples: 'abuse, disuse, use, usual, utilitarian, utility'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ursus',
-		OriginLanguage: 'Ursa Major, ursine, Ursus',
-		RootOrigin: 'ut-, us-',
-		EnglishExamples: 'use'
+		Root: 'uv-',
+		MeaningInEnglish: 'grape',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uva',
+		EnglishExamples: 'uvea'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uti, usus',
-		OriginLanguage: 'abuse, disuse, use, usual, utilitarian, utility',
-		RootOrigin: 'uv-',
-		EnglishExamples: 'grape'
+		Root: 'uxor-',
+		MeaningInEnglish: 'wife',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'uxor',
+		EnglishExamples: 'uxoricide'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uva',
-		OriginLanguage: 'uvea',
-		RootOrigin: 'uxor-',
-		EnglishExamples: 'wife'
+		Root: 'vac-',
+		MeaningInEnglish: 'empty',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vacare',
+		EnglishExamples: 'evacuate, vacancy, vacant, vacate, vacation, vacuous, vacuum'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'uxor',
-		OriginLanguage: 'uxoricide',
-		RootOrigin: 'vac-',
-		EnglishExamples: 'empty'
+		Root: 'vacc-',
+		MeaningInEnglish: 'cow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vacca',
+		EnglishExamples: 'vaccary, vaccination, vaccine'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vacare',
-		OriginLanguage: 'evacuate, vacancy, vacant, vacate, vacation, vacuous, vacuum',
-		RootOrigin: 'vacc-',
-		EnglishExamples: 'cow'
+		Root: 'vacil-',
+		MeaningInEnglish: 'waver',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vacillare "sway, be untrustworthy"',
+		EnglishExamples: 'vacillate, vacillation'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vacca',
-		OriginLanguage: 'vaccary, vaccination, vaccine',
-		RootOrigin: 'vacil-',
-		EnglishExamples: 'waver'
+		Root: 'vad-, vas-',
+		MeaningInEnglish: 'go',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vadere',
+		EnglishExamples: 'evade, pervasive'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vacillare "sway, be untrustworthy"',
-		OriginLanguage: 'vacillate, vacillation',
-		RootOrigin: 'vad-, vas-',
-		EnglishExamples: 'go'
+		Root: 'vag-',
+		MeaningInEnglish: 'wander',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vagus, vagare',
+		EnglishExamples: 'vagabond, vague'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vadere',
-		OriginLanguage: 'evade, pervasive',
-		RootOrigin: 'vag-',
-		EnglishExamples: 'wander'
+		Root: 'val-',
+		MeaningInEnglish: 'strength, worth',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'valere',
+		EnglishExamples:
+			'ambivalence, avail, equivalent, evaluate, prevail, valence, valiant, valid, valor, value'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vagus, vagare',
-		OriginLanguage: 'vagabond, vague',
-		RootOrigin: 'val-',
-		EnglishExamples: 'strength, worth'
+		Root: 'van-',
+		MeaningInEnglish: 'empty, vain, idle',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vanus "empty", also vanescere "vanish"',
+		EnglishExamples: 'evanescent, vain, vanish, vanity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'valere',
-		OriginLanguage:
-			'ambivalence, avail, equivalent, evaluate, prevail, valence, valiant, valid, valor, value',
-		RootOrigin: 'van-',
-		EnglishExamples: 'empty, vain, idle'
+		Root: 'vap-',
+		MeaningInEnglish: 'steam',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vapor',
+		EnglishExamples:
+			'evaporate, evaporation, evaporative, evaporator, evaporite, nonevaporative, vapid, vapidity, vapor, vaporescence, vaporescent, vaporific, vaporous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vanus "empty", also vanescere "vanish"',
-		OriginLanguage: 'evanescent, vain, vanish, vanity',
-		RootOrigin: 'vap-',
-		EnglishExamples: 'steam'
+		Root: 'vari-',
+		MeaningInEnglish: 'vary',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'variare',
+		EnglishExamples:
+			'bivariate, covariate, covariation, intervarietal, invariable, invariance, invariant, variable, variance, variant, variate, variation, variegate, varietal, variety, variola, variolation, variorum, various, vary'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vapor',
-		OriginLanguage:
-			'evaporate, evaporation, evaporative, evaporator, evaporite, nonevaporative, vapid, vapidity, vapor, vaporescence, vaporescent, vaporific, vaporous',
-		RootOrigin: 'vari-',
-		EnglishExamples: 'vary'
+		Root: 'varic-',
+		MeaningInEnglish: 'straddle',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'varicare "to straddle", from varus "bowlegged"',
+		EnglishExamples: 'prevaricate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'variare',
-		OriginLanguage:
-			'bivariate, covariate, covariation, intervarietal, invariable, invariance, invariant, variable, variance, variant, variate, variation, variegate, varietal, variety, variola, variolation, variorum, various, vary',
-		RootOrigin: 'varic-',
-		EnglishExamples: 'straddle'
+		Root: 'veh-, vect-',
+		MeaningInEnglish: 'carry',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vehere "to carry", vectus',
+		EnglishExamples: 'invective, inveigh, vector, vehement, vehicle'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'varicare "to straddle", from varus "bowlegged"',
-		OriginLanguage: 'prevaricate',
-		RootOrigin: 'veh-, vect-',
-		EnglishExamples: 'carry'
+		Root: 'vel-',
+		MeaningInEnglish: 'veil',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'velum',
+		EnglishExamples: 'revelation, velate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vehere "to carry", vectus',
-		OriginLanguage: 'invective, inveigh, vector, vehement, vehicle',
-		RootOrigin: 'vel-',
-		EnglishExamples: 'veil'
+		Root: 'vell-, vuls-',
+		MeaningInEnglish: 'pull',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vellere, vulsus',
+		EnglishExamples: 'convulsion'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'velum',
-		OriginLanguage: 'revelation, velate',
-		RootOrigin: 'vell-, vuls-',
-		EnglishExamples: 'pull'
+		Root: 'veloc-',
+		MeaningInEnglish: 'quick',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'velox, velocis',
+		EnglishExamples: 'velocity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vellere, vulsus',
-		OriginLanguage: 'convulsion',
-		RootOrigin: 'veloc-',
-		EnglishExamples: 'quick'
+		Root: 'ven-',
+		MeaningInEnglish: 'vein',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vena',
+		EnglishExamples: 'intravenous, venosity, venule'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'velox, velocis',
-		OriginLanguage: 'velocity',
-		RootOrigin: 'ven-',
-		EnglishExamples: 'vein'
+		Root: 'ven-',
+		MeaningInEnglish: 'poison',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vena',
+		EnglishExamples: 'antivenomous, veneniferous, venom'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vena',
-		OriginLanguage: 'intravenous, venosity, venule',
-		RootOrigin: 'ven-',
-		EnglishExamples: 'poison'
+		Root: 'ven-',
+		MeaningInEnglish: 'hunt',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'venari',
+		EnglishExamples: 'venison'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vena',
-		OriginLanguage: 'antivenomous, veneniferous, venom',
-		RootOrigin: 'ven-',
-		EnglishExamples: 'hunt'
+		Root: 'ven-, vent-',
+		MeaningInEnglish: 'come',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'venire',
+		EnglishExamples:
+			'advent, adventure, avenue, circumvent, contravene, convene, convenient, convention, event, intervene, intervention, invent, prevent, revenue, souvenir, supervene, venue, venture'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'venari',
-		OriginLanguage: 'venison',
-		RootOrigin: 'ven-, vent-',
-		EnglishExamples: 'come'
+		Root: 'vend-',
+		MeaningInEnglish: 'sell',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vendere',
+		EnglishExamples: 'vend, vendor'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'venire',
-		OriginLanguage:
-			'advent, adventure, avenue, circumvent, contravene, convene, convenient, convention, event, intervene, intervention, invent, prevent, revenue, souvenir, supervene, venue, venture',
-		RootOrigin: 'vend-',
-		EnglishExamples: 'sell'
+		Root: 'vener-',
+		MeaningInEnglish: 'respectful',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'venus, veneris',
+		EnglishExamples: 'venerable, veneration, venereal'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vendere',
-		OriginLanguage: 'vend, vendor',
-		RootOrigin: 'vener-',
-		EnglishExamples: 'respectful'
+		Root: 'vent-',
+		MeaningInEnglish: 'wind',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ventus',
+		EnglishExamples: 'ventilation, ventilator'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'venus, veneris',
-		OriginLanguage: 'venerable, veneration, venereal',
-		RootOrigin: 'vent-',
-		EnglishExamples: 'wind'
+		Root: 'ventr-',
+		MeaningInEnglish: 'belly',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'venter, ventris',
+		EnglishExamples: 'ventral'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ventus',
-		OriginLanguage: 'ventilation, ventilator',
-		RootOrigin: 'ventr-',
-		EnglishExamples: 'belly'
+		Root: 'ver-',
+		MeaningInEnglish: 'true',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'verus',
+		EnglishExamples: 'aver, veracious, verdict, verify, verisimilar, verisimilitude, verity, very'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'venter, ventris',
-		OriginLanguage: 'ventral',
-		RootOrigin: 'ver-',
-		EnglishExamples: 'true'
+		Root: 'verb-',
+		MeaningInEnglish: 'word',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'verbum',
+		EnglishExamples: 'verbal, verbatim, verbosity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'verus',
-		OriginLanguage: 'aver, veracious, verdict, verify, verisimilar, verisimilitude, verity, very',
-		RootOrigin: 'verb-',
-		EnglishExamples: 'word'
+		Root: 'verber-',
+		MeaningInEnglish: 'whip',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'verber',
+		EnglishExamples: 'reverberation'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'verbum',
-		OriginLanguage: 'verbal, verbatim, verbosity',
-		RootOrigin: 'verber-',
-		EnglishExamples: 'whip'
+		Root: 'verm-',
+		MeaningInEnglish: 'worm',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vermis',
+		EnglishExamples: 'vermiform, vermin'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'verber',
-		OriginLanguage: 'reverberation',
-		RootOrigin: 'verm-',
-		EnglishExamples: 'worm'
+		Root: 'vern-',
+		MeaningInEnglish: 'spring',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'ver, vernus',
+		EnglishExamples: 'vernal'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vermis',
-		OriginLanguage: 'vermiform, vermin',
-		RootOrigin: 'vern-',
-		EnglishExamples: 'spring'
+		Root: 'vers-, vert-',
+		MeaningInEnglish: 'turn',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'versus, past participle of vertere',
+		EnglishExamples:
+			'adverse, adversity, advertise, anniversary, avert, controversy, controvert, conversant, conversation, converse, convert, diversify, divert, extrovert, introvert, inverse, invert, perverse, pervert, reverse, revert, subvert, tergiversate, transverse, universe, versatile, verse, version, versus, vertebra, vertex, vertical, vertigo'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'ver, vernus',
-		OriginLanguage: 'vernal',
-		RootOrigin: 'vers-, vert-',
-		EnglishExamples: 'turn'
+		Root: 'vesic-',
+		MeaningInEnglish: 'bladder',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vesica',
+		EnglishExamples: 'vesical'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'versus, past participle of vertere',
-		OriginLanguage:
-			'adverse, adversity, advertise, anniversary, avert, controversy, controvert, conversant, conversation, converse, convert, diversify, divert, extrovert, introvert, inverse, invert, perverse, pervert, reverse, revert, subvert, tergiversate, transverse, universe, versatile, verse, version, versus, vertebra, vertex, vertical, vertigo',
-		RootOrigin: 'vesic-',
-		EnglishExamples: 'bladder'
+		Root: 'vesper-',
+		MeaningInEnglish: 'evening, western',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vespera',
+		EnglishExamples: 'vesperal'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vesica',
-		OriginLanguage: 'vesical',
-		RootOrigin: 'vesper-',
-		EnglishExamples: 'evening, western'
+		Root: 'vest-',
+		MeaningInEnglish: 'clothing, garment',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vestire "to clothe", related to vestis "garment"',
+		EnglishExamples: 'divest, invest, investiture, transvestite, travesty, vest, vestment'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vespera',
-		OriginLanguage: 'vesperal',
-		RootOrigin: 'vest-',
-		EnglishExamples: 'clothing, garment'
+		Root: 'vestig-',
+		MeaningInEnglish: 'track',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vestigium',
+		EnglishExamples: 'investigate, vestigial'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vestire "to clothe", related to vestis "garment"',
-		OriginLanguage: 'divest, invest, investiture, transvestite, travesty, vest, vestment',
-		RootOrigin: 'vestig-',
-		EnglishExamples: 'track'
+		Root: 'vet-',
+		MeaningInEnglish: 'forbid',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vetare',
+		EnglishExamples: 'veto'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vestigium',
-		OriginLanguage: 'investigate, vestigial',
-		RootOrigin: 'vet-',
-		EnglishExamples: 'forbid'
+		Root: 'veter-',
+		MeaningInEnglish: 'old',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vetus, veteris',
+		EnglishExamples: 'inveterate, veteran'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vetare',
-		OriginLanguage: 'veto',
-		RootOrigin: 'veter-',
-		EnglishExamples: 'old'
+		Root: 'vi-',
+		MeaningInEnglish: 'way',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'via',
+		EnglishExamples: 'deviate, obviate, obvious, via'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vetus, veteris',
-		OriginLanguage: 'inveterate, veteran',
-		RootOrigin: 'vi-',
-		EnglishExamples: 'way'
+		Root: 'vic-',
+		MeaningInEnglish: 'change',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vicis',
+		EnglishExamples: 'vicar, vicarious, vice versa, vicissitude'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'via',
-		OriginLanguage: 'deviate, obviate, obvious, via',
-		RootOrigin: 'vic-',
-		EnglishExamples: 'change'
+		Root: 'vicen-, vigen-',
+		MeaningInEnglish: 'twenty each',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'viceni',
+		EnglishExamples: 'vicenary'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vicis',
-		OriginLanguage: 'vicar, vicarious, vice versa, vicissitude',
-		RootOrigin: 'vicen-, vigen-',
-		EnglishExamples: 'twenty each'
+		Root: 'vicesim-, vigesim-',
+		MeaningInEnglish: 'twentieth',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vicesimus',
+		EnglishExamples: 'vicesimary, vicesimation, vigesimal'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'viceni',
-		OriginLanguage: 'vicenary',
-		RootOrigin: 'vicesim-, vigesim-',
-		EnglishExamples: 'twentieth'
+		Root: 'vid-, vis-',
+		MeaningInEnglish: 'see',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'videre, visus',
+		EnglishExamples:
+			'advice, advisable, advise, advisement, advisor, advisory, clairvoyance, clairvoyant, counterview, enviable, envious, envisage, envisagement, envision, envy, evidence, evident, evidential, evidentiality, evidentiary, improvidence, improvident, improvisation, improvisational, improvise, imprudence, imprudent, inadvisable, inevident, interview, interviewee, invidious, invisibility, invisible, nonevidentiary, nonsupervisory, nonvisual, preview, previse, provide, providence, provident, provision, provisional, provisionality, proviso, provisory, prudence, prudent, prudential, purvey, purveyance, purveyor, purview, review, reviewal, revisal, revise, revision, revisionary, revisit, supervise, supervision, supervisor, supervisory, survey, surveyor, surview, survise, videlicet, video, view, vis-à-vis, visa, visage, visibility, visible, vision, visionary, visit, visitation, visor, vista, visual, visuality, voilà, voyeur'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vicesimus',
-		OriginLanguage: 'vicesimary, vicesimation, vigesimal',
-		RootOrigin: 'vid-, vis-',
-		EnglishExamples: 'see'
+		Root: 'vigil-',
+		MeaningInEnglish: 'watchful',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vigil, also vigilare',
+		EnglishExamples: 'invigilate, reveille, surveillance, vigil, vigilance, vigilant, vigilante'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'videre, visus',
-		OriginLanguage:
-			'advice, advisable, advise, advisement, advisor, advisory, clairvoyance, clairvoyant, counterview, enviable, envious, envisage, envisagement, envision, envy, evidence, evident, evidential, evidentiality, evidentiary, improvidence, improvident, improvisation, improvisational, improvise, imprudence, imprudent, inadvisable, inevident, interview, interviewee, invidious, invisibility, invisible, nonevidentiary, nonsupervisory, nonvisual, preview, previse, provide, providence, provident, provision, provisional, provisionality, proviso, provisory, prudence, prudent, prudential, purvey, purveyance, purveyor, purview, review, reviewal, revisal, revise, revision, revisionary, revisit, supervise, supervision, supervisor, supervisory, survey, surveyor, surview, survise, videlicet, video, view, vis-à-vis, visa, visage, visibility, visible, vision, visionary, visit, visitation, visor, vista, visual, visuality, voilà, voyeur',
-		RootOrigin: 'vigil-',
-		EnglishExamples: 'watchful'
+		Root: 'vil-',
+		MeaningInEnglish: 'cheap',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vilis',
+		EnglishExamples: 'revile, vile, vilify'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vigil, also vigilare',
-		OriginLanguage: 'invigilate, reveille, surveillance, vigil, vigilance, vigilant, vigilante',
-		RootOrigin: 'vil-',
-		EnglishExamples: 'cheap'
+		Root: 'vill-',
+		MeaningInEnglish: 'country house',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'villa',
+		EnglishExamples: 'villa, village, villain'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vilis',
-		OriginLanguage: 'revile, vile, vilify',
-		RootOrigin: 'vill-',
-		EnglishExamples: 'country house'
+		Root: 'vill-',
+		MeaningInEnglish: 'shaggy hair',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'villus',
+		EnglishExamples: 'intervillous, velour, velvet, villiform, villose, villosity, villous, villus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'villa',
-		OriginLanguage: 'villa, village, villain',
-		RootOrigin: 'vill-',
-		EnglishExamples: 'shaggy hair'
+		Root: 'vin-',
+		MeaningInEnglish: 'wine',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vinum',
+		EnglishExamples:
+			'vigneron, vignette, vinaceous, vinaigrette, vine, vineal, vinegar, viniculture, vinosity, vinous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'villus',
-		OriginLanguage: 'intervillous, velour, velvet, villiform, villose, villosity, villous, villus',
-		RootOrigin: 'vin-',
-		EnglishExamples: 'wine'
+		Root: 'vinc-, vict-',
+		MeaningInEnglish: 'conquer',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vincere (past participle victus)',
+		EnglishExamples:
+			'convict, conviction, convince, evict, evince, invincible, province, vanquish, vanquishment, victor, victorious, victory'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vinum',
-		OriginLanguage:
-			'vigneron, vignette, vinaceous, vinaigrette, vine, vineal, vinegar, viniculture, vinosity, vinous',
-		RootOrigin: 'vinc-, vict-',
-		EnglishExamples: 'conquer'
+		Root: 'vir-',
+		MeaningInEnglish: 'man',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vir',
+		EnglishExamples:
+			'decemvir, decemvirate, duumvirate, quadrumvirate, septemvir, septemvirate, triumvir, triumvirate, vigintivirate, virago, virile, virilescence, virility, virilocal, virilocality, virtual, virtuality, virtue, virtuosity, virtuoso, virtuous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vincere (past participle victus)',
-		OriginLanguage:
-			'convict, conviction, convince, evict, evince, invincible, province, vanquish, vanquishment, victor, victorious, victory',
-		RootOrigin: 'vir-',
-		EnglishExamples: 'man'
+		Root: 'vir-',
+		MeaningInEnglish: 'green',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'virere',
+		EnglishExamples: 'verdure, virid, viridescent, viridian, viridity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vir',
-		OriginLanguage:
-			'decemvir, decemvirate, duumvirate, quadrumvirate, septemvir, septemvirate, triumvir, triumvirate, vigintivirate, virago, virile, virilescence, virility, virilocal, virilocality, virtual, virtuality, virtue, virtuosity, virtuoso, virtuous',
-		RootOrigin: 'vir-',
-		EnglishExamples: 'green'
+		Root: 'vir-',
+		MeaningInEnglish: 'poison, venom',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vīrus',
+		EnglishExamples:
+			'retroviral, retrovirus, rotavirus, togavirus, viral, virality, viricidal, viricide, virucidal, virucide, virulence, virulent, virus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'virere',
-		OriginLanguage: 'verdure, virid, viridescent, viridian, viridity',
-		RootOrigin: 'vir-',
-		EnglishExamples: 'poison, venom'
+		Root: 'virg-',
+		MeaningInEnglish: 'rod, twig',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'virga',
+		EnglishExamples: 'virga, virgate, virgula, virgularian, virgulate, virgule'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vīrus',
-		OriginLanguage:
-			'retroviral, retrovirus, rotavirus, togavirus, viral, virality, viricidal, viricide, virucidal, virucide, virulence, virulent, virus',
-		RootOrigin: 'virg-',
-		EnglishExamples: 'rod, twig'
+		Root: 'virgin-',
+		MeaningInEnglish: 'maiden',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'virgō, virginis',
+		EnglishExamples: 'virgin, virginal, virginity, Virgoan'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'virga',
-		OriginLanguage: 'virga, virgate, virgula, virgularian, virgulate, virgule',
-		RootOrigin: 'virgin-',
-		EnglishExamples: 'maiden'
+		Root: 'visc-',
+		MeaningInEnglish: 'thick',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'viscum',
+		EnglishExamples: 'viscosity'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'virgō, virginis',
-		OriginLanguage: 'virgin, virginal, virginity, Virgoan',
-		RootOrigin: 'visc-',
-		EnglishExamples: 'thick'
+		Root: 'viscer-',
+		MeaningInEnglish: 'internal organ',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'viscus, visceris',
+		EnglishExamples: 'eviscerate, visceral'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'viscum',
-		OriginLanguage: 'viscosity',
-		RootOrigin: 'viscer-',
-		EnglishExamples: 'internal organ'
+		Root: 'vit-',
+		MeaningInEnglish: 'life',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vita',
+		EnglishExamples: 'vital, vitality, vitamin'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'viscus, visceris',
-		OriginLanguage: 'eviscerate, visceral',
-		RootOrigin: 'vit-',
-		EnglishExamples: 'life'
+		Root: 'vitell-',
+		MeaningInEnglish: 'yolk',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vitellus',
+		EnglishExamples: 'vitellogenesis'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vita',
-		OriginLanguage: 'vital, vitality, vitamin',
-		RootOrigin: 'vitell-',
-		EnglishExamples: 'yolk'
+		Root: 'viti-',
+		MeaningInEnglish: 'fault',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vitium',
+		EnglishExamples: 'vice, vitiate, vicious, vituperate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vitellus',
-		OriginLanguage: 'vitellogenesis',
-		RootOrigin: 'viti-',
-		EnglishExamples: 'fault'
+		Root: 'vitr-',
+		MeaningInEnglish: 'glass',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vitrum',
+		EnglishExamples: 'vitreous, vitriol'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vitium',
-		OriginLanguage: 'vice, vitiate, vicious, vituperate',
-		RootOrigin: 'vitr-',
-		EnglishExamples: 'glass'
+		Root: 'viv-',
+		MeaningInEnglish: 'live',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vivere "to live", related to vita "life"',
+		EnglishExamples:
+			'convivial, revive, survive, viable, victual, vivacious, vivacity, vivid, vivisection'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vitrum',
-		OriginLanguage: 'vitreous, vitriol',
-		RootOrigin: 'viv-',
-		EnglishExamples: 'live'
+		Root: 'voc-',
+		MeaningInEnglish: 'call, voice',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vocare (to call), from vox "voice" (genitive vocis)',
+		EnglishExamples:
+			'advocacy, advocate, advocation, advocator, advocatory, advoke, advowson, avocation, avouch, avow, avowal, avowry, convocate, convocation, convocator, convoke, disavow, disavowal, equivocal, equivocate, equivocation, evocable, evocation, evocative, evocator, evoke, invocable, invocate, invocation, invocative, invocator, invoke, prevocational, provocate, provocateur, provocation, provocative, provocator, provoke, reavow, reinvoke, revocable, revocation, revoke, vocabulary, vocal, vocation, vocational, vocative, vociferous, voice, vouch, vouchee, voucher, vouchsafe'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vivere "to live", related to vita "life"',
-		OriginLanguage:
-			'convivial, revive, survive, viable, victual, vivacious, vivacity, vivid, vivisection',
-		RootOrigin: 'voc-',
-		EnglishExamples: 'call, voice'
+		Root: 'vol-',
+		MeaningInEnglish: 'fly',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'volare',
+		EnglishExamples:
+			'avolation, circumvolant, circumvolation, nonvolatile, volatile, volatility, volitant, volitation'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vocare (to call), from vox "voice" (genitive vocis)',
-		OriginLanguage:
-			'advocacy, advocate, advocation, advocator, advocatory, advoke, advowson, avocation, avouch, avow, avowal, avowry, convocate, convocation, convocator, convoke, disavow, disavowal, equivocal, equivocate, equivocation, evocable, evocation, evocative, evocator, evoke, invocable, invocate, invocation, invocative, invocator, invoke, prevocational, provocate, provocateur, provocation, provocative, provocator, provoke, reavow, reinvoke, revocable, revocation, revoke, vocabulary, vocal, vocation, vocational, vocative, vociferous, voice, vouch, vouchee, voucher, vouchsafe',
-		RootOrigin: 'vol-',
-		EnglishExamples: 'fly'
+		Root: 'vol-',
+		MeaningInEnglish: 'will',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'voluntas "will" from velle "to wish"',
+		EnglishExamples:
+			'benevolence, benevolent, involuntary, malevolence, malevolent, omnibenevolence, velleity, volitient, volition, volitional, volitive, voluntary, Voluntaryism, volunteer, voluptuary, voluptuous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'volare',
-		OriginLanguage:
-			'avolation, circumvolant, circumvolation, nonvolatile, volatile, volatility, volitant, volitation',
-		RootOrigin: 'vol-',
-		EnglishExamples: 'will'
+		Root: 'volv-, volut-',
+		MeaningInEnglish: 'roll',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'volvere, volutus',
+		EnglishExamples:
+			'advolution, archivolt, circumvolute, circumvolution, circumvolve, coevolution, coevolutionary, coevolve, convolute, convolution, devolve, evolve, involve, revolve, valve, vault, volte, voluble, volume, voluminous, volva, Volvox, volvulus, voussoir, vulva'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'voluntas "will" from velle "to wish"',
-		OriginLanguage:
-			'benevolence, benevolent, involuntary, malevolence, malevolent, omnibenevolence, velleity, volitient, volition, volitional, volitive, voluntary, Voluntaryism, volunteer, voluptuary, voluptuous',
-		RootOrigin: 'volv-, volut-',
-		EnglishExamples: 'roll'
+		Root: 'vom-',
+		MeaningInEnglish: 'discharge',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vomere',
+		EnglishExamples: 'vomit, vomition, vomitory, vomitus'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'volvere, volutus',
-		OriginLanguage:
-			'advolution, archivolt, circumvolute, circumvolution, circumvolve, coevolution, coevolutionary, coevolve, convolute, convolution, devolve, evolve, involve, revolve, valve, vault, volte, voluble, volume, voluminous, volva, Volvox, volvulus, voussoir, vulva',
-		RootOrigin: 'vom-',
-		EnglishExamples: 'discharge'
+		Root: 'vor-, vorac-',
+		MeaningInEnglish: 'swallow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vorare, vorax',
+		EnglishExamples:
+			'carnivore, carnivorous, devoration, devoré, devour, herbivore, herbivorous, locavore, omnivore, omnivorous, voracious, voracity, voraginous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vomere',
-		OriginLanguage: 'vomit, vomition, vomitory, vomitus',
-		RootOrigin: 'vor-, vorac-',
-		EnglishExamples: 'swallow'
+		Root: 'vov-, vot-',
+		MeaningInEnglish: 'vow',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vovere, votus',
+		EnglishExamples:
+			'devote, devotee, devotion, devotional, devout, devolve, devow, votary, vote, votive, vow'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vorare, vorax',
-		OriginLanguage:
-			'carnivore, carnivorous, devoration, devoré, devour, herbivore, herbivorous, locavore, omnivore, omnivorous, voracious, voracity, voraginous',
-		RootOrigin: 'vov-, vot-',
-		EnglishExamples: 'vow'
+		Root: 'vulg-',
+		MeaningInEnglish: 'crowd',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vulgus',
+		EnglishExamples: 'divulge, vulgarity, vulgate'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vovere, votus',
-		OriginLanguage:
-			'devote, devotee, devotion, devotional, devout, devolve, devow, votary, vote, votive, vow',
-		RootOrigin: 'vulg-',
-		EnglishExamples: 'crowd'
+		Root: 'vulner-',
+		MeaningInEnglish: 'wound',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vulnus, vulneris',
+		EnglishExamples: 'vulnerable'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vulgus',
-		OriginLanguage: 'divulge, vulgarity, vulgate',
-		RootOrigin: 'vulner-',
-		EnglishExamples: 'wound'
+		Root: 'vulp-',
+		MeaningInEnglish: 'fox',
+		OriginLanguage: 'Latin',
+		RootOrigin: 'vulpēs, vulpis',
+		EnglishExamples: 'vulpine'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vulnus, vulneris',
-		OriginLanguage: 'vulnerable',
-		RootOrigin: 'vulp-',
-		EnglishExamples: 'fox'
+		Root: 'xanth-[238]',
+		MeaningInEnglish: 'yellow',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξανθός (xanthós), ξανθότης (xanthótēs) "yellowness"',
+		EnglishExamples:
+			'axanthism, heteroxanthine, xanthan, xanthelasma, xanthic, xanthine, Xanthippe, xanthium, xanthochromia, xanthochromism, xanthogenic, Xanthoidea, xanthoma, xanthomatosis, xanthophobia, xanthophore, xanthophyll, xanthopsia, xanthopterin, xanthosis, xanthous'
 	},
 
 	{
-		Root: 'Latin',
-		MeaningInEnglish: 'vulpēs, vulpis',
-		OriginLanguage: 'vulpine',
-		RootOrigin: 'xanth-[238]',
-		EnglishExamples: 'yellow'
+		Root: 'xe-[239]',
+		MeaningInEnglish: 'scrape, shave',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξεῖν/ξέειν (xéein), ξέσις (xésis), ξέσμα (xésma)',
+		EnglishExamples: 'arthroxesis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξανθός (xanthós), ξανθότης (xanthótēs) "yellowness"',
-		OriginLanguage:
-			'axanthism, heteroxanthine, xanthan, xanthelasma, xanthic, xanthine, Xanthippe, xanthium, xanthochromia, xanthochromism, xanthogenic, Xanthoidea, xanthoma, xanthomatosis, xanthophobia, xanthophore, xanthophyll, xanthopsia, xanthopterin, xanthosis, xanthous',
-		RootOrigin: 'xe-[239]',
-		EnglishExamples: 'scrape, shave'
+		Root: 'xei-, xi-[240]',
+		MeaningInEnglish: 'ks',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'Ξ, ξ, ξεῖ/ξῖ',
+		EnglishExamples: 'xi'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξεῖν/ξέειν (xéein), ξέσις (xésis), ξέσμα (xésma)',
-		OriginLanguage: 'arthroxesis',
-		RootOrigin: 'xei-, xi-[240]',
-		EnglishExamples: 'ks'
+		Root: 'xen-[241]',
+		MeaningInEnglish: 'foreign',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξένϝος, ξένος (xénos), ξενικός, ξενία (xenía)',
+		EnglishExamples:
+			'axenic, Xenarthra, xenia, xenic, xenobiotic, xenoblast, xenogamy, xenograft, xenolith, xenology, xenon, xenophobia'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'Ξ, ξ, ξεῖ/ξῖ',
-		OriginLanguage: 'xi',
-		RootOrigin: 'xen-[241]',
-		EnglishExamples: 'foreign'
+		Root: 'xer-[242]',
+		MeaningInEnglish: 'dry',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξηρός (xērós), ξηρότης (xērótēs)',
+		EnglishExamples:
+			'elixir, xerasia, xerochilia, xeroderma, xerography, xeromorph, xerophagy, xerophile, xerophthalmia, xerophyte, xerosis'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξένϝος, ξένος (xénos), ξενικός, ξενία (xenía)',
-		OriginLanguage:
-			'axenic, Xenarthra, xenia, xenic, xenobiotic, xenoblast, xenogamy, xenograft, xenolith, xenology, xenon, xenophobia',
-		RootOrigin: 'xer-[242]',
-		EnglishExamples: 'dry'
+		Root: 'xiph-[243]',
+		MeaningInEnglish: 'sword',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξίφος (xíphos)',
+		EnglishExamples: 'xiphisternum, xiphoid, xiphopagus, xiphophyllous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξηρός (xērós), ξηρότης (xērótēs)',
-		OriginLanguage:
-			'elixir, xerasia, xerochilia, xeroderma, xerography, xeromorph, xerophagy, xerophile, xerophthalmia, xerophyte, xerosis',
-		RootOrigin: 'xiph-[243]',
-		EnglishExamples: 'sword'
+		Root: 'xyl-[244]',
+		MeaningInEnglish: 'wood',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ξύλον (xúlon)',
+		EnglishExamples:
+			'metaxylem, protoxylem, xylem, xylene, xylitol, xylocarp, Xylocarpus, xyloid, xylophagous, xylophobia, xylophone, xylostroma'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξίφος (xíphos)',
-		OriginLanguage: 'xiphisternum, xiphoid, xiphopagus, xiphophyllous',
-		RootOrigin: 'xyl-[244]',
-		EnglishExamples: 'wood'
+		Root: 'ze-[245]',
+		MeaningInEnglish: 'boil',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζεῖν (zeîn), ζεστός (zestós), ζέσις, ζέμα, ζέματος (zéma, zématos)',
+		EnglishExamples: 'eczema, eczematous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ξύλον (xúlon)',
-		OriginLanguage:
-			'metaxylem, protoxylem, xylem, xylene, xylitol, xylocarp, Xylocarpus, xyloid, xylophagous, xylophobia, xylophone, xylostroma',
-		RootOrigin: 'ze-[245]',
-		EnglishExamples: 'boil'
+		Root: 'zel-[246]',
+		MeaningInEnglish: 'jealousy, zeal',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζῆλος (zêlos), ζηλωτής, ζηλωτοῦ (zēlōtḗs)',
+		EnglishExamples: 'zeal, zealot, zealous'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζεῖν (zeîn), ζεστός (zestós), ζέσις, ζέμα, ζέματος (zéma, zématos)',
-		OriginLanguage: 'eczema, eczematous',
-		RootOrigin: 'zel-[246]',
-		EnglishExamples: 'jealousy, zeal'
+		Root: 'zephyr-[247]',
+		MeaningInEnglish: 'west wind',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'Ζέφυρος (Zéphuros)',
+		EnglishExamples: 'zephyr'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζῆλος (zêlos), ζηλωτής, ζηλωτοῦ (zēlōtḗs)',
-		OriginLanguage: 'zeal, zealot, zealous',
-		RootOrigin: 'zephyr-[247]',
-		EnglishExamples: 'west wind'
+		Root: 'zet-[248]',
+		MeaningInEnglish: 'Z, z',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'Ζ, ζ, ζῆτα (zêta)',
+		EnglishExamples: 'zed, zeta'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'Ζέφυρος (Zéphuros)',
-		OriginLanguage: 'zephyr',
-		RootOrigin: 'zet-[248]',
-		EnglishExamples: 'Z, z'
+		Root: 'zete-[249]',
+		MeaningInEnglish: 'seek',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζητεῖν (zēteîn), ζητητός (zētētós), ζητητικός (zētētikós)',
+		EnglishExamples: 'zetetic'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'Ζ, ζ, ζῆτα (zêta)',
-		OriginLanguage: 'zed, zeta',
-		RootOrigin: 'zete-[249]',
-		EnglishExamples: 'seek'
+		Root: 'zizyph-[250]',
+		MeaningInEnglish: 'jujube',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζίζυφον (zízuphon)',
+		EnglishExamples: 'Ziziphus'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζητεῖν (zēteîn), ζητητός (zētētós), ζητητικός (zētētikós)',
-		OriginLanguage: 'zetetic',
-		RootOrigin: 'zizyph-[250]',
-		EnglishExamples: 'jujube'
+		Root: 'zo-[251]',
+		MeaningInEnglish: 'animal, living being',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζῶ, ζῷον (zôion)',
+		EnglishExamples:
+			'anthrozoology, azoic, azotemia, cryptozoology, ectozoon, entozoon, epizoon, Eumetazoa, Mesozoic, Metazoa, protozoa, zoanthropy, zodiac, zoic, zoo, zoochore, zoogamete, zoogeography, zooid/zoöid, zoologic, zoology, zoomorphism, zoon, zoonosis, zoophagy, zoopoetics, zoospore, zootoxin, zooxanthella'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζίζυφον (zízuphon)',
-		OriginLanguage: 'Ziziphus',
-		RootOrigin: 'zo-[251]',
-		EnglishExamples: 'animal, living being'
+		Root: 'zon-[252]',
+		MeaningInEnglish: 'belt, girdle',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζωννύναι (zōnnúnai), ζώνη (zṓnē), ζωστήρ (zōstḗr), ζῶστρον',
+		EnglishExamples: 'phylozone, zonal, zone, zonohedron, zonotope, zoster'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζῶ, ζῷον (zôion)',
-		OriginLanguage:
-			'anthrozoology, azoic, azotemia, cryptozoology, ectozoon, entozoon, epizoon, Eumetazoa, Mesozoic, Metazoa, protozoa, zoanthropy, zodiac, zoic, zoo, zoochore, zoogamete, zoogeography, zooid/zoöid, zoologic, zoology, zoomorphism, zoon, zoonosis, zoophagy, zoopoetics, zoospore, zootoxin, zooxanthella',
-		RootOrigin: 'zon-[252]',
-		EnglishExamples: 'belt, girdle'
+		Root: 'zyg-[253] (ΖΥΓ)[254]',
+		MeaningInEnglish: 'yoke',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζευγνύναι (zeugnúnai), ζεῦγμα (zeûgma), ζυγωτός (zugōtós), ζυγός, ζυγόν (zugón)',
+		EnglishExamples:
+			'azygous, diazeugma, dizygotic, heterozygote, heterozygous, hyperzeuxis, hypozeugma, hypozeuxis, mesozeugma, monozygotic, prozeugma, synezeugmenon, zeugitae, zeugma, zygoma, zygomorphic, zygomorphism, zygomycosis, zygomycota, zygon, Zygoptera, zygote'
 	},
 
 	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζωννύναι (zōnnúnai), ζώνη (zṓnē), ζωστήρ (zōstḗr), ζῶστρον',
-		OriginLanguage: 'phylozone, zonal, zone, zonohedron, zonotope, zoster',
-		RootOrigin: 'zyg-[253] (ΖΥΓ)[254]',
-		EnglishExamples: 'yoke'
-	},
-
-	{
-		Root: 'Greek',
-		MeaningInEnglish:
-			'ζευγνύναι (zeugnúnai), ζεῦγμα (zeûgma), ζυγωτός (zugōtós), ζυγός, ζυγόν (zugón)',
-		OriginLanguage:
-			'azygous, diazeugma, dizygotic, heterozygote, heterozygous, hyperzeuxis, hypozeugma, hypozeuxis, mesozeugma, monozygotic, prozeugma, synezeugmenon, zeugitae, zeugma, zygoma, zygomorphic, zygomorphism, zygomycosis, zygomycota, zygon, Zygoptera, zygote',
-		RootOrigin: 'zym-[255]',
-		EnglishExamples: 'ferment'
-	},
-
-	{
-		Root: 'Greek',
-		MeaningInEnglish: 'ζέω, ζύμη (zúmē)',
-		OriginLanguage:
-			'alloenzyme, azyme, azymite, enzyme, lysozyme, microzyme, zymase, zyme, zymogen, zymology, zymolysis, zymosis, zymotic, zymurgy',
-		RootOrigin: '',
-		EnglishExamples: ''
+		Root: 'zym-[255]',
+		MeaningInEnglish: 'ferment',
+		OriginLanguage: 'Greek',
+		RootOrigin: 'ζέω, ζύμη (zúmē)',
+		EnglishExamples:
+			'alloenzyme, azyme, azymite, enzyme, lysozyme, microzyme, zymase, zyme, zymogen, zymology, zymolysis, zymosis, zymotic, zymurgy'
 	}
 ];
