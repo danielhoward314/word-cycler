@@ -3558,5 +3558,2205 @@ export const colors = [
 	{
 		Text: 'Zomp',
 		Hex: '#39A78E'
-	}
+	},
+	{
+		Text: "RED",
+		Hex: "#D0312D"
+	},
+	{
+		Text: "CHERRY RED",
+		Hex: "#990F02"
+	},
+	{
+		Text: "ROSE",
+		Hex: "#E3242B"
+	},
+	{
+		Text: "JAM",
+		Hex: "#60100B"
+	},
+	{
+		Text: "MERLOT",
+		Hex: "#541E1B"
+	},
+	{
+		Text: "GARNET",
+		Hex: "#610C04"
+	},
+	{
+		Text: "CRIMSON",
+		Hex: "#B90E0A"
+	},
+	{
+		Text: "RUBY",
+		Hex: "#900603"
+	},
+	{
+		Text: "SCARLET",
+		Hex: "#900D09"
+	},
+	{
+		Text: "WINE",
+		Hex: "#4E0707"
+	},
+	{
+		Text: "BRICK",
+		Hex: "#7E2811"
+	},
+	{
+		Text: "APPLE",
+		Hex: "#A91B0D"
+	},
+	{
+		Text: "MAHOGANY",
+		Hex: "#420C09"
+	},
+	{
+		Text: "BLOOD",
+		Hex: "#710C04"
+	},
+	{
+		Text: "SANGRIA RED",
+		Hex: "#5E1916"
+	},
+	{
+		Text: "BERRY",
+		Hex: "#7A1712"
+	},
+	{
+		Text: "CURRANT",
+		Hex: "#680C07"
+	},
+	{
+		Text: "BLUSH RED",
+		Hex: "#BC544B"
+	},
+	{
+		Text: "CANDY",
+		Hex: "#D21404"
+	},
+	{
+		Text: "LIPSTICK",
+		Hex: "#9B1003"
+	},
+	{
+		Text: "CARMINE",
+		Hex: "#960018"
+	},
+	{
+		Text: "PERSIAN RED",
+		Hex: "#CA3433"
+	},
+	{
+		Text: "VERMILION",
+		Hex: "#7E191B"
+	},
+	{
+		Text: "Imperial Red",
+		Hex: "#ED2939"
+	},
+	{
+		Text: "Indian Red",
+		Hex: "#CD5C5C"
+	},
+	{
+		Text: "Chili Red",
+		Hex: "#C21807"
+	},
+	{
+		Text: "Maroon",
+		Hex: "#800000"
+	},
+	{
+		Text: "Fire Brick",
+		Hex: "#B22222"
+	},
+	{
+		Text: "Desire",
+		Hex: "#EA3C53"
+	},
+	{
+		Text: "Raspberry",
+		Hex: "#D21F3C"
+	},
+	{
+		Text: "Candy Apple",
+		Hex: "#FF0800"
+	},
+	{
+		Text: "Hibiscus",
+		Hex: "#B43757"
+	},
+	{
+		Text: "U.S. Flag",
+		Hex: "#BF0A30"
+	},
+	{
+		Text: "Ferrari",
+		Hex: "#FF2800"
+	},
+	{
+		Text: "Burgundy",
+		Hex: "#8D021F"
+	},
+	{
+		Text: "Dark Red",
+		Hex: "#8B0000"
+	},
+	{
+		Text: "Prismatic Red",
+		Hex: "#D03D33"
+	},
+	{
+		Text: "49ers Red",
+		Hex: "#AA0000"
+	},
+	{
+		Text: "Cardinals Red",
+		Hex: "#BD2031"
+	},
+	{
+		Text: "Ajax Red",
+		Hex: "#D2122E"
+	},
+	{
+		Text: "Alabama Crimson",
+		Hex: "#9E1B32"
+	},
+	{
+		Text: "Alizarin Crimson",
+		Hex: "#E32636"
+	},
+	{
+		Text: "Amaranth Red",
+		Hex: "#F4364C"
+	},
+	{
+		Text: "American Rose",
+		Hex: "#FF033E"
+	},
+	{
+		Text: "Angels Red",
+		Hex: "#BA0021"
+	},
+	{
+		Text: "Arsenal Red",
+		Hex: "#DB0007"
+	},
+	{
+		Text: "Auburn Red",
+		Hex: "#A52A2A"
+	},
+	{
+		Text: "BU Scarlet",
+		Hex: "#CC0000"
+	},
+	{
+		Text: "Bills Red",
+		Hex: "#C60C30"
+	},
+	{
+		Text: "Bittersweet Shimmer",
+		Hex: "#BF4F51"
+	},
+	{
+		Text: "ORANGE",
+		Hex: "#ED7014"
+	},
+	{
+		Text: "TANGERINE",
+		Hex: "#FA8128"
+	},
+	{
+		Text: "MERIGOLD",
+		Hex: "#FCAE1E"
+	},
+	{
+		Text: "CIDER",
+		Hex: "#B56727"
+	},
+	{
+		Text: "RUST",
+		Hex: "#8D4004"
+	},
+	{
+		Text: "GINGER",
+		Hex: "#BE5504"
+	},
+	{
+		Text: "TIGER",
+		Hex: "#FC6A03"
+	},
+	{
+		Text: "FIRE",
+		Hex: "#DD571C"
+	},
+	{
+		Text: "BRONZE",
+		Hex: "#B2560D"
+	},
+	{
+		Text: "CANTALOUPE",
+		Hex: "#FDA172"
+	},
+	{
+		Text: "APRICOT",
+		Hex: "#ED820E"
+	},
+	{
+		Text: "CLAY",
+		Hex: "#80400B"
+	},
+	{
+		Text: "HONEY",
+		Hex: "#EC9706"
+	},
+	{
+		Text: "CARROT",
+		Hex: "#ED7117"
+	},
+	{
+		Text: "SQUASH",
+		Hex: "#C95B0C"
+	},
+	{
+		Text: "SPICE",
+		Hex: "#7A3803"
+	},
+	{
+		Text: "MARMALADE",
+		Hex: "#D16002"
+	},
+	{
+		Text: "AMBER",
+		Hex: "#893101"
+	},
+	{
+		Text: "SANDSTONE",
+		Hex: "#D67229"
+	},
+	{
+		Text: "YAM",
+		Hex: "#CC5801"
+	},
+	{
+		Text: "TANGELO",
+		Hex: "#FC4C02"
+	},
+	{
+		Text: "FLAME",
+		Hex: "#E34A27"
+	},
+	{
+		Text: "FULVOUS",
+		Hex: "#E68000"
+	},
+	{
+		Text: "Dark Orange",
+		Hex: "#FF8C00"
+	},
+	{
+		Text: "Vivid Orange",
+		Hex: "#FF5E0E"
+	},
+	{
+		Text: "Orange-Red",
+		Hex: "#FF4500"
+	},
+	{
+		Text: "Metallic Orange",
+		Hex: "#E26310"
+	},
+	{
+		Text: "Pumpkin",
+		Hex: "#F5761A"
+	},
+	{
+		Text: "Smashed Pumpkin",
+		Hex: "#FD673A"
+	},
+	{
+		Text: "International Orange",
+		Hex: "#FF4F00"
+	},
+	{
+		Text: "Spanish Orange",
+		Hex: "#F06105"
+	},
+	{
+		Text: "Princeton Orange",
+		Hex: "#FF8F00"
+	},
+	{
+		Text: "Deep Saffron",
+		Hex: "#FFA52C"
+	},
+	{
+		Text: "Alloy Orange",
+		Hex: "#C35214"
+	},
+	{
+		Text: "Halloween Orange",
+		Hex: "#EE5921"
+	},
+	{
+		Text: "Gamboge",
+		Hex: "#E89611"
+	},
+	{
+		Text: "Medium Vermilion",
+		Hex: "#CF5B2E"
+	},
+	{
+		Text: "Pastel Orange",
+		Hex: "#FEBA4F"
+	},
+	{
+		Text: "Philippine Orange",
+		Hex: "#F26E01"
+	},
+	{
+		Text: "Royal Orange",
+		Hex: "#FF9944"
+	},
+	{
+		Text: "Coral",
+		Hex: "#FF7F50"
+	},
+	{
+		Text: "Dark Coral",
+		Hex: "#D75341"
+	},
+	{
+		Text: "Cadmium Orange",
+		Hex: "#E6812F"
+	},
+	{
+		Text: "Rajah",
+		Hex: "#FABA5F"
+	},
+	{
+		Text: "Mango Tango",
+		Hex: "#FB8842"
+	},
+	{
+		Text: "Orange Peel",
+		Hex: "#FF9F00"
+	},
+	{
+		Text: "Vivid Tangelo",
+		Hex: "#EC7625"
+	},
+	{
+		Text: "Persimmon",
+		Hex: "#EC5800"
+	},
+	{
+		Text: "Browns Orange",
+		Hex: "#FF3C00"
+	},
+	{
+		Text: "Burnt Orange",
+		Hex: "#CC5500"
+	},
+	{
+		Text: "TAN",
+		Hex: "#E6DBAC"
+	},
+	{
+		Text: "BEIGE",
+		Hex: "#EEDC9A"
+	},
+	{
+		Text: "MACAROON",
+		Hex: "#F9E076"
+	},
+	{
+		Text: "HAZEL WOOD",
+		Hex: "#C9BB8E"
+	},
+	{
+		Text: "GRANOLA",
+		Hex: "#D6B85A"
+	},
+	{
+		Text: "OAT",
+		Hex: "#DFC98A"
+	},
+	{
+		Text: "EGG NOG",
+		Hex: "#FAE29C"
+	},
+	{
+		Text: "FAWN",
+		Hex: "#C8A951"
+	},
+	{
+		Text: "SUGAR COOKIE",
+		Hex: "#F3EAAF"
+	},
+	{
+		Text: "SAND",
+		Hex: "#D8B863"
+	},
+	{
+		Text: "SEPIA",
+		Hex: "#E3B778"
+	},
+	{
+		Text: "LATTE",
+		Hex: "#E7C27D"
+	},
+	{
+		Text: "OYSTER",
+		Hex: "#DCD7A0"
+	},
+	{
+		Text: "BISCOTTI",
+		Hex: "#E3C565"
+	},
+	{
+		Text: "PARMESAN",
+		Hex: "#FDE992"
+	},
+	{
+		Text: "HAZELNUT",
+		Hex: "#BDA55D"
+	},
+	{
+		Text: "SANDCASTLE",
+		Hex: "#DAC17C"
+	},
+	{
+		Text: "BUTTERMILK",
+		Hex: "#FDEFB2"
+	},
+	{
+		Text: "SAND DOLLAR",
+		Hex: "#EDE8BA"
+	},
+	{
+		Text: "SHORTBREAD",
+		Hex: "#FBE790"
+	},
+	{
+		Text: "CITRINE",
+		Hex: "#E4D00A"
+	},
+	{
+		Text: "FLAX",
+		Hex: "#EEDC82"
+	},
+	{
+		Text: "XANTHIC",
+		Hex: "#EEED09"
+	},
+	{
+		Text: "Sunshine Yellow",
+		Hex: "#FFFD37"
+	},
+	{
+		Text: "Canary Yellow",
+		Hex: "#FFEF00"
+	},
+	{
+		Text: "Lemon Yellow",
+		Hex: "#FDFF00"
+	},
+	{
+		Text: "Pale Goldenrod",
+		Hex: "#EEE8AA"
+	},
+	{
+		Text: "Light Khaki",
+		Hex: "#F0E68C"
+	},
+	{
+		Text: "Clover Lime",
+		Hex: "#FCE883"
+	},
+	{
+		Text: "Royal Yellow",
+		Hex: "#FADA5E"
+	},
+	{
+		Text: "Gold",
+		Hex: "#FFD700"
+	},
+	{
+		Text: "Safety Yellow",
+		Hex: "#EED202"
+	},
+	{
+		Text: "Laguna",
+		Hex: "#F8E473"
+	},
+	{
+		Text: "Bright Yellow",
+		Hex: "#FFFD01"
+	},
+	{
+		Text: "Greenish Yellow",
+		Hex: "#EEEA62"
+	},
+	{
+		Text: "Sunflower",
+		Hex: "#FFDA03"
+	},
+	{
+		Text: "Bumblebee",
+		Hex: "#FCE205"
+	},
+	{
+		Text: "Butter",
+		Hex: "#FFFD74"
+	},
+	{
+		Text: "Yellow Tan",
+		Hex: "#FFE36E"
+	},
+	{
+		Text: "Banana",
+		Hex: "#FFE135"
+	},
+	{
+		Text: "Tuscany",
+		Hex: "#FCD12A"
+	},
+	{
+		Text: "Dijon",
+		Hex: "#C49102"
+	},
+	{
+		Text: "Mustard",
+		Hex: "#FEDC56"
+	},
+	{
+		Text: "Maximum Yellow",
+		Hex: "#FAFA37"
+	},
+	{
+		Text: "Mellow Yellow",
+		Hex: "#F8DE7E"
+	},
+	{
+		Text: "Unmellow Yellow",
+		Hex: "#FFFF66"
+	},
+	{
+		Text: "Lemon Curry",
+		Hex: "#CCA01D"
+	},
+	{
+		Text: "Aureolin",
+		Hex: "#FDEE00"
+	},
+	{
+		Text: "Electric Yellow",
+		Hex: "#FFFF33"
+	},
+	{
+		Text: "Pastel Yellow",
+		Hex: "#FFFE71"
+	},
+	{
+		Text: "GREEN",
+		Hex: "#3CB043"
+	},
+	{
+		Text: "CHARTREUSE",
+		Hex: "#B0FC38"
+	},
+	{
+		Text: "JUNIPER",
+		Hex: "#3A5311"
+	},
+	{
+		Text: "SAGE",
+		Hex: "#728C69"
+	},
+	{
+		Text: "LIME",
+		Hex: "#AEF359"
+	},
+	{
+		Text: "FERN",
+		Hex: "#5DBB63"
+	},
+	{
+		Text: "OLIVE",
+		Hex: "#98BF64"
+	},
+	{
+		Text: "EMERALD",
+		Hex: "#028A0F"
+	},
+	{
+		Text: "PEAR",
+		Hex: "#74B72E"
+	},
+	{
+		Text: "MOSS",
+		Hex: "#466D1D"
+	},
+	{
+		Text: "SHAMROCK",
+		Hex: "#03AC13"
+	},
+	{
+		Text: "SEAFOAM",
+		Hex: "#3DED97"
+	},
+	{
+		Text: "PINE",
+		Hex: "#234F1E"
+	},
+	{
+		Text: "PARAKEET",
+		Hex: "#03C04A"
+	},
+	{
+		Text: "MINT",
+		Hex: "#99EDC3"
+	},
+	{
+		Text: "SEAWEED",
+		Hex: "#354A21"
+	},
+	{
+		Text: "PICKLE",
+		Hex: "#597D35"
+	},
+	{
+		Text: "PISTACHIO",
+		Hex: "#B2D3C2"
+	},
+	{
+		Text: "BASIL",
+		Hex: "#32612D"
+	},
+	{
+		Text: "CROCODILE",
+		Hex: "#607D3B"
+	},
+	{
+		Text: "AMAZON",
+		Hex: "#3B7A57"
+	},
+	{
+		Text: "AVOCADO",
+		Hex: "#568203"
+	},
+	{
+		Text: "CELADON",
+		Hex: "#ACE1AF"
+	},
+	{
+		Text: "Forest green",
+		Hex: "#0B6623"
+	},
+	{
+		Text: "Hunter green",
+		Hex: "#3F704D"
+	},
+	{
+		Text: "Artichoke green",
+		Hex: "#8F9779"
+	},
+	{
+		Text: "Jungle green",
+		Hex: "#29AB87"
+	},
+	{
+		Text: "Tropical Rainforest",
+		Hex: "#00755E"
+	},
+	{
+		Text: "Persian green",
+		Hex: "#00A693"
+	},
+	{
+		Text: "Sea green",
+		Hex: "#2E8B57"
+	},
+	{
+		Text: "Jade green",
+		Hex: "#00A86B"
+	},
+	{
+		Text: "Laurel green",
+		Hex: "#A9BA9D"
+	},
+	{
+		Text: "Army green",
+		Hex: "#4B5320"
+	},
+	{
+		Text: "Kelly green",
+		Hex: "#4CBB17"
+	},
+	{
+		Text: "Paris green",
+		Hex: "#50C878"
+	},
+	{
+		Text: "Pakistan green",
+		Hex: "#006600"
+	},
+	{
+		Text: "Spring",
+		Hex: "#00F0A8"
+	},
+	{
+		Text: "Chateau",
+		Hex: "#48A860"
+	},
+	{
+		Text: "Swamp",
+		Hex: "#A8C090"
+	},
+	{
+		Text: "Mantis",
+		Hex: "#74C365"
+	},
+	{
+		Text: "Fun",
+		Hex: "#007848"
+	},
+	{
+		Text: "Viridian",
+		Hex: "#609078"
+	},
+	{
+		Text: "Reseda Green",
+		Hex: "#6C7C59"
+	},
+	{
+		Text: "Verdun",
+		Hex: "#487800"
+	},
+	{
+		Text: "Castleton Green",
+		Hex: "#00563B"
+	},
+	{
+		Text: "Bottle Green",
+		Hex: "#006A4E"
+	},
+	{
+		Text: "Cadmium Green",
+		Hex: "#006B3C"
+	},
+	{
+		Text: "Camouflage Green",
+		Hex: "#78866B"
+	},
+	{
+		Text: "Dollar Bill",
+		Hex: "#85BB65"
+	},
+	{
+		Text: "Inchworm",
+		Hex: "#B2EC5D"
+	},
+	{
+		Text: "BLUE",
+		Hex: "#3944BC"
+	},
+	{
+		Text: "SLATE",
+		Hex: "#757C88"
+	},
+	{
+		Text: "SKY",
+		Hex: "#63C5DA"
+	},
+	{
+		Text: "NAVY",
+		Hex: "#0A1172"
+	},
+	{
+		Text: "INDIGO",
+		Hex: "#281E5D"
+	},
+	{
+		Text: "COBALT",
+		Hex: "#1338BE"
+	},
+	{
+		Text: "TEAL",
+		Hex: "#48AAAD"
+	},
+	{
+		Text: "OCEAN",
+		Hex: "#016064"
+	},
+	{
+		Text: "PEACOCK",
+		Hex: "#022D36"
+	},
+	{
+		Text: "AZURE",
+		Hex: "#1520A6"
+	},
+	{
+		Text: "CERULEAN",
+		Hex: "#0492C2"
+	},
+	{
+		Text: "LAPIS",
+		Hex: "#2832C2"
+	},
+	{
+		Text: "SPRUCE",
+		Hex: "#2C3E4C"
+	},
+	{
+		Text: "STONE",
+		Hex: "#59788E"
+	},
+	{
+		Text: "AEGEAN",
+		Hex: "#1F456E"
+	},
+	{
+		Text: "BLUEBERRY",
+		Hex: "#241571"
+	},
+	{
+		Text: "DENIM",
+		Hex: "#151E3D"
+	},
+	{
+		Text: "ADMIRAL",
+		Hex: "#051094"
+	},
+	{
+		Text: "SAPPHIRE",
+		Hex: "#52B2BF"
+	},
+	{
+		Text: "ARCTIC",
+		Hex: "#82EEFD"
+	},
+	{
+		Text: "TURQUOISE",
+		Hex: "#40E0D0"
+	},
+	{
+		Text: "STEEL",
+		Hex: "#4682B4"
+	},
+	{
+		Text: "B'DAZZLED",
+		Hex: "#2E5894"
+	},
+	{
+		Text: "Powder blue",
+		Hex: "#B0E0E6"
+	},
+	{
+		Text: "US Air Force Academy blue",
+		Hex: "#004F98"
+	},
+	{
+		Text: "Baby blue",
+		Hex: "#89CFF0"
+	},
+	{
+		Text: "Beau blue",
+		Hex: "#BCD4E6"
+	},
+	{
+		Text: "Little Boy blue",
+		Hex: "#6CA0DC"
+	},
+	{
+		Text: "Tiffany blue",
+		Hex: "#81D8D0"
+	},
+	{
+		Text: "Carolina blue",
+		Hex: "#4B9CD3"
+	},
+	{
+		Text: "Turkish blue",
+		Hex: "#4F97A3"
+	},
+	{
+		Text: "Maya blue",
+		Hex: "#73C2FB"
+	},
+	{
+		Text: "Cornflower blue",
+		Hex: "#6495ED"
+	},
+	{
+		Text: "Blue Sapphire",
+		Hex: "#126180"
+	},
+	{
+		Text: "Egyptian blue",
+		Hex: "#1034A6"
+	},
+	{
+		Text: "Yale blue",
+		Hex: "#00356B"
+	},
+	{
+		Text: "Space Cadet",
+		Hex: "#1D2951"
+	},
+	{
+		Text: "Imperial blue",
+		Hex: "#005A92"
+	},
+	{
+		Text: "Ruddy blue",
+		Hex: "#76ABDF"
+	},
+	{
+		Text: "Air Superiority Blue",
+		Hex: "#72A0C1"
+	},
+	{
+		Text: "Aquamarine Blue",
+		Hex: "#6BCAE2"
+	},
+	{
+		Text: "Argentina Blue",
+		Hex: "#6CB4EE"
+	},
+	{
+		Text: "Astros Navy",
+		Hex: "#002D62"
+	},
+	{
+		Text: "Bayern Blue",
+		Hex: "#0066B2"
+	},
+	{
+		Text: "Berry Blue",
+		Hex: "#4F86F7"
+	},
+	{
+		Text: "Blue Yonder",
+		Hex: "#5072A7"
+	},
+	{
+		Text: "Bleu de France",
+		Hex: "#318CE7"
+	},
+	{
+		Text: "Blue-Gray",
+		Hex: "#6699CC"
+	},
+	{
+		Text: "Boeing Blue",
+		Hex: "#0039A6"
+	},
+	{
+		Text: "Braves Navy",
+		Hex: "#13274F"
+	},
+	{
+		Text: "PURPLE",
+		Hex: "#A32CC4"
+	},
+	{
+		Text: "MAUVE",
+		Hex: "#7A4988"
+	},
+	{
+		Text: "DARK VIOLET",
+		Hex: "#710193"
+	},
+	{
+		Text: "BOYSENBERRY",
+		Hex: "#630436"
+	},
+	{
+		Text: "ELECTRIC LAVENDER",
+		Hex: "#E39FF6"
+	},
+	{
+		Text: "PLUM",
+		Hex: "#601A35"
+	},
+	{
+		Text: "STRONG MAGENTA",
+		Hex: "#A1045A"
+	},
+	{
+		Text: "DEEP LILAC",
+		Hex: "#B65FCF"
+	},
+	{
+		Text: "GRAPE",
+		Hex: "#663046"
+	},
+	{
+		Text: "ROYAL PERIWINKLE",
+		Hex: "#BE93D4"
+	},
+	{
+		Text: "SANGRIA PURPLE",
+		Hex: "#4D0F28"
+	},
+	{
+		Text: "EGGPLANT",
+		Hex: "#311432"
+	},
+	{
+		Text: "JAZZBERRY JAM",
+		Hex: "#67032F"
+	},
+	{
+		Text: "IRIS",
+		Hex: "#9867C5"
+	},
+	{
+		Text: "HEATHER",
+		Hex: "#9E7BB5"
+	},
+	{
+		Text: "AMETHYST",
+		Hex: "#A45EE5"
+	},
+	{
+		Text: "RAISIN",
+		Hex: "#290916"
+	},
+	{
+		Text: "MEDIUM ORCHID",
+		Hex: "#AF69EF"
+	},
+	{
+		Text: "DARK MULBERRY",
+		Hex: "#4C0121"
+	},
+	{
+		Text: "DEEP WINE",
+		Hex: "#2C041C"
+	},
+	{
+		Text: "THISTLE",
+		Hex: "#D8BFD8"
+	},
+	{
+		Text: "ORCHID",
+		Hex: "#DA70D6"
+	},
+	{
+		Text: "ELECTRIC VIOLET",
+		Hex: "#8F00FF"
+	},
+	{
+		Text: "Medium Purple",
+		Hex: "#9370DB"
+	},
+	{
+		Text: "Dark Orchid",
+		Hex: "#9932CC"
+	},
+	{
+		Text: "Dark Magenta",
+		Hex: "#8B008B"
+	},
+	{
+		Text: "Veronica",
+		Hex: "#A020F0"
+	},
+	{
+		Text: "Heliotrope",
+		Hex: "#DF73FF"
+	},
+	{
+		Text: "Purpureus",
+		Hex: "#9A4EAE"
+	},
+	{
+		Text: "Northwestern Purple",
+		Hex: "#4E2A84"
+	},
+	{
+		Text: "KSU Purple",
+		Hex: "#512888"
+	},
+	{
+		Text: "Pomp and Power",
+		Hex: "#86608E"
+	},
+	{
+		Text: "Mardi Gras",
+		Hex: "#880085"
+	},
+	{
+		Text: "Eminence",
+		Hex: "#6C3082"
+	},
+	{
+		Text: "Pansy Purple",
+		Hex: "#78184A"
+	},
+	{
+		Text: "Palatinate",
+		Hex: "#72246C"
+	},
+	{
+		Text: "Dark Purple",
+		Hex: "#301934"
+	},
+	{
+		Text: "Byzantium",
+		Hex: "#702963"
+	},
+	{
+		Text: "English Violet",
+		Hex: "#563C5C"
+	},
+	{
+		Text: "Affair",
+		Hex: "#6F4685"
+	},
+	{
+		Text: "Long Distance",
+		Hex: "#6F456E"
+	},
+	{
+		Text: "Prince Charming",
+		Hex: "#493F5E"
+	},
+	{
+		Text: "Lipstick Stain",
+		Hex: "#8E4785"
+	},
+	{
+		Text: "Pompadour",
+		Hex: "#720058"
+	},
+	{
+		Text: "Grape Color",
+		Hex: "#6F2DA8"
+	},
+	{
+		Text: "Pizza Edge",
+		Hex: "#9A2CA0"
+	},
+	{
+		Text: "Tyrian Purple",
+		Hex: "#66023C"
+	},
+	{
+		Text: "Ultra Violet",
+		Hex: "#645394"
+	},
+	{
+		Text: "Electric Purple",
+		Hex: "#BF00FF"
+	},
+	{
+		Text: "Studio",
+		Hex: "#7851A9"
+	},
+	{
+		Text: "PINK",
+		Hex: "#F699CD"
+	},
+	{
+		Text: "ROSE",
+		Hex: "#FC94AF"
+	},
+	{
+		Text: "FRENCH FUCHSIA",
+		Hex: "#FC46AA"
+	},
+	{
+		Text: "PUNCH",
+		Hex: "#F25278"
+	},
+	{
+		Text: "BLUSH PINK",
+		Hex: "#FEC5E5"
+	},
+	{
+		Text: "WATERMELON",
+		Hex: "#FE7F9C"
+	},
+	{
+		Text: "FLAMINGO",
+		Hex: "#FDA4BA"
+	},
+	{
+		Text: "ROUGE",
+		Hex: "#F26B8A"
+	},
+	{
+		Text: "LIGHT SALMON",
+		Hex: "#FDAB9F"
+	},
+	{
+		Text: "CORAL PINK",
+		Hex: "#FE7D6A"
+	},
+	{
+		Text: "PEACH",
+		Hex: "#FC9483"
+	},
+	{
+		Text: "STRAWBERRY",
+		Hex: "#FC4C4E"
+	},
+	{
+		Text: "ROSEWOOD",
+		Hex: "#9E4244"
+	},
+	{
+		Text: "LEMONADE",
+		Hex: "#FCBACB"
+	},
+	{
+		Text: "TAFFY",
+		Hex: "#FA86C4"
+	},
+	{
+		Text: "BUBBLEGUM",
+		Hex: "#FD5DA8"
+	},
+	{
+		Text: "BALLET SLIPPER",
+		Hex: "#F79AC0"
+	},
+	{
+		Text: "LEMONADE CREPE",
+		Hex: "#F2B8C6"
+	},
+	{
+		Text: "MAGENTA PROCESS",
+		Hex: "#E11584"
+	},
+	{
+		Text: "HOT PINK",
+		Hex: "#FF1694"
+	},
+	{
+		Text: "AMARANTH PINK",
+		Hex: "#E52B50"
+	},
+	{
+		Text: "RAZZMATAZZ",
+		Hex: "#E3256B"
+	},
+	{
+		Text: "CARNATION",
+		Hex: "#FFA6C9"
+	},
+	{
+		Text: "Salmon",
+		Hex: "#FF9999"
+	},
+	{
+		Text: "Light pink",
+		Hex: "#FFB6C1"
+	},
+	{
+		Text: "Pastel pink",
+		Hex: "#FFD1DC"
+	},
+	{
+		Text: "Cherry blossom",
+		Hex: "#FFB7C5"
+	},
+	{
+		Text: "Baby pink",
+		Hex: "#F4C2C2"
+	},
+	{
+		Text: "Dark pink",
+		Hex: "#E75480"
+	},
+	{
+		Text: "Bright pink",
+		Hex: "#FF007F"
+	},
+	{
+		Text: "Neon pink",
+		Hex: "#FF6EC7"
+	},
+	{
+		Text: "Magenta",
+		Hex: "#FF00FF"
+	},
+	{
+		Text: "Tulip pink",
+		Hex: "#FF8E8E"
+	},
+	{
+		Text: "Piggy Pink",
+		Hex: "#FDDDE6"
+	},
+	{
+		Text: "Cotton Candy",
+		Hex: "#FFBCD9"
+	},
+	{
+		Text: "Cameo pink",
+		Hex: "#EFBBCC"
+	},
+	{
+		Text: "French pink",
+		Hex: "#F64A8A"
+	},
+	{
+		Text: "Persian pink",
+		Hex: "#F77FBE"
+	},
+	{
+		Text: "Candy pink",
+		Hex: "#E4717A"
+	},
+	{
+		Text: "Cherry pink",
+		Hex: "#DE3163"
+	},
+	{
+		Text: "Dark Terra cotta",
+		Hex: "#CC4E5C"
+	},
+	{
+		Text: "Deep Pink",
+		Hex: "#FF1493"
+	},
+	{
+		Text: "Dust Storm",
+		Hex: "#E5CCC9"
+	},
+	{
+		Text: "Nadeshiko Pink",
+		Hex: "#F6ADC6"
+	},
+	{
+		Text: "Wild Strawberry",
+		Hex: "#FF43A4"
+	},
+	{
+		Text: "Rubine Red",
+		Hex: "#D10056"
+	},
+	{
+		Text: "Hollywood Cerise",
+		Hex: "#F400A1"
+	},
+	{
+		Text: "Mexican Pink",
+		Hex: "#E4007C"
+	},
+	{
+		Text: "Steel Pink",
+		Hex: "#CC3366"
+	},
+	{
+		Text: "Rose Bonbon",
+		Hex: "#F9429E"
+	},
+	{
+		Text: "BROWN OIL",
+		Hex: "#231709"
+	},
+	{
+		Text: "ROASTED COFFEE",
+		Hex: "#4B371C"
+	},
+	{
+		Text: "MOCHA",
+		Hex: "#3C280D"
+	},
+	{
+		Text: "PEANUT BROWN",
+		Hex: "#795C34"
+	},
+	{
+		Text: "CAROB",
+		Hex: "#362511"
+	},
+	{
+		Text: "HICKORY",
+		Hex: "#371D10"
+	},
+	{
+		Text: "WOOD",
+		Hex: "#3F301D"
+	},
+	{
+		Text: "PECAN",
+		Hex: "#4A2511"
+	},
+	{
+		Text: "WALNUT",
+		Hex: "#432616"
+	},
+	{
+		Text: "CARAMEL",
+		Hex: "#65350F"
+	},
+	{
+		Text: "GINGERBREAD",
+		Hex: "#5E2C04"
+	},
+	{
+		Text: "SYRUP",
+		Hex: "#481F01"
+	},
+	{
+		Text: "DARK CHOCOLATE",
+		Hex: "#2E1503"
+	},
+	{
+		Text: "TORTILLA",
+		Hex: "#9A7B4F"
+	},
+	{
+		Text: "UMBER",
+		Hex: "#352315"
+	},
+	{
+		Text: "TAWNY",
+		Hex: "#80471C"
+	},
+	{
+		Text: "BRUNETTE",
+		Hex: "#3B1E08"
+	},
+	{
+		Text: "CINNAMON BROWN",
+		Hex: "#652A0E"
+	},
+	{
+		Text: "PENNY",
+		Hex: "#532915"
+	},
+	{
+		Text: "CEDAR BROWN",
+		Hex: "#4A3728"
+	},
+	{
+		Text: "BEAVER",
+		Hex: "#9F8170"
+	},
+	{
+		Text: "BISTRE",
+		Hex: "#3D2B1F"
+	},
+	{
+		Text: "BOLE",
+		Hex: "#79443B"
+	},
+	{
+		Text: "Burnt umber",
+		Hex: "#8A3324"
+	},
+	{
+		Text: "Cafe au lait",
+		Hex: "#A67B5B"
+	},
+	{
+		Text: "Cafe noir",
+		Hex: "#4B3621"
+	},
+	{
+		Text: "Coffee",
+		Hex: "#6F4E37"
+	},
+	{
+		Text: "Deep coffee",
+		Hex: "#704241"
+	},
+	{
+		Text: "Copper",
+		Hex: "#B87333"
+	},
+	{
+		Text: "Dark brown",
+		Hex: "#654321"
+	},
+	{
+		Text: "Taupe",
+		Hex: "#483C32"
+	},
+	{
+		Text: "Ecru",
+		Hex: "#C2B280"
+	},
+	{
+		Text: "Golden brown",
+		Hex: "#996515"
+	},
+	{
+		Text: "Khaki",
+		Hex: "#C3B091"
+	},
+	{
+		Text: "Ochre",
+		Hex: "#CC7722"
+	},
+	{
+		Text: "Light brown",
+		Hex: "#B5651D"
+	},
+	{
+		Text: "Saddle brown",
+		Hex: "#8B4513"
+	},
+	{
+		Text: "Russet",
+		Hex: "#80461B"
+	},
+	{
+		Text: "Sienna",
+		Hex: "#A0522D"
+	},
+	{
+		Text: "Antique brass",
+		Hex: "#CD9575"
+	},
+	{
+		Text: "Burlywood",
+		Hex: "#DEB887"
+	},
+	{
+		Text: "Peru",
+		Hex: "#CD853F"
+	},
+	{
+		Text: "Tumbleweed",
+		Hex: "#DEAA88"
+	},
+	{
+		Text: "Dark vanilla",
+		Hex: "#D1BEA8"
+	},
+	{
+		Text: "Wood brown",
+		Hex: "#C19A6B"
+	},
+	{
+		Text: "Chamoisee",
+		Hex: "#A0785A"
+	},
+	{
+		Text: "Deer",
+		Hex: "#BA8759"
+	},
+	{
+		Text: "Dirt",
+		Hex: "#9B7653"
+	},
+	{
+		Text: "Coconut",
+		Hex: "#965A3E"
+	},
+	{
+		Text: "Windsor tan",
+		Hex: "#A75502"
+	},
+	{
+		Text: "BLACK",
+		Hex: "#000000"
+	},
+	{
+		Text: "EBONY",
+		Hex: "#080402"
+	},
+	{
+		Text: "CROW",
+		Hex: "#0D0907"
+	},
+	{
+		Text: "CHARCOAL",
+		Hex: "#28231D"
+	},
+	{
+		Text: "MIDNIGHT",
+		Hex: "#040406"
+	},
+	{
+		Text: "INK",
+		Hex: "#070504"
+	},
+	{
+		Text: "RAVEN",
+		Hex: "#050301"
+	},
+	{
+		Text: "OIL",
+		Hex: "#050100"
+	},
+	{
+		Text: "GREASE",
+		Hex: "#0A0806"
+	},
+	{
+		Text: "ONYX",
+		Hex: "#030104"
+	},
+	{
+		Text: "PITCH",
+		Hex: "#030001"
+	},
+	{
+		Text: "SOOT",
+		Hex: "#160D08"
+	},
+	{
+		Text: "SABLE",
+		Hex: "#060606"
+	},
+	{
+		Text: "JET BLACK",
+		Hex: "#030303"
+	},
+	{
+		Text: "COAL",
+		Hex: "#0C0908"
+	},
+	{
+		Text: "METAL",
+		Hex: "#0E0C0A"
+	},
+	{
+		Text: "OBSIDIAN",
+		Hex: "#020403"
+	},
+	{
+		Text: "JADE",
+		Hex: "#000302"
+	},
+	{
+		Text: "SPIDER",
+		Hex: "#040200"
+	},
+	{
+		Text: "LEATHER",
+		Hex: "#0B0705"
+	},
+	{
+		Text: "ASPHALT",
+		Hex: "#0C0404"
+	},
+	{
+		Text: "LICORICE",
+		Hex: "#1A1110"
+	},
+	{
+		Text: "NIGHT",
+		Hex: "#0C090A"
+	},
+	{
+		Text: "Charleston green",
+		Hex: "#232B2B"
+	},
+	{
+		Text: "Dark jungle green",
+		Hex: "#1A2421"
+	},
+	{
+		Text: "Eerie black",
+		Hex: "#1B1B1B"
+	},
+	{
+		Text: "Raisin black",
+		Hex: "#242124"
+	},
+	{
+		Text: "Smoky black",
+		Hex: "#100C08"
+	},
+	{
+		Text: "Black Rock",
+		Hex: "#010127"
+	},
+	{
+		Text: "Neutral Black",
+		Hex: "#0B0B0B"
+	},
+	{
+		Text: "Black Denim",
+		Hex: "#191C27"
+	},
+	{
+		Text: "Vampire Black",
+		Hex: "#0F0404"
+	},
+	{
+		Text: "Cool Black",
+		Hex: "#151922"
+	},
+	{
+		Text: "Frost Black",
+		Hex: "#191C20"
+	},
+	{
+		Text: "Power Black",
+		Hex: "#0E0C01"
+	},
+	{
+		Text: "Premium Black",
+		Hex: "#100E09"
+	},
+	{
+		Text: "Black Magic",
+		Hex: "#0B0510"
+	},
+	{
+		Text: "Alien Black",
+		Hex: "#1A2228"
+	},
+	{
+		Text: "Black Chocolate",
+		Hex: "#1B1811"
+	},
+	{
+		Text: "Gothic Grape",
+		Hex: "#120321"
+	},
+	{
+		Text: "Metropolis",
+		Hex: "#1A1A1A"
+	},
+	{
+		Text: "Night Shadow",
+		Hex: "#1C1C1C"
+	},
+	{
+		Text: "Dark Raisin",
+		Hex: "#1A0F0F"
+	},
+	{
+		Text: "Tea Bag",
+		Hex: "#161311"
+	},
+	{
+		Text: "Tech Black",
+		Hex: "#0D0E0E"
+	},
+	{
+		Text: "Dull Black",
+		Hex: "#161616"
+	},
+	{
+		Text: "Dark Black",
+		Hex: "#010203"
+	},
+	{
+		Text: "Natural Black",
+		Hex: "#07000B"
+	},
+	{
+		Text: "Retro Black",
+		Hex: "#1F201F"
+	},
+	{
+		Text: "Deep Black",
+		Hex: "#050203"
+	},
+	{
+		Text: "GRAY",
+		Hex: "#808080"
+	},
+	{
+		Text: "SHADOW",
+		Hex: "#373737"
+	},
+	{
+		Text: "GRAPHITE",
+		Hex: "#594D5B"
+	},
+	{
+		Text: "IRON",
+		Hex: "#322D31"
+	},
+	{
+		Text: "PEWTER",
+		Hex: "#696880"
+	},
+	{
+		Text: "CLOUD",
+		Hex: "#C5C6D0"
+	},
+	{
+		Text: "SILVER",
+		Hex: "#ADADC9"
+	},
+	{
+		Text: "SMOKE",
+		Hex: "#59515E"
+	},
+	{
+		Text: "DARK SLATE",
+		Hex: "#3E3D53"
+	},
+	{
+		Text: "ANCHOR",
+		Hex: "#41424C"
+	},
+	{
+		Text: "ASH",
+		Hex: "#564C4D"
+	},
+	{
+		Text: "PORPOISE",
+		Hex: "#4D4C5C"
+	},
+	{
+		Text: "DOVE",
+		Hex: "#7C6E7F"
+	},
+	{
+		Text: "FOG",
+		Hex: "#655967"
+	},
+	{
+		Text: "FLINT",
+		Hex: "#7F7D9C"
+	},
+	{
+		Text: "CHARCOAL GRAY",
+		Hex: "#232023"
+	},
+	{
+		Text: "PEBBLE",
+		Hex: "#333333"
+	},
+	{
+		Text: "LEAD",
+		Hex: "#3F3F4E"
+	},
+	{
+		Text: "COIN",
+		Hex: "#9897A9"
+	},
+	{
+		Text: "FOSSIL",
+		Hex: "#787276"
+	},
+	{
+		Text: "ARSENIC",
+		Hex: "#3B444B"
+	},
+	{
+		Text: "NEVADA",
+		Hex: "#666A6D"
+	},
+	{
+		Text: "SCORPION",
+		Hex: "#5E5E5E"
+	},
+	{
+		Text: "Battleship Gray",
+		Hex: "#848482"
+	},
+	{
+		Text: "Carbon Gray",
+		Hex: "#625D5D"
+	},
+	{
+		Text: "Davy's Gray",
+		Hex: "#555555"
+	},
+	{
+		Text: "Dim Gray",
+		Hex: "#696969"
+	},
+	{
+		Text: "Gray Cloud",
+		Hex: "#B6B6B4"
+	},
+	{
+		Text: "Gray Dolphin",
+		Hex: "#5C5858"
+	},
+	{
+		Text: "Gray Wolf",
+		Hex: "#504A4B"
+	},
+	{
+		Text: "Gunmetal",
+		Hex: "#2A3439"
+	},
+	{
+		Text: "Marengo",
+		Hex: "#4C5866"
+	},
+	{
+		Text: "Medium Gray",
+		Hex: "#BEBEBE"
+	},
+	{
+		Text: "Nickel",
+		Hex: "#727472"
+	},
+	{
+		Text: "Stone Gray",
+		Hex: "#928E85"
+	},
+	{
+		Text: "Outer Space",
+		Hex: "#414A4C"
+	},
+	{
+		Text: "Rocket Metallic",
+		Hex: "#8A7F8D"
+	},
+	{
+		Text: "Silver Chalice",
+		Hex: "#ACACAC"
+	},
+	{
+		Text: "Smokey Gray",
+		Hex: "#726E6D"
+	},
+	{
+		Text: "Sonic Gray",
+		Hex: "#757575"
+	},
+	{
+		Text: "Spanish Gray",
+		Hex: "#989898"
+	},
+	{
+		Text: "Taupe Gray",
+		Hex: "#8B8589"
+	},
+	{
+		Text: "Vampire Gray",
+		Hex: "#565051"
+	},
+	{
+		Text: "X11 Gray",
+		Hex: "#BBBCB6"
+	},
+	{
+		Text: "Dark Silver",
+		Hex: "#746D69"
+	},
+	{
+		Text: "Pastel Gray",
+		Hex: "#CCCDC6"
+	},
+	{
+		Text: "Misty Gray",
+		Hex: "#BCC2C2"
+	},
+	{
+		Text: "Vintage Gray",
+		Hex: "#989692"
+	},
+	{
+		Text: "Zombie Gray",
+		Hex: "#63645E"
+	},
+	{
+		Text: "Perfect Gray",
+		Hex: "#A1A1A1"
+	},
+	{
+		Text: "WHITE",
+		Hex: "#FFFFFF"
+	},
+	{
+		Text: "PEARL",
+		Hex: "#FBFCF8"
+	},
+	{
+		Text: "ALABASTER",
+		Hex: "#FEF9F3"
+	},
+	{
+		Text: "SNOW",
+		Hex: "#F5FEFD"
+	},
+	{
+		Text: "PALE IVORY",
+		Hex: "#FDF6E4"
+	},
+	{
+		Text: "CREAM",
+		Hex: "#FFFADA"
+	},
+	{
+		Text: "EGGSHELL",
+		Hex: "#FFF9E3"
+	},
+	{
+		Text: "COTTON",
+		Hex: "#FBFBF9"
+	},
+	{
+		Text: "CHIFFON",
+		Hex: "#FBFAF2"
+	},
+	{
+		Text: "PINK SALT",
+		Hex: "#F8EEEC"
+	},
+	{
+		Text: "LACE",
+		Hex: "#F8F2ED"
+	},
+	{
+		Text: "COCONUT MILK",
+		Hex: "#FFF1E6"
+	},
+	{
+		Text: "LINEN",
+		Hex: "#F3EAD3"
+	},
+	{
+		Text: "BONE",
+		Hex: "#E7DECC"
+	},
+	{
+		Text: "DAISY",
+		Hex: "#FAFAFA"
+	},
+	{
+		Text: "POWDER",
+		Hex: "#FBFCFA"
+	},
+	{
+		Text: "FROST",
+		Hex: "#ECFBFC"
+	},
+	{
+		Text: "PORCELAIN",
+		Hex: "#FFFEFC"
+	},
+	{
+		Text: "PARCHMENT",
+		Hex: "#FBF5DF"
+	},
+	{
+		Text: "RICE",
+		Hex: "#FAF5EF"
+	},
+	{
+		Text: "SEASHELL",
+		Hex: "#FFF5EE"
+	},
+	{
+		Text: "PEPPERMINT",
+		Hex: "#F1F9EC"
+	},
+	{
+		Text: "MILK",
+		Hex: "#FDFFF5"
+	},
+	{
+		Text: "Ghost white",
+		Hex: "#F8F8FF"
+	},
+	{
+		Text: "White smoke",
+		Hex: "#F5F5F5"
+	},
+	{
+		Text: "Baby powder",
+		Hex: "#FEFEFA"
+	},
+	{
+		Text: "Ivory",
+		Hex: "#FFFFF0"
+	},
+	{
+		Text: "Floral white",
+		Hex: "#FFFAF0"
+	},
+	{
+		Text: "Link White",
+		Hex: "#ECF3F9"
+	},
+	{
+		Text: "Rose White",
+		Hex: "#FFFAFA"
+	},
+	{
+		Text: "Vista White",
+		Hex: "#FDFCFA"
+	},
+	{
+		Text: "Snow Drift",
+		Hex: "#F8FBF8"
+	},
+	{
+		Text: "Island Spice",
+		Hex: "#FFFCEC"
+	},
+	{
+		Text: "Soft Peach",
+		Hex: "#F6F1F4"
+	},
+	{
+		Text: "Harp",
+		Hex: "#EBF5F0"
+	},
+	{
+		Text: "Cough Mixture",
+		Hex: "#F6F4F1"
+	},
+	{
+		Text: "Cup Cake",
+		Hex: "#EBF6F7"
+	},
+	{
+		Text: "Magnolia",
+		Hex: "#F8F4FF"
+	},
+	{
+		Text: "Anti-Flash White",
+		Hex: "#F2F3F4"
+	},
+	{
+		Text: "Cascading White",
+		Hex: "#F7F5F6"
+	},
+	{
+		Text: "Cotton Ball",
+		Hex: "#F2F7FD"
+	},
+	{
+		Text: "Photon White",
+		Hex: "#F8F8E8"
+	},
+	{
+		Text: "White Heat",
+		Hex: "#FDF9EF"
+	},
+	{
+		Text: "Whitewash",
+		Hex: "#FEFFFC"
+	},
+	{
+		Text: "Shadow White",
+		Hex: "#EEF1EA"
+	},
+	{
+		Text: "Acoustic White",
+		Hex: "#EFECE1"
+	},
+	{
+		Text: "Aircraft White",
+		Hex: "#EDF2F8"
+	},
+	{
+		Text: "Ceramic",
+		Hex: "#FCFFF9"
+	},
+	{
+		Text: "Bright White",
+		Hex: "#F4F5F0"
+	},
+	{
+		Text: "Brilliant White",
+		Hex: "#EDF1FE"
+	},
 ];

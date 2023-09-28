@@ -17,7 +17,7 @@
 			<li
 				aria-current={$page.url.pathname.startsWith('/binary-adjective-pairs') ? 'page' : undefined}
 			>
-				<a href="/binary-adjective-pairs">Binary Adjective Pairs</a>
+				<a href="/binary-adjective-pairs">Adjective Pairs</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
 				<a href="/abstract-nouns">Abstract Nouns</a>
@@ -26,7 +26,7 @@
 				<a href="/epithets">Epithets</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}>
-				<a href="/greek-latin-roots">Greek / Latin Roots</a>
+				<a href="/greek-latin-roots">Roots</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
 				<a href="/idioms">Idioms</a>
