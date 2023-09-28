@@ -1,29 +1,48 @@
 <script>
-	/**
-	 * @type {string}
-	 */
-	export let name;
-
-	let longerEntries = name === 'epithets' || name === 'binary_adjective_pairs' || name === 'idioms';
-	let size = longerEntries ? '1.5rem' : '2.5rem';
+	import { onMount } from 'svelte';
 
 	/**
-	 * @type {string[]}
+	 * @type {any[]}
 	 */
 	export let list;
 
 	/**
-	 * @type {string}
+	 * @type {any}
 	 */
 	let item = list[0];
 
+	/**
+	 * @type {string}
+	 */
+	let compliment = '#FFFFFF';
+
 	function handleClick() {
 		item = list[Math.floor(Math.random() * list.length)];
+		let hexColor = item.Hex;
+		// Remove the "#" character if it's present
+		hexColor = hexColor.replace(/^#/, '');
+
+		// Parse the hex color into its RGB components
+		const r = parseInt(hexColor.slice(0, 2), 16);
+		const g = parseInt(hexColor.slice(2, 4), 16);
+		const b = parseInt(hexColor.slice(4, 6), 16);
+
+		// Calculate the complementary color by subtracting each RGB component from 255
+		const complementaryR = 255 - r;
+		const complementaryG = 255 - g;
+		const complementaryB = 255 - b;
+
+		// Convert the complementary RGB components back to hex format
+		compliment =
+			'#' +
+			complementaryR.toString(16).padStart(2, '0') +
+			complementaryG.toString(16).padStart(2, '0') +
+			complementaryB.toString(16).padStart(2, '0');
 	}
 </script>
 
-<section class="card">
-	<p style="font-size: {size}">{@html item}</p>
+<section class="card" style="background: {item.Hex}">
+	<h1 style="color: {compliment}">{@html item.Text}</h1>
 	<!-- svelte-ignore a11y-autofocus -->
 	<button on:click={handleClick} autofocus>Shuffle</button>
 </section>
@@ -39,7 +58,6 @@
 		width: 60vw;
 		height: 60vh;
 		color: var(--color-text-0);
-		background: var(--color-bg-1);
 		border-radius: 10px;
 		box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25), 0 10px 30px rgba(0, 0, 0, 0.22);
 	}
@@ -90,10 +108,5 @@
 	button:active {
 		box-shadow: #d6d6e7 0 3px 7px inset;
 		transform: translateY(2px);
-	}
-
-	p {
-		overflow-wrap: break-word;
-		margin: 20px;
 	}
 </style>

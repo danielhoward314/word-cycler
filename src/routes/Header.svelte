@@ -31,6 +31,9 @@
 			<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
 				<a href="/idioms">Idioms</a>
 			</li>
+			<li aria-current={$page.url.pathname.startsWith('/color-list') ? 'page' : undefined}>
+				<a href="/color-list">Colors</a>
+			</li>
 		</ul>
 	</nav>
 </header>
