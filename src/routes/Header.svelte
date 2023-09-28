@@ -6,10 +6,10 @@
 	<nav>
 		<ul>
 			<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
-				<a href="/tier-one-verbs">Tier One Verbs</a>
+				<a href="/tier-one-verbs">Verbs One</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/tier-two-verbs') ? 'page' : undefined}>
-				<a href="/tier-two-verbs">Tier Two Verbs</a>
+				<a href="/tier-two-verbs">Verbs Two</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/latinate-verbs') ? 'page' : undefined}>
 				<a href="/latinate-verbs">Latinate Verbs</a>
@@ -33,6 +33,9 @@
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/color-list') ? 'page' : undefined}>
 				<a href="/color-list">Colors</a>
+			</li>
+			<li aria-current={$page.url.pathname.startsWith('/metaphors') ? 'page' : undefined}>
+				<a href="/metaphors">Metaphors</a>
 			</li>
 		</ul>
 	</nav>
