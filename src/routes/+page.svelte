@@ -1,3 +1,18 @@
+<script>
+	import { onMount } from 'svelte';
+	onMount(async () => {
+		fetch('https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition')
+			.then((response) => response.json())
+			.then((data) => {
+				console.log(data);
+			})
+			.catch((error) => {
+				console.log(error);
+				return [];
+			});
+	});
+</script>
+
 <svelte:head>
 	<title>Word Cycler</title>
 	<meta name="description" content="Word Cycler App" />

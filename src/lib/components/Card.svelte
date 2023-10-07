@@ -4,7 +4,11 @@
 	 */
 	export let name;
 
-	let longerEntries = name === 'metaphors' || name === 'epithets' || name === 'binary_adjective_pairs' || name === 'idioms';
+	let longerEntries =
+		name === 'metaphors' ||
+		name === 'epithets' ||
+		name === 'binary_adjective_pairs' ||
+		name === 'idioms';
 	let size = longerEntries ? '1.5rem' : '2.5rem';
 
 	/**
