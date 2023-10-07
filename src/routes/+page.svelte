@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	onMount(async () => {
-		fetch('https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition')
+		fetch('https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=fade')
 			.then((response) => response.json())
 			.then((data) => {
 				console.log(data);
