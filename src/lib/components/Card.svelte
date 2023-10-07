@@ -11,6 +11,12 @@
 		name === 'idioms';
 	let size = longerEntries ? '1.5rem' : '2.5rem';
 
+	let mwAPICallable =
+		name === 'tier_one_verbs' ||
+		name === 'tier_two_verbs' ||
+		name === 'latinate_verbs' ||
+		name === 'abstract_nouns';
+
 	/**
 	 * @type {string[]}
 	 */
@@ -24,12 +30,29 @@
 	function handleClick() {
 		item = list[Math.floor(Math.random() * list.length)];
 	}
+
+	/**
+	 * @type {string}
+	 */
+	let definition = 'definition';
+
+	async function getDefinition() {
+		const response = await fetch(
+			`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
+		);
+		const data = await response.json();
+		console.log(data);
+		definition = data[0].shortdef[0];
+	}
 </script>
 
 <section class="card">
 	<p style="font-size: {size}">{@html item}</p>
 	<!-- svelte-ignore a11y-autofocus -->
 	<button on:click={handleClick} autofocus>Shuffle</button>
+	{#if mwAPICallable}
+		<button on:click={getDefinition}>Define</button>
+	{/if}
 </section>
 
 <style>
