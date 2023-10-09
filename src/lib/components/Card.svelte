@@ -1,10 +1,4 @@
 <script>
-	import {
-		PUBLIC_ENVIRONMENT,
-		PUBLIC_DICTIONARY_API_KEY,
-		PUBLIC_THESAURUS_API_KEY
-	} from '$env/static/public';
-
 	/**
 	 * @type {string}
 	 */
@@ -43,24 +37,12 @@
 	let definition = 'definition';
 
 	async function getDefinition() {
-		let response, data;
-		// if local, make the call directly; else, use the netlify function
-		if (PUBLIC_ENVIRONMENT === 'local') {
-			console.log('in local case');
-			let requestURL = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${item}/?key=${PUBLIC_DICTIONARY_API_KEY}`;
-			response = await fetch(requestURL);
-			data = await response.json();
-			console.log(data);
-			data[0].shortdef[0];
-		} else {
-			console.log('in non-local case');
-			response = await fetch(
-				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
-			);
-			data = await response.json();
-			console.log(data);
-			definition = data[0].shortdef[0];
-		}
+		const response = await fetch(
+			`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
+		);
+		const data = await response.json();
+		console.log(data);
+		definition = data[0].shortdef[0];
 	}
 </script>
 
@@ -70,9 +52,6 @@
 	<button on:click={handleClick} autofocus>Shuffle</button>
 	{#if mwAPICallable}
 		<button on:click={getDefinition}>Define</button>
-	{/if}
-	{#if definition}
-		<p>{@html definition}</p>
 	{/if}
 </section>
 
