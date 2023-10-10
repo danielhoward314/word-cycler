@@ -1,45 +1,110 @@
 <script>
-	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
-	import netlifyIdentity from 'netlify-identity-widget';
-	import Header from './Header.svelte';
+	import { setContext } from 'svelte';
+	import { writable } from 'svelte/store';
+	import { page } from '$app/stores';
+	import Swal from 'sweetalert2';
 	import './styles.css';
-	import { user } from '$lib/store/netlifyIdentityWidget';
 
-	onMount(() => {
-			netlifyIdentity.init();
-	});
+	const isProduction = import.meta.env.MODE === 'production';
+	const user = writable({ isLoggedIn: false });
+	setContext('user', user);
 
-	/**
-	 * @param {string} action
-	 */
-	function handleUserAction(action) {
-			if (action === 'login' || action === 'signup') {
-				netlifyIdentity.open(action);
-				console.log('open')
-				netlifyIdentity.on('login', async () => {
-					console.log($user)
-					user.login();
-					console.log($user)
-					netlifyIdentity.close();
-					goto('/');
-				});
-			} else if (action === 'logout') {
-				goto('/');
-				user.logout();
-				netlifyIdentity.logout();
+	async function onSubmit(e) {
+		if (!isProduction) {
+			console.log($user);
+			$user = { isLoggedIn: true };
+			console.log($user);
+			return;
+		} else {
+			const formData = new FormData(e.target);
+			const data = {};
+			for (let field of formData) {
+				const [key, value] = field;
+				data[key] = value;
 			}
+			// data should now = { password: "<password>"}
+			const rawResponse = await fetch(
+				'https://gilded-truffle-599b56.netlify.app/.netlify/functions/authenticate',
+				{
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json'
+					},
+					body: JSON.stringify(data)
+				}
+			);
+
+			const responseContent = await rawResponse.json();
+			console.log(responseContent);
+			if (responseContent.success) {
+				$user = { isLoggedIn: true };
+			} else {
+				Swal.fire({
+					icon: 'error',
+					title: 'Oops...',
+					text: 'Wrong password!'
+				});
+			}
+		}
 	}
 </script>
 
 <div class="app">
-	<Header />
+	{#if $user.isLoggedIn}
+		<header>
+			<nav>
+				<ul>
+					<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
+						<a href="/tier-one-verbs">Verbs One</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/tier-two-verbs') ? 'page' : undefined}>
+						<a href="/tier-two-verbs">Verbs Two</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/latinate-verbs') ? 'page' : undefined}>
+						<a href="/latinate-verbs">Latinate Verbs</a>
+					</li>
+					<li
+						aria-current={$page.url.pathname.startsWith('/binary-adjective-pairs')
+							? 'page'
+							: undefined}
+					>
+						<a href="/binary-adjective-pairs">Adjective Pairs</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
+						<a href="/abstract-nouns">Abstract Nouns</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/epithets') ? 'page' : undefined}>
+						<a href="/epithets">Epithets</a>
+					</li>
+					<li
+						aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}
+					>
+						<a href="/greek-latin-roots">Roots</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
+						<a href="/idioms">Idioms</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/color-list') ? 'page' : undefined}>
+						<a href="/color-list">Colors</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/metaphors') ? 'page' : undefined}>
+						<a href="/metaphors">Metaphors</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	{/if}
 
 	<main>
 		{#if !$user.isLoggedIn}
 			<div>
-				<button on:click={() => handleUserAction('login')}>Log In</button>
-				<button on:click={() => handleUserAction('signup')}>Sign Up</button>
+				<form on:submit|preventDefault={onSubmit}>
+					<label>
+						Password
+						<input name="password" type="password" />
+					</label>
+					<button>Log in</button>
+				</form>
 			</div>
 		{:else}
 			<slot />
@@ -65,5 +130,54 @@
 		height: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
+	}
+
+	header {
+		display: flex;
+	}
+
+	nav {
+		display: flex;
+		width: 100%;
+		/* background: #ffebb7; */
+		background: #9ddcdc;
+	}
+
+	ul {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		height: 3em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+		background: var(--background);
+		background-size: contain;
+	}
+
+	li {
+		position: relative;
+		height: 100%;
+		padding-right: 1em;
+	}
+
+	nav a {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 0.5rem;
+		color: var(--color-text-1);
+		font-weight: 700;
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+	}
+
+	a:hover {
+		color: var(--color-text-hover-1);
+		border-bottom: 0.35em solid #dece9c;
 	}
 </style>

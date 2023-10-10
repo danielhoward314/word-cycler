@@ -29,6 +29,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"netlify-identity-widget": "^1.9.2"
+		"sweetalert2": "^11.7.32"
 	}
 }
