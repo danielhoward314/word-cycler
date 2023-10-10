@@ -1,13 +1,16 @@
 <script>
 	import { getContext } from 'svelte';
 	import { page } from '$app/stores';
+	const localUser = getContext('localUser');
 	const user = getContext('user');
+	const isProduction = import.meta.env.MODE === 'production';
+	$: isLoggedIn = (isProduction && !!$user) || (!isProduction && $localUser.isLoggedIn);
 </script>
 
 <header>
 	<nav>
 		<ul>
-			{#if $user.isLoggedIn}
+			{#if isLoggedIn}
 				<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
 					<a href="/tier-one-verbs">Verbs One</a>
 				</li>

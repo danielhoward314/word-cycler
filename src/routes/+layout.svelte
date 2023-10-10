@@ -5,13 +5,11 @@
 	import netlifyIdentity from 'netlify-identity-widget';
 	import Header from './Header.svelte';
 	import './styles.css';
+	import { user, redirectURL } from '$lib/store/netlifyIdentityWidget';
 
 	const isProduction = import.meta.env.MODE === 'production';
-	const user = writable({ isLoggedIn: false });
-	setContext('user', user);
-
-	const redirectURL = writable('');
-	setContext('redirectURL', redirectURL);
+	const localUser = writable({ isLoggedIn: false });
+	setContext('localUser', localUser);
 
 	onMount(() => {
 		if (isProduction) {
@@ -19,31 +17,30 @@
 		}
 	});
 
+	$: isLoggedIn = (isProduction && !!$user) || (!isProduction && $localUser.isLoggedIn);
+
 	/**
 	 * @param {string} action
 	 */
 	function handleUserAction(action) {
 		if (!isProduction) {
 			if (action === 'login' || action === 'signup') {
-				console.log(action);
-				console.log($user);
-				$user = { isLoggedIn: true };
-				console.log($user);
+				$localUser = { isLoggedIn: true };
 			}
 		} else {
 			if (action === 'login' || action === 'signup') {
 				netlifyIdentity.open(action);
 				netlifyIdentity.on('login', () => {
-					$user = { isLoggedIn: true };
+					user.login();
 					netlifyIdentity.close();
 					if ($redirectURL !== '') {
 						goto($redirectURL);
-						$redirectURL = '';
+						redirectURL.clearRedirectURL();
 					}
 				});
 			} else if (action === 'logout') {
 				goto('/');
-				$user = { isLoggedIn: true };
+				user.logout();
 				netlifyIdentity.logout();
 			}
 		}
@@ -54,7 +51,7 @@
 	<Header />
 
 	<main>
-		{#if !$user.isLoggedIn}
+		{#if !isLoggedIn}
 			<div>
 				<button on:click={() => handleUserAction('login')}>Log In</button>
 				<button on:click={() => handleUserAction('signup')}>Sign Up</button>
