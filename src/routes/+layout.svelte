@@ -1,5 +1,5 @@
 <script>
-	import { setContext } from 'svelte';
+	import { onMount, setContext } from 'svelte';
 	import { writable } from 'svelte/store';
 	import { goto } from '$app/navigation';
 	import netlifyIdentity from 'netlify-identity-widget';
@@ -13,9 +13,11 @@
 	const redirectURL = writable('');
 	setContext('redirectURL', redirectURL);
 
-	if (isProduction) {
-		netlifyIdentity.init();
-	}
+	onMount(() => {
+		if (isProduction) {
+			netlifyIdentity.init();
+		}
+	});
 
 	/**
 	 * @param {string} action
