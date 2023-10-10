@@ -6,36 +6,26 @@
 	import './styles.css';
 	import { user } from '$lib/store/netlifyIdentityWidget';
 
-	const isProduction = import.meta.env.MODE === 'production';
-
 	onMount(() => {
-		if (isProduction) {
 			netlifyIdentity.init();
-		}
 	});
 
 	/**
 	 * @param {string} action
 	 */
 	function handleUserAction(action) {
-		if (!isProduction) {
-			if (action === 'login' || action === 'signup') {
-				user.login();
-			}
-		} else {
 			if (action === 'login' || action === 'signup') {
 				netlifyIdentity.open(action);
 				netlifyIdentity.on('login', () => {
 					user.login();
 					netlifyIdentity.close();
-					goto('/tier-one-verbs');
+					goto('/');
 				});
 			} else if (action === 'logout') {
 				goto('/');
 				user.logout();
 				netlifyIdentity.logout();
 			}
-		}
 	}
 </script>
 

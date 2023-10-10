@@ -1,7 +1,8 @@
 import { writable } from 'svelte/store';
 
 function createUser() {
-	let u = { isLoggedIn: false };
+
+  let u = { isLoggedIn: false };
 	const { subscribe, set } = writable(u);
 
 	return {

@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { user } from '$lib/store/netlifyIdentityWidget';
 	import { onDestroy } from 'svelte';
-	let isUserLoggedIn = null;
+	let isUserLoggedIn = false;
 	const unsubscribe = user.subscribe((u) => (isUserLoggedIn = u.isLoggedIn));
 	onDestroy(unsubscribe);
 </script>
@@ -10,7 +10,7 @@
 <header>
 	<nav>
 		<ul>
-			{#if !!isUserLoggedIn}
+			{#if isUserLoggedIn}
 				<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
 					<a href="/tier-one-verbs">Verbs One</a>
 				</li>
