@@ -30,10 +30,7 @@
 				netlifyIdentity.on('login', (u) => {
 					user.login(u);
 					netlifyIdentity.close();
-					if ($redirectURL !== '') {
-						goto($redirectURL);
-						redirectURL.clearRedirectURL();
-					}
+					goto('/tier-one-verbs');
 				});
 			} else if (action === 'logout') {
 				goto('/');
