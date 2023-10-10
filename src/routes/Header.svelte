@@ -1,8 +1,8 @@
 <script>
 	import { getContext } from 'svelte';
 	import { page } from '$app/stores';
+	import { user } from '$lib/store/netlifyIdentityWidget';
 	const localUser = getContext('localUser');
-	const user = getContext('user');
 	const isProduction = import.meta.env.MODE === 'production';
 	$: isLoggedIn = (isProduction && !!$user) || (!isProduction && $localUser.isLoggedIn);
 </script>
