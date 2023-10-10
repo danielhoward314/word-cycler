@@ -1,24 +1,16 @@
 <script>
 	import { page } from '$app/stores';
-	import { localUser, user } from '$lib/store/netlifyIdentityWidget';
+	import { user } from '$lib/store/netlifyIdentityWidget';
 	import { onDestroy } from 'svelte';
-	const isProduction = import.meta.env.MODE === 'production';
 	let isUserLoggedIn = null;
-	let isLocalUserLoggedIn = null;
-	const unsubscribeUser = user.subscribe((u) => (isUserLoggedIn = !!u));
-	const unsubscribeLocalUser = localUser.subscribe((u) => (isLocalUserLoggedIn = u.isLoggedIn));
-	const unsubscribe = () => {
-		unsubscribeLocalUser();
-		unsubscribeUser();
-	};
+	const unsubscribe = user.subscribe((u) => (isUserLoggedIn = u.isLoggedIn));
 	onDestroy(unsubscribe);
-	$: isLoggedIn = (isProduction && isUserLoggedIn) || (!isProduction && isLocalUserLoggedIn);
 </script>
 
 <header>
 	<nav>
 		<ul>
-			{#if isLoggedIn}
+			{#if !!isUserLoggedIn}
 				<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
 					<a href="/tier-one-verbs">Verbs One</a>
 				</li>

@@ -1,10 +1,10 @@
 <script>
-	import { onMount, setContext } from 'svelte';
+	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import netlifyIdentity from 'netlify-identity-widget';
 	import Header from './Header.svelte';
 	import './styles.css';
-	import { localUser, redirectURL, user } from '$lib/store/netlifyIdentityWidget';
+	import { user } from '$lib/store/netlifyIdentityWidget';
 
 	const isProduction = import.meta.env.MODE === 'production';
 
@@ -14,21 +14,19 @@
 		}
 	});
 
-	$: isLoggedIn = (isProduction && !!$user) || (!isProduction && $localUser.isLoggedIn);
-
 	/**
 	 * @param {string} action
 	 */
 	function handleUserAction(action) {
 		if (!isProduction) {
 			if (action === 'login' || action === 'signup') {
-				localUser.login();
+				user.login();
 			}
 		} else {
 			if (action === 'login' || action === 'signup') {
 				netlifyIdentity.open(action);
-				netlifyIdentity.on('login', (u) => {
-					user.login(u);
+				netlifyIdentity.on('login', () => {
+					user.login();
 					netlifyIdentity.close();
 					goto('/tier-one-verbs');
 				});
@@ -45,7 +43,7 @@
 	<Header />
 
 	<main>
-		{#if !isLoggedIn}
+		{#if !$user.isLoggedIn}
 			<div>
 				<button on:click={() => handleUserAction('login')}>Log In</button>
 				<button on:click={() => handleUserAction('signup')}>Sign Up</button>
