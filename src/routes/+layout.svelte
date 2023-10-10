@@ -16,8 +16,11 @@
 	function handleUserAction(action) {
 			if (action === 'login' || action === 'signup') {
 				netlifyIdentity.open(action);
-				netlifyIdentity.on('login', () => {
+				console.log('open')
+				netlifyIdentity.on('login', async () => {
+					console.log($user)
 					user.login();
+					console.log($user)
 					netlifyIdentity.close();
 					goto('/');
 				});
