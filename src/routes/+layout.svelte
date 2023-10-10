@@ -1,19 +1,65 @@
 <script>
-	import { setContext } from 'svelte';
+	import { onMount, setContext } from 'svelte';
 	import { writable } from 'svelte/store';
+	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import Swal from 'sweetalert2';
 	import './styles.css';
 
 	const isProduction = import.meta.env.MODE === 'production';
+
 	const user = writable({ isLoggedIn: false });
 	setContext('user', user);
 
+	const failCount = writable(0);
+	setContext('failCount', failCount);
+
+	const formDisabled = writable(false);
+	setContext('formDisabled', formDisabled);
+
+	function resetFailCounter() {
+		if (browser) {
+			$failCount = 0;
+			$formDisabled = false;
+			localStorage.setItem('word_cycler_local_fail_count', '0');
+		}
+	}
+
+	onMount(() => {
+		$formDisabled = false;
+		if (browser) {
+			let currentVal = localStorage.getItem('word_cycler_local_fail_count');
+			if (currentVal) {
+				$failCount = parseInt(currentVal, 10);
+				if ($failCount >= 4) {
+					$formDisabled = true;
+				}
+			} else {
+				$failCount = 0;
+			}
+		} else {
+			$formDisabled = true;
+		}
+	});
+
+	function incrementFailCounter() {
+		if (browser) {
+			let fc = '0';
+			let failCountAsNumber = 0;
+			let currentVal = localStorage.getItem('word_cycler_local_fail_count');
+			if (currentVal) {
+				failCountAsNumber = +currentVal + 1;
+				fc = `${failCountAsNumber}`;
+			}
+			$failCount = failCountAsNumber;
+			$formDisabled = failCountAsNumber >= 4;
+			localStorage.setItem('word_cycler_local_fail_count', fc);
+		}
+	}
+
 	async function onSubmit(e) {
 		if (!isProduction) {
-			console.log($user);
 			$user = { isLoggedIn: true };
-			console.log($user);
 			return;
 		} else {
 			const formData = new FormData(e.target);
@@ -35,15 +81,29 @@
 			);
 
 			const responseContent = await rawResponse.json();
-			console.log(responseContent);
-			if (responseContent.success) {
+			if (responseContent && responseContent.success) {
 				$user = { isLoggedIn: true };
+				localStorage.setItem('word_cycler_local_fail_count', '0');
 			} else {
-				Swal.fire({
-					icon: 'error',
-					title: 'Oops...',
-					text: 'Wrong password!'
-				});
+				if (browser) {
+					let fc = '0';
+					let failCountAsNumber = 0;
+					let currentVal = localStorage.getItem('word_cycler_local_fail_count');
+					if (currentVal) {
+						failCountAsNumber = +currentVal + 1;
+						fc = `${failCountAsNumber}`;
+					}
+					$failCount = failCountAsNumber + 1;
+					$formDisabled = $failCount >= 4;
+					localStorage.setItem('word_cycler_local_fail_count', fc);
+					Swal.fire({
+						icon: 'error',
+						title: 'Oops...',
+						text: 'Wrong password!'
+					});
+				} else {
+					$formDisabled = true;
+				}
 			}
 		}
 	}
@@ -103,8 +163,12 @@
 						Password
 						<input name="password" type="password" />
 					</label>
-					<button>Log in</button>
+					<button disabled={$formDisabled}>Log in</button>
 				</form>
+				{#if !isProduction}
+					<button on:click={() => incrementFailCounter()}>Increment Failures</button>
+					<button on:click={() => resetFailCounter()}>Reset Failures</button>
+				{/if}
 			</div>
 		{:else}
 			<slot />
