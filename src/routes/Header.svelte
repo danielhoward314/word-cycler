@@ -1,42 +1,48 @@
 <script>
+	import { getContext } from 'svelte';
 	import { page } from '$app/stores';
+	const user = getContext('user');
 </script>
 
 <header>
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
-				<a href="/tier-one-verbs">Verbs One</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/tier-two-verbs') ? 'page' : undefined}>
-				<a href="/tier-two-verbs">Verbs Two</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/latinate-verbs') ? 'page' : undefined}>
-				<a href="/latinate-verbs">Latinate Verbs</a>
-			</li>
-			<li
-				aria-current={$page.url.pathname.startsWith('/binary-adjective-pairs') ? 'page' : undefined}
-			>
-				<a href="/binary-adjective-pairs">Adjective Pairs</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
-				<a href="/abstract-nouns">Abstract Nouns</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/epithets') ? 'page' : undefined}>
-				<a href="/epithets">Epithets</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}>
-				<a href="/greek-latin-roots">Roots</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
-				<a href="/idioms">Idioms</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/color-list') ? 'page' : undefined}>
-				<a href="/color-list">Colors</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/metaphors') ? 'page' : undefined}>
-				<a href="/metaphors">Metaphors</a>
-			</li>
+			{#if $user.isLoggedIn}
+				<li aria-current={$page.url.pathname.startsWith('/tier-one-verbs') ? 'page' : undefined}>
+					<a href="/tier-one-verbs">Verbs One</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/tier-two-verbs') ? 'page' : undefined}>
+					<a href="/tier-two-verbs">Verbs Two</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/latinate-verbs') ? 'page' : undefined}>
+					<a href="/latinate-verbs">Latinate Verbs</a>
+				</li>
+				<li
+					aria-current={$page.url.pathname.startsWith('/binary-adjective-pairs')
+						? 'page'
+						: undefined}
+				>
+					<a href="/binary-adjective-pairs">Adjective Pairs</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
+					<a href="/abstract-nouns">Abstract Nouns</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/epithets') ? 'page' : undefined}>
+					<a href="/epithets">Epithets</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/greek-latin-roots') ? 'page' : undefined}>
+					<a href="/greek-latin-roots">Roots</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/idioms') ? 'page' : undefined}>
+					<a href="/idioms">Idioms</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/color-list') ? 'page' : undefined}>
+					<a href="/color-list">Colors</a>
+				</li>
+				<li aria-current={$page.url.pathname.startsWith('/metaphors') ? 'page' : undefined}>
+					<a href="/metaphors">Metaphors</a>
+				</li>
+			{/if}
 		</ul>
 	</nav>
 </header>

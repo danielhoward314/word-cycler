@@ -1,5 +1,5 @@
 <script>
-let isProduction = import.meta.env.MODE === 'production';
+	let isProduction = import.meta.env.MODE === 'production';
 
 	/**
 	 * @type {string}
@@ -42,15 +42,11 @@ let isProduction = import.meta.env.MODE === 'production';
 		let response, data;
 		// if local, call the local Go server to proxy the call
 		if (!isProduction) {
-			console.log('in local case');
-			response = await fetch(
-				`http://localhost:8080/definition?word=${item}`
-			);
+			response = await fetch(`http://localhost:8080/definition?word=${item}`);
 			data = await response.json();
 			console.log(data);
 			definition = data[0].shortdef[0];
 		} else {
-			console.log('in non-local case');
 			response = await fetch(
 				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
 			);
