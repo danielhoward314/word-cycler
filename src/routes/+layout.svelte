@@ -1,15 +1,12 @@
 <script>
 	import { onMount, setContext } from 'svelte';
-	import { writable } from 'svelte/store';
 	import { goto } from '$app/navigation';
 	import netlifyIdentity from 'netlify-identity-widget';
 	import Header from './Header.svelte';
 	import './styles.css';
-	import { user, redirectURL } from '$lib/store/netlifyIdentityWidget';
+	import { localUser, redirectURL, user } from '$lib/store/netlifyIdentityWidget';
 
 	const isProduction = import.meta.env.MODE === 'production';
-	const localUser = writable({ isLoggedIn: false });
-	setContext('localUser', localUser);
 
 	onMount(() => {
 		if (isProduction) {
@@ -25,13 +22,13 @@
 	function handleUserAction(action) {
 		if (!isProduction) {
 			if (action === 'login' || action === 'signup') {
-				$localUser = { isLoggedIn: true };
+				localUser.login();
 			}
 		} else {
 			if (action === 'login' || action === 'signup') {
 				netlifyIdentity.open(action);
-				netlifyIdentity.on('login', () => {
-					user.login();
+				netlifyIdentity.on('login', (u) => {
+					user.login(u);
 					netlifyIdentity.close();
 					if ($redirectURL !== '') {
 						goto($redirectURL);

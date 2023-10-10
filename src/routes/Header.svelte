@@ -1,10 +1,18 @@
 <script>
-	import { getContext } from 'svelte';
 	import { page } from '$app/stores';
-	import { user } from '$lib/store/netlifyIdentityWidget';
-	const localUser = getContext('localUser');
+	import { localUser, user } from '$lib/store/netlifyIdentityWidget';
+	import { onDestroy } from 'svelte';
 	const isProduction = import.meta.env.MODE === 'production';
-	$: isLoggedIn = (isProduction && !!$user) || (!isProduction && $localUser.isLoggedIn);
+	let isUserLoggedIn = null;
+	let isLocalUserLoggedIn = null;
+	const unsubscribeUser = user.subscribe((u) => (isUserLoggedIn = !!u));
+	const unsubscribeLocalUser = localUser.subscribe((u) => (isLocalUserLoggedIn = u.isLoggedIn));
+	const unsubscribe = () => {
+		unsubscribeLocalUser();
+		unsubscribeUser();
+	};
+	onDestroy(unsubscribe);
+	$: isLoggedIn = (isProduction && isUserLoggedIn) || (!isProduction && isLocalUserLoggedIn);
 </script>
 
 <header>

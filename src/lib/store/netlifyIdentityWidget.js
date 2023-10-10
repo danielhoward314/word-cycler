@@ -1,5 +1,20 @@
 import { writable } from 'svelte/store';
 
+function createLocalUser() {
+	let u = { isLoggedIn: false };
+	const { subscribe, set } = writable(u);
+
+	return {
+		subscribe,
+		login() {
+			set({ isLoggedIn: true });
+		},
+		logout() {
+			set({ isLoggedIn: false });
+		}
+	};
+}
+
 function createUser() {
 	let u = null;
 	const { subscribe, set } = writable(u);
@@ -36,5 +51,6 @@ function createRedirectURL() {
 	};
 }
 
+export const localUser = createLocalUser();
 export const user = createUser();
 export const redirectURL = createRedirectURL();
