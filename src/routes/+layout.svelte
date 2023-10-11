@@ -6,6 +6,8 @@
 	import Swal from 'sweetalert2';
 	import './styles.css';
 
+	export let data;
+
 	const isProduction = import.meta.env.MODE === 'production';
 
 	const user = writable({ isLoggedIn: false });
@@ -59,7 +61,11 @@
 
 	async function onSubmit(e) {
 		if (!isProduction) {
-			$user = { isLoggedIn: true };
+			const localRes = await fetch('http://localhost:8080/authenticate');
+			const localResContent = await localRes.json();
+			if (localResContent.success) {
+				$user = { isLoggedIn: true };
+			}
 			return;
 		} else {
 			const formData = new FormData(e.target);
@@ -110,7 +116,7 @@
 </script>
 
 <div class="app">
-	{#if $user.isLoggedIn}
+	{#if data.wordCyclerCookie || $user.isLoggedIn}
 		<header>
 			<nav>
 				<ul>
@@ -156,7 +162,7 @@
 	{/if}
 
 	<main>
-		{#if !$user.isLoggedIn}
+		{#if !(data.wordCyclerCookie || $user.isLoggedIn)}
 			<div>
 				<form on:submit|preventDefault={onSubmit}>
 					<label>
