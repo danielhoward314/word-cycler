@@ -55,15 +55,34 @@
 			definition = data[0].shortdef[0];
 		}
 	}
+
+	async function getSynonyms() {
+		let response, data;
+		// if local, call the local Go server to proxy the call
+		if (!isProduction) {
+			response = await fetch(`http://localhost:8080/synonyms?word=${item}`);
+			data = await response.json();
+			console.log(data);
+		} else {
+			response = await fetch(
+				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/synonyms?word=${item}`
+			);
+			data = await response.json();
+			console.log(data);
+		}
+	}
 </script>
 
 <section class="card">
 	<p style="font-size: {size}">{@html item}</p>
-	<!-- svelte-ignore a11y-autofocus -->
-	<button on:click={handleClick} autofocus>Shuffle</button>
-	{#if mwAPICallable}
-		<button on:click={getDefinition}>Define</button>
-	{/if}
+	<div>
+		<!-- svelte-ignore a11y-autofocus -->
+		<button on:click={handleClick} autofocus>Shuffle</button>
+		{#if mwAPICallable}
+			<button on:click={getDefinition}>Define</button>
+			<button on:click={getSynonyms}>Get Synonyms</button>
+		{/if}
+	</div>
 </section>
 
 <style>

@@ -58,52 +58,47 @@
 	}
 
 	async function onSubmit(e) {
-		if (!isProduction) {
-			$user = { isLoggedIn: true };
-			return;
-		} else {
-			const formData = new FormData(e.target);
-			const data = {};
-			for (let field of formData) {
-				const [key, value] = field;
-				data[key] = value;
-			}
-			// data should now = { password: "<password>"}
-			const rawResponse = await fetch(
-				'https://gilded-truffle-599b56.netlify.app/.netlify/functions/authenticate',
-				{
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify(data)
-				}
-			);
+		const requestURL = isProduction
+			? 'https://gilded-truffle-599b56.netlify.app/.netlify/functions/authenticate'
+			: 'http://localhost:8080/authenticate';
+		const formData = new FormData(e.target);
+		const data = {};
+		for (let field of formData) {
+			const [key, value] = field;
+			data[key] = value;
+		}
+		// data should now = { password: "<password>"}
+		const rawResponse = await fetch(requestURL, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(data)
+		});
 
-			const responseContent = await rawResponse.json();
-			if (responseContent && responseContent.success) {
-				$user = { isLoggedIn: true };
-				localStorage.setItem('word_cycler_local_fail_count', '0');
-			} else {
-				if (browser) {
-					let fc = '0';
-					let failCountAsNumber = 0;
-					let currentVal = localStorage.getItem('word_cycler_local_fail_count');
-					if (currentVal) {
-						failCountAsNumber = +currentVal + 1;
-						fc = `${failCountAsNumber}`;
-					}
-					$failCount = failCountAsNumber + 1;
-					$formDisabled = $failCount >= 4;
-					localStorage.setItem('word_cycler_local_fail_count', fc);
-					Swal.fire({
-						icon: 'error',
-						title: 'Oops...',
-						text: 'Wrong password!'
-					});
-				} else {
-					$formDisabled = true;
+		const responseContent = await rawResponse.json();
+		if (responseContent && responseContent.success) {
+			$user = { isLoggedIn: true };
+			localStorage.setItem('word_cycler_local_fail_count', '0');
+		} else {
+			if (browser) {
+				let fc = '0';
+				let failCountAsNumber = 0;
+				let currentVal = localStorage.getItem('word_cycler_local_fail_count');
+				if (currentVal) {
+					failCountAsNumber = +currentVal + 1;
+					fc = `${failCountAsNumber}`;
 				}
+				$failCount = failCountAsNumber + 1;
+				$formDisabled = $failCount >= 4;
+				localStorage.setItem('word_cycler_local_fail_count', fc);
+				Swal.fire({
+					icon: 'error',
+					title: 'Oops...',
+					text: 'Wrong password!'
+				});
+			} else {
+				$formDisabled = true;
 			}
 		}
 	}
