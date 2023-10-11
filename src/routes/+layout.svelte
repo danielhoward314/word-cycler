@@ -3,7 +3,6 @@
 	import { writable } from 'svelte/store';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
-	import Swal from 'sweetalert2';
 	import './styles.css';
 
 	const isProduction = import.meta.env.MODE === 'production';
@@ -75,8 +74,8 @@
 			},
 			body: JSON.stringify(data)
 		});
-
 		const responseContent = await rawResponse.json();
+		
 		if (responseContent && responseContent.success) {
 			$user = { isLoggedIn: true };
 			localStorage.setItem('word_cycler_local_fail_count', '0');
@@ -92,11 +91,6 @@
 				$failCount = failCountAsNumber + 1;
 				$formDisabled = $failCount >= 4;
 				localStorage.setItem('word_cycler_local_fail_count', fc);
-				Swal.fire({
-					icon: 'error',
-					title: 'Oops...',
-					text: 'Wrong password!'
-				});
 			} else {
 				$formDisabled = true;
 			}

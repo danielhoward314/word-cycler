@@ -6,7 +6,14 @@ exports.handler = async (event) => {
 	}
 	const data = JSON.parse(event.body);
 	const pwdToCheck = data.password;
-	if (pwdToCheck === PASSWORD) {
+	const pwds = (PASSWORD || '').split(',');
+	let isMatch = false;
+	for (let i = 0; i < pwds.length; i++) {
+		if (pwdToCheck === pwds[i]) {
+			isMatch = true;
+		}
+	}
+	if (isMatch) {
 		return {
 			statusCode: 200,
 			body: JSON.stringify({ success: true })
