@@ -75,7 +75,7 @@ export const tierOneVerbs = [
 	'Crawl',
 	'Creak',
 	'Creep',
-	'Cring',
+	'Cringe',
 	'Crinkle',
 	'Cross',
 	'Crouch',

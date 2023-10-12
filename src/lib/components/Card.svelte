@@ -1,10 +1,21 @@
 <script>
 	import { browser } from '$app/environment';
-	import Modal from '$lib/components/Modal.svelte';
+	import { setContext } from 'svelte';
+	import { writable } from 'svelte/store';
+	import DefinitionContent from '$lib/components/DefinitionContent.svelte';
 
 	let isProduction = import.meta.env.MODE === 'production';
 
+	let dialog; // HTMLDialogElement
+
+	$: if (dialog && showModal) dialog.showModal();
+
 	let showModal = false;
+
+	let modalContentType = '';
+
+	const modalData = writable([]);
+	setContext('modalData', modalData);
 
 	/**
 	 * @type {string}
@@ -34,18 +45,45 @@
 	 */
 	let item = list[0];
 
-	function handleClick() {
+	function handleShuffle() {
 		item = list[Math.floor(Math.random() * list.length)];
+		showModal = false;
+		modalContentType = '';
+		$modalData = [];
+	}
+
+	function convertMWDefinitionResponse(data) {
+		if (!data || !data.length) {
+			return [];
+		}
+		return data.map((def) => {
+			const et = (def || {}).et ? (def || {}).et : [];
+			let etymology = '';
+			if (et.length === 1 && et[0].length === 2) {
+				etymology = et[0][1];
+			}
+			let partOfSpeech = (def || {}).fl;
+			let preposition;
+			if (partOfSpeech === 'phrasal verb') {
+				preposition = ((def || {}).hwi || {}).hw;
+			}
+			return {
+				partOfSpeech: (def || {}).fl,
+				definitions: (def || {}).shortdef ? (def || {}).shortdef : [],
+				etymology,
+				preposition
+			};
+		});
 	}
 
 	async function getDefinition() {
+		modalContentType = 'DEFINITION';
 		let response, data;
 		if (browser) {
-			const rawLocalStorage = localStorage.getItem(item);
+			const rawLocalStorage = localStorage.getItem(item.toLowerCase());
 			if (rawLocalStorage) {
 				const parsedLocalStorage = JSON.parse(rawLocalStorage);
 				console.log('from localStorage');
-				console.log(parsedLocalStorage);
 				showModal = true;
 				return;
 			}
@@ -55,8 +93,8 @@
 			response = await fetch(`http://localhost:8080/definition?word=${item}`);
 			data = await response.json();
 			console.log('from local api');
-			console.log(data);
-			localStorage.setItem(item, JSON.stringify(data));
+			$modalData = convertMWDefinitionResponse(data);
+			localStorage.setItem(item.toLowerCase(), JSON.stringify($modalData));
 			showModal = true;
 		} else {
 			response = await fetch(
@@ -64,20 +102,20 @@
 			);
 			data = await response.json();
 			console.log('from netlify function');
-			console.log(data);
-			localStorage.setItem(item, JSON.stringify(data));
+			$modalData = convertMWDefinitionResponse(data);
+			localStorage.setItem(item.toLowerCase(), JSON.stringify($modalData));
 			showModal = true;
 		}
 	}
 
 	async function getSynonyms() {
+		modalContentType = 'SYNONYMS';
 		let response, data;
 		if (browser) {
-			const rawLocalStorage = localStorage.getItem(item);
-			if (rawLocalStorage) {
+			const rawLocalStorage = localStorage.getItem(item.toLowerCase());
+			if (!!rawLocalStorage) {
 				const parsedLocalStorage = JSON.parse(rawLocalStorage);
 				console.log('from localStorage');
-				console.log(parsedLocalStorage);
 				showModal = true;
 				return;
 			}
@@ -87,8 +125,7 @@
 			response = await fetch(`http://localhost:8080/synonyms?word=${item}`);
 			data = await response.json();
 			console.log('from local api');
-			console.log(data);
-			localStorage.setItem(item, JSON.stringify(data));
+			localStorage.setItem(item.toLowerCase(), JSON.stringify(data));
 			showModal = true;
 		} else {
 			response = await fetch(
@@ -96,102 +133,35 @@
 			);
 			data = await response.json();
 			console.log('from netlify function');
-			console.log(data);
-			localStorage.setItem(item, JSON.stringify(data));
+			localStorage.setItem(item.toLowerCase(), JSON.stringify(data));
 			showModal = true;
 		}
 	}
 </script>
 
 <section class="card">
-	<p style="font-size: {size}">{@html item}</p>
+	<p style="font-size: {size}">{@html item.toLowerCase()}</p>
 	<div>
 		<!-- svelte-ignore a11y-autofocus -->
-		<button on:click={handleClick} autofocus>Shuffle</button>
+		<button on:click={handleShuffle} autofocus>Shuffle</button>
 		{#if mwAPICallable}
-			<Modal bind:showModal>
-				<h2 slot="header">
-					modal
-					<small><em>adjective</em> mod·al \ˈmō-dəl\</small>
-				</h2>
-
-				<ol class="definition-list">
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-					<li>of or relating to modality in logic</li>
-					<li>
-						containing provisions as to the mode of procedure or the manner of taking effect —used
-						of a contract or legacy
-					</li>
-					<li>of or relating to a musical mode</li>
-					<li>of or relating to structure as opposed to substance</li>
-					<li>
-						of, relating to, or constituting a grammatical form or category characteristically
-						indicating predication
-					</li>
-					<li>of or relating to a statistical mode</li>
-				</ol>
-
-				<a href="https://www.merriam-webster.com/dictionary/modal">merriam-webster.com</a>
-			</Modal>
+			<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-noninteractive-element-interactions -->
+			<dialog
+				bind:this={dialog}
+				on:close={() => (showModal = false)}
+				on:click|self={() => dialog.close()}
+			>
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div on:click|stopPropagation>
+					<DefinitionContent
+						data={$modalData}
+						type={modalContentType}
+						word={item.toLocaleLowerCase()}
+					/>
+					<!-- svelte-ignore a11y-autofocus -->
+					<button autofocus on:click={() => dialog.close()}>Close</button>
+				</div>
+			</dialog>
 			<button on:click={getDefinition}>Define</button>
 			<button on:click={getSynonyms}>Get Synonyms</button>
 		{/if}
@@ -217,5 +187,41 @@
 	p {
 		overflow-wrap: break-word;
 		margin: 20px;
+	}
+
+	dialog {
+		width: 80vw;
+		border-radius: 10px;
+		border: none;
+		padding: 0;
+		box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25), 0 10px 30px rgba(0, 0, 0, 0.22);
+	}
+	dialog::backdrop {
+		background: rgba(0, 0, 0, 0.3);
+	}
+	dialog > div {
+		padding: 1em;
+	}
+	dialog[open] {
+		animation: zoom 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+	@keyframes zoom {
+		from {
+			transform: scale(0.95);
+		}
+		to {
+			transform: scale(1);
+		}
+	}
+	dialog[open]::backdrop {
+		animation: fade 0.2s ease-out;
+	}
+	@keyframes fade {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 </style>
