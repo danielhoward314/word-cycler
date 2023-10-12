@@ -3,6 +3,8 @@
 	export let type;
 	export let word;
 
+	console.log(data);
+
 	function convertFormattingTokens(et) {
 		const tokenReplacements = [
 			{ mw: '{b}', html: '<strong>' },
@@ -48,11 +50,31 @@
 			<p>{@html convertFormattingTokens(defsOuter.etymology)}</p>
 		{/if}
 	{/each}
-{:else if (data || []).length > 0 && type === 'THESAURUS'}
-	<p>synonyms for now</p>
+{:else if (data || []).length > 0 && type === 'SYNONYMS'}
+{#each data as synonymsOuter}
+<p class="part-of-speech">{@html synonymsOuter.partOfSpeech}</p>
+<span>{@html synonymsOuter.definition}</span>
+{#if (synonymsOuter.synonyms || []).length > 0}
+<h2>Synonyms</h2>
+<ol class="synonyms-list">
+	{#each synonymsOuter.synonyms as syns}
+		<li class="synonym">{@html syns}</li>
+	{/each}
+</ol>
+{/if}
+{#if (synonymsOuter.antonyms || []).length > 0}
+<h2>Antonyms</h2>
+<ol class="antonyms-list">
+	{#each synonymsOuter.antonyms as ants}
+		<li class="antonym">{@html ants}</li>
+	{/each}
+</ol>
+<hr />
+{/if}
+{/each}
 {/if}
 
-<a class="mw-link" href={`https://www.merriam-webster.com/dictionary/${word}`}
+<a class="mw-link" target="_blank" href={`https://www.merriam-webster.com/dictionary/${word}`}
 	>merriam-webster.com</a
 >
 <hr class="bottom" />

@@ -52,6 +52,21 @@
 		$modalData = [];
 	}
 
+	function convertMWSynonymResponse(data) {
+		if (!data || !data.length) {
+			return [];
+		}
+
+		return data.map((syn) => {
+			return {
+				partOfSpeech: (syn || {}).fl,
+				synonyms: ((syn || {}).meta || {}).syns ? ((syn || {}).meta || {}).syns : [],
+				antonyms: ((syn || {}).meta || {}).ants ? ((syn || {}).meta || {}).ants : [], 
+				definition: (syn || {}).shortdef,
+			}
+		});
+	}
+
 	function convertMWDefinitionResponse(data) {
 		if (!data || !data.length) {
 			return [];
@@ -80,10 +95,11 @@
 		modalContentType = 'DEFINITION';
 		let response, data;
 		if (browser) {
-			const rawLocalStorage = localStorage.getItem(item.toLowerCase());
+			const rawLocalStorage = localStorage.getItem(item.toLowerCase() + '_def');
 			if (rawLocalStorage) {
-				const parsedLocalStorage = JSON.parse(rawLocalStorage);
+				$modalData = JSON.parse(rawLocalStorage);
 				console.log('from localStorage');
+				console.log($modalData);
 				showModal = true;
 				return;
 			}
@@ -93,8 +109,10 @@
 			response = await fetch(`http://localhost:8080/definition?word=${item}`);
 			data = await response.json();
 			console.log('from local api');
+			console.log(data);
 			$modalData = convertMWDefinitionResponse(data);
-			localStorage.setItem(item.toLowerCase(), JSON.stringify($modalData));
+			console.log(data);
+			localStorage.setItem(item.toLowerCase() + '_def', JSON.stringify($modalData));
 			showModal = true;
 		} else {
 			response = await fetch(
@@ -102,8 +120,10 @@
 			);
 			data = await response.json();
 			console.log('from netlify function');
+			console.log(data);
 			$modalData = convertMWDefinitionResponse(data);
-			localStorage.setItem(item.toLowerCase(), JSON.stringify($modalData));
+			console.log($modalData);
+			localStorage.setItem(item.toLowerCase() + '_def', JSON.stringify($modalData));
 			showModal = true;
 		}
 	}
@@ -112,10 +132,11 @@
 		modalContentType = 'SYNONYMS';
 		let response, data;
 		if (browser) {
-			const rawLocalStorage = localStorage.getItem(item.toLowerCase());
+			const rawLocalStorage = localStorage.getItem(item.toLowerCase() + '_syn');
 			if (!!rawLocalStorage) {
-				const parsedLocalStorage = JSON.parse(rawLocalStorage);
+				$modalData = JSON.parse(rawLocalStorage);
 				console.log('from localStorage');
+				console.log($modalData);
 				showModal = true;
 				return;
 			}
@@ -125,7 +146,10 @@
 			response = await fetch(`http://localhost:8080/synonyms?word=${item}`);
 			data = await response.json();
 			console.log('from local api');
-			localStorage.setItem(item.toLowerCase(), JSON.stringify(data));
+			console.log(data);
+			$modalData = convertMWSynonymResponse(data);
+			console.log($modalData);
+			localStorage.setItem(item.toLowerCase() + '_syn', JSON.stringify($modalData));
 			showModal = true;
 		} else {
 			response = await fetch(
@@ -133,7 +157,10 @@
 			);
 			data = await response.json();
 			console.log('from netlify function');
-			localStorage.setItem(item.toLowerCase(), JSON.stringify(data));
+			console.log(data);
+			$modalData = convertMWSynonymResponse(data);
+			console.log($modalData);
+			localStorage.setItem(item.toLowerCase() + '_syn', JSON.stringify($modalData));
 			showModal = true;
 		}
 	}
