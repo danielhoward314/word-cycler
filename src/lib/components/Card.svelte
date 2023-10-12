@@ -1,5 +1,10 @@
 <script>
+	import { browser } from '$app/environment';
+	import Modal from '$lib/components/Modal.svelte';
+
 	let isProduction = import.meta.env.MODE === 'production';
+
+	let showModal = false;
 
 	/**
 	 * @type {string}
@@ -33,42 +38,67 @@
 		item = list[Math.floor(Math.random() * list.length)];
 	}
 
-	/**
-	 * @type {string}
-	 */
-	let definition = 'definition';
-
 	async function getDefinition() {
 		let response, data;
+		if (browser) {
+			const rawLocalStorage = localStorage.getItem(item);
+			if (rawLocalStorage) {
+				const parsedLocalStorage = JSON.parse(rawLocalStorage);
+				console.log('from localStorage');
+				console.log(parsedLocalStorage);
+				showModal = true;
+				return;
+			}
+		}
 		// if local, call the local Go server to proxy the call
 		if (!isProduction) {
 			response = await fetch(`http://localhost:8080/definition?word=${item}`);
 			data = await response.json();
+			console.log('from local api');
 			console.log(data);
-			definition = data[0].shortdef[0];
+			localStorage.setItem(item, JSON.stringify(data));
+			showModal = true;
 		} else {
 			response = await fetch(
 				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
 			);
 			data = await response.json();
+			console.log('from netlify function');
 			console.log(data);
-			definition = data[0].shortdef[0];
+			localStorage.setItem(item, JSON.stringify(data));
+			showModal = true;
 		}
 	}
 
 	async function getSynonyms() {
 		let response, data;
+		if (browser) {
+			const rawLocalStorage = localStorage.getItem(item);
+			if (rawLocalStorage) {
+				const parsedLocalStorage = JSON.parse(rawLocalStorage);
+				console.log('from localStorage');
+				console.log(parsedLocalStorage);
+				showModal = true;
+				return;
+			}
+		}
 		// if local, call the local Go server to proxy the call
 		if (!isProduction) {
 			response = await fetch(`http://localhost:8080/synonyms?word=${item}`);
 			data = await response.json();
+			console.log('from local api');
 			console.log(data);
+			localStorage.setItem(item, JSON.stringify(data));
+			showModal = true;
 		} else {
 			response = await fetch(
 				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/synonyms?word=${item}`
 			);
 			data = await response.json();
+			console.log('from netlify function');
 			console.log(data);
+			localStorage.setItem(item, JSON.stringify(data));
+			showModal = true;
 		}
 	}
 </script>
@@ -79,6 +109,89 @@
 		<!-- svelte-ignore a11y-autofocus -->
 		<button on:click={handleClick} autofocus>Shuffle</button>
 		{#if mwAPICallable}
+			<Modal bind:showModal>
+				<h2 slot="header">
+					modal
+					<small><em>adjective</em> mod·al \ˈmō-dəl\</small>
+				</h2>
+
+				<ol class="definition-list">
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+					<li>of or relating to modality in logic</li>
+					<li>
+						containing provisions as to the mode of procedure or the manner of taking effect —used
+						of a contract or legacy
+					</li>
+					<li>of or relating to a musical mode</li>
+					<li>of or relating to structure as opposed to substance</li>
+					<li>
+						of, relating to, or constituting a grammatical form or category characteristically
+						indicating predication
+					</li>
+					<li>of or relating to a statistical mode</li>
+				</ol>
+
+				<a href="https://www.merriam-webster.com/dictionary/modal">merriam-webster.com</a>
+			</Modal>
 			<button on:click={getDefinition}>Define</button>
 			<button on:click={getSynonyms}>Get Synonyms</button>
 		{/if}

@@ -1,0 +1,834 @@
+[
+	{
+		"meta": {
+			"id": "bang:1",
+			"uuid": "7a70bce2-2d54-4990-a7dc-fba394d092c3",
+			"sort": "020050300",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang", "banged", "banging", "bangs"],
+			"offensive": true
+		},
+		"hom": 1,
+		"hwi": {
+			"hw": "bang",
+			"prs": [
+				{
+					"mw": "ˈbaŋ",
+					"sound": {
+						"audio": "bang0001",
+						"ref": "c",
+						"stat": "1"
+					}
+				}
+			]
+		},
+		"fl": "verb",
+		"ins": [
+			{
+				"if": "banged"
+			},
+			{
+				"if": "bang*ing"
+			},
+			{
+				"if": "bangs"
+			}
+		],
+		"def": [
+			{
+				"vd": "transitive verb",
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [
+									["text", "{bc}to strike sharply {bc}{sx|bump||} "],
+									[
+										"vis",
+										[
+											{
+												"t": "{wi}banged{/wi} his knee"
+											}
+										]
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									["text", "{bc}to knock, hit, or thrust vigorously often with a sharp noise "],
+									[
+										"vis",
+										[
+											{
+												"t": "{wi}banged{/wi} the door shut"
+											}
+										]
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "3",
+								"sls": ["vulgar slang"],
+								"dt": [["text", "{bc}to have sexual intercourse with"]]
+							}
+						]
+					]
+				]
+			},
+			{
+				"vd": "intransitive verb",
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [["text", "{bc}to strike with a sharp noise or thump"]]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									[
+										"text",
+										"{bc}to produce a sharp often metallic explosive or percussive noise or series of such noises"
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "3",
+								"dt": [
+									[
+										"text",
+										"{bc}to play a sport (such as basketball) in a very aggressive and forceful manner "
+									],
+									[
+										"vis",
+										[
+											{
+												"t": "{wi}bang{/wi} for rebounds"
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"et": [["text", "probably of Scandinavian origin; akin to Old Norse {it}bang{/it} hammering"]],
+		"date": "circa 1550{ds|t|1||}",
+		"shortdef": [
+			"to strike sharply : bump",
+			"to knock, hit, or thrust vigorously often with a sharp noise",
+			"to have sexual intercourse with"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang:2",
+			"uuid": "8f27c430-2a22-4199-9eaf-fac17e047279",
+			"sort": "020050400",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": [
+				"bang",
+				"bang for her buck",
+				"bang for her dollar",
+				"bang for his buck",
+				"bang for his dollar",
+				"bang for its buck",
+				"bang for its dollar",
+				"bang for my buck",
+				"bang for my dollar",
+				"bang for one's buck",
+				"bang for one's dollar",
+				"bang for our buck",
+				"bang for our dollar",
+				"bang for the buck",
+				"bang for the dollar",
+				"bang for their buck",
+				"bang for their dollar",
+				"bang for your buck",
+				"bang for your dollar",
+				"bangs"
+			],
+			"offensive": true
+		},
+		"hom": 2,
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "noun",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [["text", "{bc}a resounding blow"]]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									["text", "{bc}a sudden loud noise "],
+									["uns", [[["text", "often used interjectionally"]]]]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "3 a",
+								"dt": [["text", "{bc}a sudden striking effect"]]
+							}
+						],
+						[
+							"sense",
+							{
+								"sn": "b",
+								"dt": [
+									["text", "{bc}a quick burst of energy "],
+									[
+										"vis",
+										[
+											{
+												"t": "start off with a {wi}bang{/wi}"
+											}
+										]
+									]
+								]
+							}
+						],
+						[
+							"sense",
+							{
+								"sn": "c",
+								"dt": [
+									["text", "{bc}{sx|thrill||} "],
+									[
+										"vis",
+										[
+											{
+												"t": "I get a {wi}bang{/wi} out of all this",
+												"aq": {
+													"auth": "W. H. Whyte"
+												}
+											}
+										]
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sen",
+							{
+								"sn": "4",
+								"sls": ["vulgar slang"]
+							}
+						],
+						[
+							"sense",
+							{
+								"sn": "a",
+								"dt": [["text", "{bc}an act of copulation"]]
+							}
+						],
+						[
+							"sense",
+							{
+								"sn": "b",
+								"dt": [["text", "{bc}a sexual partner"]]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "5",
+								"sls": ["informal"],
+								"dt": [["text", "{bc}{sx|exclamation point||}"]]
+							}
+						]
+					]
+				]
+			}
+		],
+		"dros": [
+			{
+				"drp": "bang for the buck",
+				"vrs": [
+					{
+						"vl": "or less commonly",
+						"va": "bang for one's buck"
+					},
+					{
+						"vl": "or",
+						"va": "bang for the dollar"
+					},
+					{
+						"vl": "or",
+						"va": "bang for one's dollar"
+					}
+				],
+				"def": [
+					{
+						"sls": ["US", "informal"],
+						"sseq": [
+							[
+								[
+									"sense",
+									{
+										"dt": [
+											["text", "{bc}value received from outlay or effort "],
+											[
+												"vis",
+												[
+													{
+														"t": "investment is yielding less {it}bang for the buck{/it}",
+														"aq": {
+															"source": "{it}Fortune{/it}"
+														}
+													},
+													{
+														"t": "\"They are going to try to get the best {wi}bang for their dollar{/wi}, and they have to do it this way.\" {wi}Brock Lesnar{/wi}"
+													}
+												]
+											]
+										]
+									}
+								]
+							]
+						]
+					}
+				]
+			}
+		],
+		"date": "circa 1550{ds||1||}",
+		"shortdef": [
+			"a resounding blow",
+			"a sudden loud noise —often used interjectionally",
+			"a sudden striking effect"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang:3",
+			"uuid": "a98adb01-3b90-467b-bb38-bb5a3dee20ef",
+			"sort": "020050500",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang"],
+			"offensive": false
+		},
+		"hom": 3,
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "adverb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "{bc}{sx|right||}, {sx|directly||} "],
+									[
+										"vis",
+										[
+											{
+												"t": "ran {wi}bang{/wi} up against more trouble"
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1828",
+		"shortdef": ["right, directly"]
+	},
+	{
+		"meta": {
+			"id": "bang:4",
+			"uuid": "8a575cbf-d380-4c8f-9d50-cf8d5af3b1a5",
+			"sort": "020050600",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang", "bang for one's buck", "bang for the buck", "bangs"],
+			"offensive": false
+		},
+		"hom": 4,
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "noun",
+		"ins": [
+			{
+				"il": "plural",
+				"if": "bangs"
+			}
+		],
+		"def": [
+			{
+				"sls": ["US"],
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									[
+										"text",
+										"{bc}the front section of a person's hair when it is cut short and worn over the forehead "
+									],
+									[
+										"uns",
+										[
+											[
+												["text", "usually used in plural "],
+												[
+													"vis",
+													[
+														{
+															"t": "wore her {wi}bangs{/wi} short"
+														},
+														{
+															"t": "She had long hair with {wi}bangs{/wi}."
+														},
+														{
+															"t": "In person, Miss Chin is small and pretty, with black button eyes, fluffy black {wi}bangs{/wi} and dimples that show when she giggles …",
+															"aq": {
+																"auth": "Helen Lawrenson"
+															}
+														}
+													]
+												]
+											]
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"et": [["text", "probably short for {it}bangtail{/it} short tail"]],
+		"date": "1874",
+		"shortdef": [
+			"the front section of a person's hair when it is cut short and worn over the forehead —usually used in plural"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang:5",
+			"uuid": "c2be12de-a4a0-4640-a927-4a9af6322b5c",
+			"sort": "020050700",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang", "banged", "banging", "bangs"],
+			"offensive": false
+		},
+		"hom": 5,
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "verb",
+		"ins": [
+			{
+				"if": "banged"
+			},
+			{
+				"if": "bang*ing"
+			},
+			{
+				"if": "bangs"
+			}
+		],
+		"def": [
+			{
+				"vd": "transitive verb",
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [["text", "{bc}to cut (hair) short and squarely across"]]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1874",
+		"shortdef": ["to cut (hair) short and squarely across"]
+	},
+	{
+		"meta": {
+			"id": "bang away",
+			"uuid": "efe2dd19-95b6-499a-8bb4-91076b9d2661",
+			"sort": "020050900",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang away", "banged away", "banging away", "bangs away"],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang away"
+		},
+		"fl": "verb",
+		"ins": [
+			{
+				"if": "banged away"
+			},
+			{
+				"if": "bang*ing away"
+			},
+			{
+				"if": "bangs away"
+			}
+		],
+		"def": [
+			{
+				"vd": "intransitive verb",
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [
+									["text", "{bc}to work with determined effort "],
+									[
+										"vis",
+										[
+											{
+												"t": "students {it}banging away{/it} at their homework"
+											}
+										]
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									["text", "{bc}to attack persistently "],
+									[
+										"vis",
+										[
+											{
+												"t": "police are going to keep {it}banging away{/it} at you",
+												"aq": {
+													"auth": "Erle Stanley Gardner"
+												}
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1818{ds||1||}",
+		"shortdef": ["to work with determined effort", "to attack persistently"]
+	},
+	{
+		"meta": {
+			"id": "bang-bang",
+			"uuid": "369b9c8d-e499-4a4a-b722-643dd30a8567",
+			"sort": "020051000",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang-bang"],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang-bang",
+			"prs": [
+				{
+					"mw": "ˈbaŋ-ˌbaŋ",
+					"sound": {
+						"audio": "bangb01v",
+						"ref": "c",
+						"stat": "1"
+					}
+				}
+			]
+		},
+		"fl": "adjective",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1 a",
+								"dt": [
+									[
+										"text",
+										"{bc}having a sudden, forceful, or attention-grabbing effect {bc}{sx|punchy||} "
+									],
+									[
+										"vis",
+										[
+											{
+												"t": "{wi}bang-bang{/wi} headlines"
+											}
+										]
+									]
+								]
+							}
+						],
+						[
+							"sense",
+							{
+								"sn": "b",
+								"dt": [
+									[
+										"text",
+										"{bc}executed or happening so quickly as to make judgment (as by an umpire or referee) difficult "
+									],
+									[
+										"vis",
+										[
+											{
+												"t": "a {wi}bang-bang{/wi} play at first base"
+											}
+										]
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									["text", "{bc}characterized by violent or fast-paced action "],
+									[
+										"vis",
+										[
+											{
+												"t": "a {wi}bang-bang{/wi} movie"
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1911{ds||1|a|}",
+		"shortdef": [
+			"having a sudden, forceful, or attention-grabbing effect : punchy",
+			"executed or happening so quickly as to make judgment (as by an umpire or referee) difficult",
+			"characterized by violent or fast-paced action"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang on:1",
+			"uuid": "b0bc0216-3806-46eb-9373-44bc60c2dfae",
+			"sort": "020051400",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang on"],
+			"offensive": false
+		},
+		"hom": 1,
+		"hwi": {
+			"hw": "bang on"
+		},
+		"fl": "adjective",
+		"def": [
+			{
+				"sls": ["chiefly British"],
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [["text", "{bc}exactly correct or appropriate"]]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1943",
+		"shortdef": ["exactly correct or appropriate"]
+	},
+	{
+		"meta": {
+			"id": "bang on:2",
+			"uuid": "7f33096e-7d2a-4d9a-9e98-b29234ceb99a",
+			"sort": "020051440",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang on", "banged on", "banging on", "bangs on"],
+			"offensive": false
+		},
+		"hom": 2,
+		"hwi": {
+			"hw": "bang on"
+		},
+		"fl": "verb",
+		"ins": [
+			{
+				"if": "banged on"
+			},
+			{
+				"if": "banging on"
+			},
+			{
+				"if": "bangs on"
+			}
+		],
+		"def": [
+			{
+				"vd": "intransitive verb",
+				"sls": ["British", "informal"],
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "{bc}to talk repeatedly or continuously about something "],
+									["uns", [[["text", "usually used with {it}about{/it}"]]]],
+									[
+										"vis",
+										[
+											{
+												"t": "I love fatherhood—I could {wi}bang on{/wi} about kids forever.",
+												"aq": {
+													"auth": "Guy Ritchie"
+												}
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1979",
+		"shortdef": ["to talk repeatedly or continuously about something —usually used with about"]
+	},
+	{
+		"meta": {
+			"id": "bang out",
+			"uuid": "a10c5a92-48df-49f3-9945-a98fc51d06bf",
+			"sort": "020051470",
+			"src": "collegiate",
+			"section": "alpha",
+			"stems": ["bang out", "banged out", "banging out", "bangs out"],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang out"
+		},
+		"fl": "verb",
+		"ins": [
+			{
+				"if": "banged out"
+			},
+			{
+				"if": "bang*ing out"
+			},
+			{
+				"if": "bangs out"
+			}
+		],
+		"def": [
+			{
+				"vd": "transitive verb",
+				"sls": ["informal"],
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "{bc}to produce (something) in a quick or hurried manner "],
+									[
+										"vis",
+										[
+											{
+												"t": "typists {wi}banging out{/wi} copy"
+											},
+											{
+												"t": "He was only 40 when he fulfilled the common newsman's dream of hitting it big with the novel he'd been {wi}banging out{/wi} between deadlines.",
+												"aq": {
+													"auth": "Thomas Mallon"
+												}
+											}
+										]
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"date": "1928",
+		"shortdef": ["to produce (something) in a quick or hurried manner"]
+	}
+]

@@ -1,0 +1,3915 @@
+[
+	{
+		"meta": {
+			"id": "bang",
+			"uuid": "63a81d5a-5264-4aea-a6cc-b208dace48a4",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "a98adb01-3b90-467b-bb38-bb5a3dee20ef",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang"],
+			"syns": [
+				[
+					"directly",
+					"forthwith",
+					"headlong",
+					"immediately",
+					"incontinently",
+					"instantaneously",
+					"instanter",
+					"instantly",
+					"now",
+					"PDQ",
+					"plumb",
+					"presently",
+					"promptly",
+					"pronto",
+					"right",
+					"right away",
+					"right now",
+					"right off",
+					"straight off",
+					"straightaway",
+					"straightway"
+				]
+			],
+			"ants": [],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "adverb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "without delay "],
+									[
+										"vis",
+										[
+											{
+												"t": "the reform movement was just beginning when it {it}bang{/it} ran into opposition"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "directly"
+										},
+										{
+											"wd": "forthwith"
+										},
+										{
+											"wd": "headlong"
+										},
+										{
+											"wd": "immediately"
+										},
+										{
+											"wd": "incontinently"
+										},
+										{
+											"wd": "instantaneously"
+										},
+										{
+											"wd": "instanter"
+										},
+										{
+											"wd": "instantly"
+										},
+										{
+											"wd": "now"
+										},
+										{
+											"wd": "PDQ"
+										},
+										{
+											"wd": "plumb"
+										},
+										{
+											"wd": "presently"
+										},
+										{
+											"wd": "promptly"
+										},
+										{
+											"wd": "pronto"
+										},
+										{
+											"wd": "right"
+										},
+										{
+											"wd": "right away"
+										},
+										{
+											"wd": "right now"
+										},
+										{
+											"wd": "right off"
+										},
+										{
+											"wd": "straight off"
+										},
+										{
+											"wd": "straightaway"
+										},
+										{
+											"wd": "straightway"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "away"
+										},
+										{
+											"wd": "freely"
+										}
+									],
+									[
+										{
+											"wd": "anon"
+										},
+										{
+											"wd": "momentarily"
+										},
+										{
+											"wd": "shortly"
+										},
+										{
+											"wd": "soon"
+										}
+									],
+									[
+										{
+											"wd": "apace"
+										},
+										{
+											"wd": "briskly"
+										},
+										{
+											"wd": "fast"
+										},
+										{
+											"wd": "fleetly"
+										},
+										{
+											"wd": "full tilt"
+										},
+										{
+											"wd": "posthaste"
+										},
+										{
+											"wd": "quick"
+										},
+										{
+											"wd": "quickly"
+										},
+										{
+											"wd": "rapidly"
+										},
+										{
+											"wd": "readily"
+										},
+										{
+											"wd": "snappily"
+										},
+										{
+											"wd": "speedily"
+										},
+										{
+											"wd": "swift"
+										},
+										{
+											"wd": "swiftly"
+										}
+									],
+									[
+										{
+											"wd": "abruptly"
+										},
+										{
+											"wd": "presto"
+										},
+										{
+											"wd": "suddenly"
+										},
+										{
+											"wd": "unexpectedly"
+										}
+									],
+									[
+										{
+											"wd": "hastily"
+										},
+										{
+											"wd": "impetuously"
+										},
+										{
+											"wd": "impulsively"
+										},
+										{
+											"wd": "rashly"
+										},
+										{
+											"wd": "recklessly"
+										}
+									],
+									[
+										{
+											"wd": "exactly"
+										},
+										{
+											"wd": "opportunely"
+										},
+										{
+											"wd": "punctually"
+										},
+										{
+											"wd": "seasonably"
+										}
+									]
+								],
+								"phrase_list": [
+									[
+										{
+											"wd": "at once"
+										},
+										{
+											"wd": "in no time"
+										},
+										{
+											"wd": "off the bat"
+										},
+										{
+											"wd": "on a dime"
+										},
+										{
+											"wd": "on the double"
+										},
+										{
+											"wd": "on the spot"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "slowly"
+										}
+									],
+									[
+										{
+											"wd": "late"
+										},
+										{
+											"wd": "tardily"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["without delay"]
+	},
+	{
+		"meta": {
+			"id": "bang",
+			"uuid": "3c481daa-f741-411a-94ea-07769026585b",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "8f27c430-2a22-4199-9eaf-fac17e047279",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang", "bang for one's buck", "bang for the buck", "bangs", "bhang"],
+			"syns": [
+				[
+					"bash",
+					"bat",
+					"beat",
+					"belt",
+					"biff",
+					"blow",
+					"bop",
+					"box",
+					"buffet",
+					"bust",
+					"chop",
+					"clap",
+					"clip",
+					"clout",
+					"crack",
+					"cuff",
+					"dab",
+					"douse",
+					"fillip",
+					"hack",
+					"haymaker",
+					"hit",
+					"hook",
+					"knock",
+					"larrup",
+					"lash",
+					"lick",
+					"pelt",
+					"pick",
+					"plump",
+					"poke",
+					"pound",
+					"punch",
+					"rap",
+					"slam",
+					"slap",
+					"slug",
+					"smack",
+					"smash",
+					"sock",
+					"spank",
+					"stinger",
+					"stripe",
+					"stroke",
+					"swat",
+					"swipe",
+					"switch",
+					"thud",
+					"thump",
+					"thwack",
+					"wallop",
+					"welt",
+					"whack",
+					"wham",
+					"whop"
+				],
+				[
+					"blast",
+					"boom",
+					"clap",
+					"crack",
+					"crash",
+					"pop",
+					"report",
+					"slam",
+					"smash",
+					"snap",
+					"thunderclap",
+					"thwack",
+					"whack",
+					"whomp",
+					"whump"
+				],
+				[
+					"boot",
+					"charge",
+					"exhilaration",
+					"frisson",
+					"jollies",
+					"kick",
+					"rush",
+					"thrill",
+					"titillation",
+					"wallop"
+				]
+			],
+			"ants": [],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "noun",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [
+									["text", "a hard strike with a part of the body or an instrument "],
+									[
+										"vis",
+										[
+											{
+												"t": "delivered a sharp {it}bang{/it} that rattled the door"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "bash"
+										},
+										{
+											"wd": "bat"
+										},
+										{
+											"wd": "beat"
+										},
+										{
+											"wd": "belt"
+										},
+										{
+											"wd": "biff"
+										},
+										{
+											"wd": "blow"
+										},
+										{
+											"wd": "bop"
+										},
+										{
+											"wd": "box"
+										},
+										{
+											"wd": "buffet"
+										},
+										{
+											"wd": "bust"
+										},
+										{
+											"wd": "chop"
+										},
+										{
+											"wd": "clap"
+										},
+										{
+											"wd": "clip"
+										},
+										{
+											"wd": "clout"
+										},
+										{
+											"wd": "crack"
+										},
+										{
+											"wd": "cuff"
+										},
+										{
+											"wd": "dab"
+										},
+										{
+											"wd": "douse",
+											"wsls": ["British"]
+										},
+										{
+											"wd": "fillip"
+										},
+										{
+											"wd": "hack"
+										},
+										{
+											"wd": "haymaker"
+										},
+										{
+											"wd": "hit"
+										},
+										{
+											"wd": "hook"
+										},
+										{
+											"wd": "knock"
+										},
+										{
+											"wd": "larrup",
+											"wsls": ["dialect"]
+										},
+										{
+											"wd": "lash"
+										},
+										{
+											"wd": "lick"
+										},
+										{
+											"wd": "pelt"
+										},
+										{
+											"wd": "pick"
+										},
+										{
+											"wd": "plump"
+										},
+										{
+											"wd": "poke"
+										},
+										{
+											"wd": "pound"
+										},
+										{
+											"wd": "punch"
+										},
+										{
+											"wd": "rap"
+										},
+										{
+											"wd": "slam"
+										},
+										{
+											"wd": "slap"
+										},
+										{
+											"wd": "slug"
+										},
+										{
+											"wd": "smack"
+										},
+										{
+											"wd": "smash"
+										},
+										{
+											"wd": "sock"
+										},
+										{
+											"wd": "spank"
+										},
+										{
+											"wd": "stinger"
+										},
+										{
+											"wd": "stripe"
+										},
+										{
+											"wd": "stroke"
+										},
+										{
+											"wd": "swat"
+										},
+										{
+											"wd": "swipe"
+										},
+										{
+											"wd": "switch"
+										},
+										{
+											"wd": "thud"
+										},
+										{
+											"wd": "thump"
+										},
+										{
+											"wd": "thwack"
+										},
+										{
+											"wd": "wallop"
+										},
+										{
+											"wd": "welt"
+										},
+										{
+											"wd": "whack"
+										},
+										{
+											"wd": "wham"
+										},
+										{
+											"wd": "whop",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "whap"
+												}
+											]
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "counter"
+										},
+										{
+											"wd": "counterblow"
+										},
+										{
+											"wd": "counterpunch"
+										},
+										{
+											"wd": "counterstroke"
+										}
+									],
+									[
+										{
+											"wd": "body blow"
+										},
+										{
+											"wd": "hand"
+										},
+										{
+											"wd": "kick"
+										},
+										{
+											"wd": "knee"
+										},
+										{
+											"wd": "left"
+										},
+										{
+											"wd": "one-two"
+										},
+										{
+											"wd": "rabbit punch"
+										},
+										{
+											"wd": "right"
+										},
+										{
+											"wd": "right-hander"
+										},
+										{
+											"wd": "roundhouse"
+										},
+										{
+											"wd": "shiver"
+										},
+										{
+											"wd": "sidewinder"
+										},
+										{
+											"wd": "sucker punch"
+										},
+										{
+											"wd": "swing"
+										},
+										{
+											"wd": "uppercut"
+										}
+									],
+									[
+										{
+											"wd": "cruncher"
+										},
+										{
+											"wd": "kayo"
+										},
+										{
+											"wd": "knockdown"
+										},
+										{
+											"wd": "knockout"
+										},
+										{
+											"wd": "KO"
+										}
+									],
+									[
+										{
+											"wd": "bastinado",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "bastinade"
+												}
+											]
+										},
+										{
+											"wd": "battering"
+										},
+										{
+											"wd": "beating"
+										},
+										{
+											"wd": "bludgeoning"
+										},
+										{
+											"wd": "clobbering"
+										},
+										{
+											"wd": "cudgeling",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "cudgelling"
+												}
+											]
+										},
+										{
+											"wd": "drubbing"
+										},
+										{
+											"wd": "hammering"
+										},
+										{
+											"wd": "lambasting"
+										},
+										{
+											"wd": "licking"
+										},
+										{
+											"wd": "pasting"
+										},
+										{
+											"wd": "pounding"
+										},
+										{
+											"wd": "pummeling",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "pummelling"
+												}
+											]
+										},
+										{
+											"wd": "thrashing"
+										}
+									],
+									[
+										{
+											"wd": "flogging"
+										},
+										{
+											"wd": "walloping"
+										},
+										{
+											"wd": "whip"
+										},
+										{
+											"wd": "whipping"
+										}
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									["text", "a loud explosive sound "],
+									[
+										"vis",
+										[
+											{
+												"t": "a sudden {it}bang{/it} made the cat jump"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "blast"
+										},
+										{
+											"wd": "boom"
+										},
+										{
+											"wd": "clap"
+										},
+										{
+											"wd": "crack"
+										},
+										{
+											"wd": "crash"
+										},
+										{
+											"wd": "pop"
+										},
+										{
+											"wd": "report"
+										},
+										{
+											"wd": "slam"
+										},
+										{
+											"wd": "smash"
+										},
+										{
+											"wd": "snap"
+										},
+										{
+											"wd": "thunderclap"
+										},
+										{
+											"wd": "thwack"
+										},
+										{
+											"wd": "whack"
+										},
+										{
+											"wd": "whomp"
+										},
+										{
+											"wd": "whump"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "thunk"
+										},
+										{
+											"wd": "wham"
+										}
+									],
+									[
+										{
+											"wd": "clang"
+										},
+										{
+											"wd": "clangor"
+										},
+										{
+											"wd": "clank"
+										},
+										{
+											"wd": "clash"
+										}
+									],
+									[
+										{
+											"wd": "knock"
+										},
+										{
+											"wd": "rap"
+										},
+										{
+											"wd": "tap"
+										}
+									],
+									[
+										{
+											"wd": "blare"
+										},
+										{
+											"wd": "clamor"
+										},
+										{
+											"wd": "howl"
+										},
+										{
+											"wd": "hubbub"
+										},
+										{
+											"wd": "hue and cry"
+										},
+										{
+											"wd": "hullabaloo"
+										},
+										{
+											"wd": "outcry"
+										},
+										{
+											"wd": "roar"
+										},
+										{
+											"wd": "tumult"
+										},
+										{
+											"wd": "uproar"
+										}
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "3",
+								"dt": [
+									["text", "a pleasurably intense stimulation of the feelings "],
+									[
+										"vis",
+										[
+											{
+												"t": "tried to get the most {it}bang{/it} for her money at the attractions at the county fair"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "boot"
+										},
+										{
+											"wd": "charge"
+										},
+										{
+											"wd": "exhilaration"
+										},
+										{
+											"wd": "frisson"
+										},
+										{
+											"wd": "jollies"
+										},
+										{
+											"wd": "kick"
+										},
+										{
+											"wd": "rush"
+										},
+										{
+											"wd": "thrill"
+										},
+										{
+											"wd": "titillation"
+										},
+										{
+											"wd": "wallop"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "arousal"
+										},
+										{
+											"wd": "buzz"
+										},
+										{
+											"wd": "electrification"
+										},
+										{
+											"wd": "high"
+										},
+										{
+											"wd": "intoxication"
+										}
+									],
+									[
+										{
+											"wd": "jolt"
+										},
+										{
+											"wd": "shock"
+										},
+										{
+											"wd": "surprise",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "surprize"
+												}
+											]
+										}
+									],
+									[
+										{
+											"wd": "delectation"
+										},
+										{
+											"wd": "delight"
+										},
+										{
+											"wd": "enjoyment"
+										},
+										{
+											"wd": "joy"
+										},
+										{
+											"wd": "lift"
+										},
+										{
+											"wd": "pleasure"
+										}
+									],
+									[
+										{
+											"wd": "amusement"
+										},
+										{
+											"wd": "diversion"
+										},
+										{
+											"wd": "entertainment"
+										},
+										{
+											"wd": "fun"
+										},
+										{
+											"wd": "treat"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": [
+			"a hard strike with a part of the body or an instrument",
+			"a loud explosive sound",
+			"a pleasurably intense stimulation of the feelings"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang",
+			"uuid": "49e19cf8-ab4b-4c1c-96d8-05251f984ad7",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "7a70bce2-2d54-4990-a7dc-fba394d092c3",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang", "banged", "banging", "bangs"],
+			"syns": [
+				[
+					"bash",
+					"bump",
+					"collide",
+					"crash",
+					"hit",
+					"impact",
+					"impinge",
+					"knock",
+					"ram",
+					"slam",
+					"smash",
+					"strike",
+					"swipe",
+					"thud"
+				],
+				[
+					"bash",
+					"bat",
+					"belt",
+					"biff",
+					"bludgeon",
+					"bob",
+					"bonk",
+					"bop",
+					"box",
+					"bust",
+					"clap",
+					"clip",
+					"clobber",
+					"clock",
+					"clout",
+					"crack",
+					"hammer",
+					"hit",
+					"knock",
+					"nail",
+					"paste",
+					"pound",
+					"punch",
+					"rap",
+					"slam",
+					"slap",
+					"slog",
+					"slug",
+					"smack",
+					"smite",
+					"sock",
+					"strike",
+					"swat",
+					"swipe",
+					"tag",
+					"thump",
+					"thwack",
+					"wallop",
+					"whack",
+					"whale",
+					"zap"
+				],
+				["slam"]
+			],
+			"ants": [],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang"
+		},
+		"fl": "verb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"sn": "1",
+								"dt": [
+									["text", "to come into usually forceful contact with something "],
+									[
+										"vis",
+										[
+											{
+												"t": "the toy car {it}banged{/it} into the wall and stopped"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "bash"
+										},
+										{
+											"wd": "bump"
+										},
+										{
+											"wd": "collide"
+										},
+										{
+											"wd": "crash"
+										},
+										{
+											"wd": "hit"
+										},
+										{
+											"wd": "impact"
+										},
+										{
+											"wd": "impinge"
+										},
+										{
+											"wd": "knock"
+										},
+										{
+											"wd": "ram"
+										},
+										{
+											"wd": "slam"
+										},
+										{
+											"wd": "smash"
+										},
+										{
+											"wd": "strike"
+										},
+										{
+											"wd": "swipe"
+										},
+										{
+											"wd": "thud"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "bounce"
+										},
+										{
+											"wd": "carom"
+										},
+										{
+											"wd": "clunk"
+										},
+										{
+											"wd": "glance"
+										},
+										{
+											"wd": "rebound"
+										},
+										{
+											"wd": "ricochet"
+										},
+										{
+											"wd": "skim"
+										},
+										{
+											"wd": "skip"
+										}
+									],
+									[
+										{
+											"wd": "contact"
+										},
+										{
+											"wd": "land"
+										},
+										{
+											"wd": "touch"
+										}
+									],
+									[
+										{
+											"wd": "brush"
+										},
+										{
+											"wd": "graze"
+										},
+										{
+											"wd": "kiss"
+										},
+										{
+											"wd": "nudge"
+										},
+										{
+											"wd": "scrape"
+										},
+										{
+											"wd": "shave"
+										},
+										{
+											"wd": "sweep"
+										}
+									],
+									[
+										{
+											"wd": "bulldoze"
+										},
+										{
+											"wd": "jostle"
+										},
+										{
+											"wd": "muscle"
+										},
+										{
+											"wd": "press"
+										},
+										{
+											"wd": "push"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "miss"
+										},
+										{
+											"wd": "skirt"
+										}
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "2",
+								"dt": [
+									[
+										"text",
+										"to deliver a blow to (someone or something) usually in a strong vigorous manner "
+									],
+									[
+										"vis",
+										[
+											{
+												"t": "idly {it}banged{/it} trees with a stick"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "bash"
+										},
+										{
+											"wd": "bat"
+										},
+										{
+											"wd": "belt"
+										},
+										{
+											"wd": "biff"
+										},
+										{
+											"wd": "bludgeon"
+										},
+										{
+											"wd": "bob"
+										},
+										{
+											"wd": "bonk"
+										},
+										{
+											"wd": "bop"
+										},
+										{
+											"wd": "box"
+										},
+										{
+											"wd": "bust"
+										},
+										{
+											"wd": "clap"
+										},
+										{
+											"wd": "clip"
+										},
+										{
+											"wd": "clobber"
+										},
+										{
+											"wd": "clock"
+										},
+										{
+											"wd": "clout"
+										},
+										{
+											"wd": "crack"
+										},
+										{
+											"wd": "hammer"
+										},
+										{
+											"wd": "hit"
+										},
+										{
+											"wd": "knock"
+										},
+										{
+											"wd": "nail"
+										},
+										{
+											"wd": "paste"
+										},
+										{
+											"wd": "pound"
+										},
+										{
+											"wd": "punch"
+										},
+										{
+											"wd": "rap"
+										},
+										{
+											"wd": "slam"
+										},
+										{
+											"wd": "slap"
+										},
+										{
+											"wd": "slog"
+										},
+										{
+											"wd": "slug"
+										},
+										{
+											"wd": "smack"
+										},
+										{
+											"wd": "smite"
+										},
+										{
+											"wd": "sock"
+										},
+										{
+											"wd": "strike"
+										},
+										{
+											"wd": "swat"
+										},
+										{
+											"wd": "swipe"
+										},
+										{
+											"wd": "tag"
+										},
+										{
+											"wd": "thump"
+										},
+										{
+											"wd": "thwack"
+										},
+										{
+											"wd": "wallop"
+										},
+										{
+											"wd": "whack"
+										},
+										{
+											"wd": "whale"
+										},
+										{
+											"wd": "zap"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "batter"
+										},
+										{
+											"wd": "beat"
+										},
+										{
+											"wd": "buffet"
+										},
+										{
+											"wd": "bung"
+										},
+										{
+											"wd": "chop"
+										},
+										{
+											"wd": "cuff"
+										},
+										{
+											"wd": "drub"
+										},
+										{
+											"wd": "lace"
+										},
+										{
+											"wd": "lambaste",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "lambast"
+												}
+											]
+										},
+										{
+											"wd": "lick"
+										},
+										{
+											"wd": "mangle"
+										},
+										{
+											"wd": "maul"
+										},
+										{
+											"wd": "pelt"
+										},
+										{
+											"wd": "pepper"
+										},
+										{
+											"wd": "pommel"
+										},
+										{
+											"wd": "pummel"
+										},
+										{
+											"wd": "rough"
+										}
+									],
+									[
+										{
+											"wd": "scuff"
+										}
+									],
+									[
+										{
+											"wd": "bunt"
+										},
+										{
+											"wd": "flick"
+										},
+										{
+											"wd": "stroke"
+										},
+										{
+											"wd": "tap"
+										}
+									],
+									[
+										{
+											"wd": "bump"
+										},
+										{
+											"wd": "butt"
+										},
+										{
+											"wd": "jab"
+										},
+										{
+											"wd": "jostle"
+										},
+										{
+											"wd": "kick"
+										},
+										{
+											"wd": "knee"
+										},
+										{
+											"wd": "poke"
+										},
+										{
+											"wd": "prod"
+										},
+										{
+											"wd": "push"
+										},
+										{
+											"wd": "shove"
+										},
+										{
+											"wd": "stamp"
+										}
+									],
+									[
+										{
+											"wd": "bowl (down or over)"
+										},
+										{
+											"wd": "cream"
+										},
+										{
+											"wd": "deck"
+										},
+										{
+											"wd": "dump",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "fell"
+										},
+										{
+											"wd": "floor"
+										},
+										{
+											"wd": "knock down"
+										},
+										{
+											"wd": "level"
+										}
+									],
+									[
+										{
+											"wd": "rabbit-punch"
+										},
+										{
+											"wd": "sucker punch"
+										}
+									],
+									[
+										{
+											"wd": "cane"
+										},
+										{
+											"wd": "club"
+										},
+										{
+											"wd": "cudgel"
+										},
+										{
+											"wd": "flail"
+										},
+										{
+											"wd": "flog"
+										},
+										{
+											"wd": "lash"
+										},
+										{
+											"wd": "sap"
+										},
+										{
+											"wd": "slash"
+										},
+										{
+											"wd": "sledge"
+										},
+										{
+											"wd": "sledgehammer"
+										},
+										{
+											"wd": "spear"
+										},
+										{
+											"wd": "stab"
+										},
+										{
+											"wd": "switch"
+										},
+										{
+											"wd": "thrash"
+										},
+										{
+											"wd": "whip"
+										}
+									],
+									[
+										{
+											"wd": "bean"
+										},
+										{
+											"wd": "brain"
+										},
+										{
+											"wd": "conk"
+										},
+										{
+											"wd": "skull"
+										}
+									]
+								],
+								"phrase_list": [
+									[
+										{
+											"wd": "hang one on"
+										}
+									]
+								]
+							}
+						]
+					],
+					[
+						[
+							"sense",
+							{
+								"sn": "3",
+								"dt": [
+									["text", "to shove into a closed position with force and noise "],
+									[
+										"vis",
+										[
+											{
+												"t": "stomped off to his room and {it}banged{/it} the door"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "slam"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "close"
+										},
+										{
+											"wd": "shut"
+										},
+										{
+											"wd": "stop"
+										}
+									],
+									[
+										{
+											"wd": "bar"
+										},
+										{
+											"wd": "batten (down)"
+										},
+										{
+											"wd": "bolt"
+										},
+										{
+											"wd": "chain"
+										},
+										{
+											"wd": "fasten"
+										},
+										{
+											"wd": "latch"
+										},
+										{
+											"wd": "lock"
+										},
+										{
+											"wd": "seal"
+										},
+										{
+											"wd": "secure"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "open"
+										}
+									],
+									[
+										{
+											"wd": "unbar"
+										},
+										{
+											"wd": "unbolt"
+										},
+										{
+											"wd": "unfasten"
+										},
+										{
+											"wd": "unlatch"
+										},
+										{
+											"wd": "unlock"
+										},
+										{
+											"wd": "unseal"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": [
+			"to come into usually forceful contact with something",
+			"to deliver a blow to (someone or something) usually in a strong vigorous manner",
+			"to shove into a closed position with force and noise"
+		]
+	},
+	{
+		"meta": {
+			"id": "bang away",
+			"uuid": "8ab4e03b-5cbc-43fd-9af5-60ceb524e8c1",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "efe2dd19-95b6-499a-8bb4-91076b9d2661",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang away", "banged away", "banging away", "bangs away"],
+			"syns": [
+				[
+					"beaver (away)",
+					"dig (away)",
+					"drudge",
+					"endeavor",
+					"fag",
+					"grub",
+					"hump",
+					"hustle",
+					"labor",
+					"moil",
+					"peg (away)",
+					"plod",
+					"plow",
+					"plug",
+					"slave",
+					"slog",
+					"strain",
+					"strive",
+					"struggle",
+					"sweat",
+					"toil",
+					"travail",
+					"tug",
+					"work"
+				]
+			],
+			"ants": [],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang away"
+		},
+		"fl": "verb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "to devote serious and sustained effort "],
+									[
+										"vis",
+										[
+											{
+												"t": "the design team has been {it}banging away{/it} at that project for months"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "beaver (away)"
+										},
+										{
+											"wd": "dig (away)"
+										},
+										{
+											"wd": "drudge"
+										},
+										{
+											"wd": "endeavor"
+										},
+										{
+											"wd": "fag"
+										},
+										{
+											"wd": "grub"
+										},
+										{
+											"wd": "hump"
+										},
+										{
+											"wd": "hustle"
+										},
+										{
+											"wd": "labor"
+										},
+										{
+											"wd": "moil"
+										},
+										{
+											"wd": "peg (away)"
+										},
+										{
+											"wd": "plod"
+										},
+										{
+											"wd": "plow"
+										},
+										{
+											"wd": "plug"
+										},
+										{
+											"wd": "slave"
+										},
+										{
+											"wd": "slog"
+										},
+										{
+											"wd": "strain"
+										},
+										{
+											"wd": "strive"
+										},
+										{
+											"wd": "struggle"
+										},
+										{
+											"wd": "sweat"
+										},
+										{
+											"wd": "toil"
+										},
+										{
+											"wd": "travail"
+										},
+										{
+											"wd": "tug"
+										},
+										{
+											"wd": "work"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "apply (oneself)"
+										},
+										{
+											"wd": "buckle (down)"
+										},
+										{
+											"wd": "dig in"
+										},
+										{
+											"wd": "hammer (away)"
+										},
+										{
+											"wd": "knuckle down"
+										},
+										{
+											"wd": "pitch in"
+										}
+									],
+									[
+										{
+											"wd": "attack"
+										},
+										{
+											"wd": "drive"
+										}
+									],
+									[
+										{
+											"wd": "essay"
+										},
+										{
+											"wd": "try"
+										}
+									],
+									[
+										{
+											"wd": "exercise"
+										},
+										{
+											"wd": "exert"
+										},
+										{
+											"wd": "overexert"
+										},
+										{
+											"wd": "overwork"
+										}
+									],
+									[
+										{
+											"wd": "eke out"
+										},
+										{
+											"wd": "grind (out)"
+										},
+										{
+											"wd": "put out"
+										},
+										{
+											"wd": "scrabble"
+										},
+										{
+											"wd": "scratch"
+										}
+									],
+									[
+										{
+											"wd": "trudge"
+										},
+										{
+											"wd": "wade"
+										}
+									]
+								],
+								"phrase_list": [
+									[
+										{
+											"wd": "sweat blood"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "break"
+										},
+										{
+											"wd": "ease (up)"
+										},
+										{
+											"wd": "let up"
+										},
+										{
+											"wd": "slacken"
+										}
+									],
+									[
+										{
+											"wd": "bum"
+										},
+										{
+											"wd": "chill"
+										},
+										{
+											"wd": "dally"
+										},
+										{
+											"wd": "dillydally"
+										},
+										{
+											"wd": "footle"
+										},
+										{
+											"wd": "goldbrick"
+										},
+										{
+											"wd": "goof (off)"
+										},
+										{
+											"wd": "hack (around)"
+										},
+										{
+											"wd": "hang (around or out)"
+										},
+										{
+											"wd": "idle"
+										},
+										{
+											"wd": "laze"
+										},
+										{
+											"wd": "loaf"
+										},
+										{
+											"wd": "lounge"
+										},
+										{
+											"wd": "shirk"
+										},
+										{
+											"wd": "slack (off)"
+										},
+										{
+											"wd": "veg out"
+										}
+									],
+									[
+										{
+											"wd": "bask"
+										},
+										{
+											"wd": "loll"
+										},
+										{
+											"wd": "relax"
+										},
+										{
+											"wd": "repose"
+										},
+										{
+											"wd": "rest"
+										},
+										{
+											"wd": "unwind"
+										}
+									],
+									[
+										{
+											"wd": "dabble"
+										},
+										{
+											"wd": "doodle"
+										},
+										{
+											"wd": "fool around"
+										},
+										{
+											"wd": "fribble"
+										},
+										{
+											"wd": "goof (around)"
+										},
+										{
+											"wd": "hang"
+										},
+										{
+											"wd": "hang about",
+											"wsls": ["British"]
+										},
+										{
+											"wd": "mess around"
+										},
+										{
+											"wd": "monkey (around)"
+										},
+										{
+											"wd": "play"
+										},
+										{
+											"wd": "potter (around)"
+										},
+										{
+											"wd": "putter (around)"
+										},
+										{
+											"wd": "trifle"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["to devote serious and sustained effort"]
+	},
+	{
+		"meta": {
+			"id": "bang-bang",
+			"uuid": "94bcaf70-4183-45ab-bca6-643b011f6384",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "369b9c8d-e499-4a4a-b722-643dd30a8567",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang-bang"],
+			"syns": [
+				[
+					"blood-and-guts",
+					"convulsive",
+					"cyclonic",
+					"explosive",
+					"ferocious",
+					"fierce",
+					"furious",
+					"hammer-and-tongs",
+					"hot",
+					"knock-down, drag-out",
+					"paroxysmal",
+					"rabid",
+					"rough",
+					"stormy",
+					"tempestuous",
+					"tumultuous",
+					"turbulent",
+					"violent",
+					"volcanic"
+				]
+			],
+			"ants": [["nonviolent", "peaceable", "peaceful"]],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang-bang"
+		},
+		"fl": "adjective",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "marked by bursts of destructive force or intense activity "],
+									[
+										"vis",
+										[
+											{
+												"t": "the film lacks compelling characters, but it has plenty of {it}bang-bang{/it} action"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "blood-and-guts"
+										},
+										{
+											"wd": "convulsive"
+										},
+										{
+											"wd": "cyclonic"
+										},
+										{
+											"wd": "explosive"
+										},
+										{
+											"wd": "ferocious"
+										},
+										{
+											"wd": "fierce"
+										},
+										{
+											"wd": "furious"
+										},
+										{
+											"wd": "hammer-and-tongs"
+										},
+										{
+											"wd": "hot"
+										},
+										{
+											"wd": "knock-down, drag-out",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "knock-down-and-drag-out"
+												}
+											]
+										},
+										{
+											"wd": "paroxysmal"
+										},
+										{
+											"wd": "rabid"
+										},
+										{
+											"wd": "rough"
+										},
+										{
+											"wd": "stormy"
+										},
+										{
+											"wd": "tempestuous"
+										},
+										{
+											"wd": "tumultuous"
+										},
+										{
+											"wd": "turbulent"
+										},
+										{
+											"wd": "violent"
+										},
+										{
+											"wd": "volcanic"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "barbarous"
+										},
+										{
+											"wd": "brutal"
+										},
+										{
+											"wd": "savage"
+										},
+										{
+											"wd": "vicious"
+										}
+									],
+									[
+										{
+											"wd": "antagonistic"
+										},
+										{
+											"wd": "hostile"
+										}
+									],
+									[
+										{
+											"wd": "aggressive"
+										},
+										{
+											"wd": "assertive"
+										},
+										{
+											"wd": "bellicose"
+										},
+										{
+											"wd": "belligerent"
+										},
+										{
+											"wd": "combative"
+										},
+										{
+											"wd": "contentious"
+										},
+										{
+											"wd": "gladiatorial"
+										},
+										{
+											"wd": "pugnacious"
+										},
+										{
+											"wd": "quarrelsome"
+										},
+										{
+											"wd": "truculent"
+										}
+									],
+									[
+										{
+											"wd": "combustible"
+										},
+										{
+											"wd": "volatile"
+										}
+									],
+									[
+										{
+											"wd": "agitated"
+										},
+										{
+											"wd": "frantic"
+										},
+										{
+											"wd": "frenzied"
+										},
+										{
+											"wd": "mad"
+										}
+									],
+									[
+										{
+											"wd": "cataclysmal",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "cataclysmic"
+												}
+											]
+										},
+										{
+											"wd": "destructive"
+										},
+										{
+											"wd": "ruinous"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "calm"
+										},
+										{
+											"wd": "halcyon"
+										},
+										{
+											"wd": "pacific"
+										},
+										{
+											"wd": "serene"
+										},
+										{
+											"wd": "tranquil"
+										}
+									],
+									[
+										{
+											"wd": "nonbelligerent"
+										},
+										{
+											"wd": "unaggressive"
+										}
+									]
+								],
+								"ant_list": [
+									[
+										{
+											"wd": "nonviolent"
+										},
+										{
+											"wd": "peaceable"
+										},
+										{
+											"wd": "peaceful"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["marked by bursts of destructive force or intense activity"]
+	},
+	{
+		"meta": {
+			"id": "bang on",
+			"uuid": "2961a9d8-4626-4932-a14b-6067e9e0c4bd",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "b0bc0216-3806-46eb-9373-44bc60c2dfae",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang on"],
+			"syns": [
+				[
+					"accurate",
+					"correct",
+					"dead-on",
+					"exact",
+					"good",
+					"on-target",
+					"precise",
+					"proper",
+					"right",
+					"so",
+					"spot-on",
+					"true",
+					"veracious"
+				]
+			],
+			"ants": [
+				["false", "improper", "inaccurate", "incorrect", "inexact", "off", "untrue", "wrong"]
+			],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang on"
+		},
+		"fl": "adjective",
+		"sls": ["chiefly British"],
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "being in agreement with the truth or a fact or a standard "],
+									[
+										"vis",
+										[
+											{
+												"t": "a London theatre critic who can generally be relied upon for his {it}bang on{/it} assessments of new plays in the West End"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "accurate"
+										},
+										{
+											"wd": "correct"
+										},
+										{
+											"wd": "dead-on"
+										},
+										{
+											"wd": "exact"
+										},
+										{
+											"wd": "good"
+										},
+										{
+											"wd": "on-target"
+										},
+										{
+											"wd": "precise"
+										},
+										{
+											"wd": "proper"
+										},
+										{
+											"wd": "right"
+										},
+										{
+											"wd": "so"
+										},
+										{
+											"wd": "spot-on"
+										},
+										{
+											"wd": "true"
+										},
+										{
+											"wd": "veracious"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "legitimate"
+										},
+										{
+											"wd": "logical"
+										},
+										{
+											"wd": "sound"
+										},
+										{
+											"wd": "valid"
+										}
+									],
+									[
+										{
+											"wd": "errorless"
+										},
+										{
+											"wd": "faultless"
+										},
+										{
+											"wd": "flawless"
+										},
+										{
+											"wd": "impeccable"
+										},
+										{
+											"wd": "inerrant"
+										},
+										{
+											"wd": "infallible"
+										},
+										{
+											"wd": "letter-perfect"
+										},
+										{
+											"wd": "perfect"
+										}
+									],
+									[
+										{
+											"wd": "rigorous"
+										},
+										{
+											"wd": "strict"
+										},
+										{
+											"wd": "stringent"
+										}
+									]
+								],
+								"phrase_list": [
+									[
+										{
+											"wd": "on target"
+										},
+										{
+											"wd": "on the money"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "defective"
+										},
+										{
+											"wd": "faulty"
+										},
+										{
+											"wd": "flawed"
+										},
+										{
+											"wd": "imperfect"
+										}
+									]
+								],
+								"ant_list": [
+									[
+										{
+											"wd": "false"
+										},
+										{
+											"wd": "improper"
+										},
+										{
+											"wd": "inaccurate"
+										},
+										{
+											"wd": "incorrect"
+										},
+										{
+											"wd": "inexact"
+										},
+										{
+											"wd": "off"
+										},
+										{
+											"wd": "untrue"
+										},
+										{
+											"wd": "wrong"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["being in agreement with the truth or a fact or a standard"]
+	},
+	{
+		"meta": {
+			"id": "bang-up",
+			"uuid": "46291715-6446-4b73-997a-8cb88d6d6d8f",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "36fe3974-d438-456d-bb42-1448909cc2c7",
+				"tsrc": "collegiate"
+			},
+			"stems": ["bang-up"],
+			"syns": [
+				[
+					"A-OK",
+					"A1",
+					"awesome",
+					"banner",
+					"beautiful",
+					"blue-chip",
+					"blue-ribbon",
+					"boffo",
+					"bonny",
+					"boss",
+					"brag",
+					"brave",
+					"bully",
+					"bumper",
+					"capital",
+					"choice",
+					"classic",
+					"cool",
+					"corking",
+					"crackerjack",
+					"cracking",
+					"dandy",
+					"divine",
+					"dope",
+					"down",
+					"dynamite",
+					"excellent",
+					"fab",
+					"fabulous",
+					"famous",
+					"fantabulous",
+					"fantastic",
+					"fine",
+					"first-class",
+					"first-rate",
+					"first-string",
+					"five-star",
+					"four-star",
+					"frontline",
+					"gangbusters",
+					"gilt-edged",
+					"gone",
+					"grand",
+					"great",
+					"groovy",
+					"heavenly",
+					"high-class",
+					"hot",
+					"hype",
+					"immense",
+					"jim-dandy",
+					"keen",
+					"lovely",
+					"marvelous",
+					"mean",
+					"neat",
+					"nifty",
+					"noble",
+					"number one",
+					"numero uno",
+					"out-of-sight",
+					"par excellence",
+					"peachy",
+					"peachy keen",
+					"phat",
+					"prime",
+					"primo",
+					"prize",
+					"prizewinning",
+					"quality",
+					"radical",
+					"righteous",
+					"sensational",
+					"slick",
+					"splendid",
+					"stellar",
+					"sterling",
+					"superb",
+					"superior",
+					"superlative",
+					"supernal",
+					"swell",
+					"terrific",
+					"tip-top",
+					"top",
+					"top-notch",
+					"top-of-the-line",
+					"top-shelf",
+					"topflight",
+					"topping",
+					"unsurpassed",
+					"wizard",
+					"wonderful"
+				]
+			],
+			"ants": [
+				[
+					"atrocious",
+					"awful",
+					"execrable",
+					"lousy",
+					"pathetic",
+					"poor",
+					"rotten",
+					"terrible",
+					"vile",
+					"wretched"
+				]
+			],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang-up"
+		},
+		"fl": "adjective",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "of the very best kind "],
+									[
+										"vis",
+										[
+											{
+												"t": "you did a {it}bang-up{/it} job on this sales report"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "A-OK"
+										},
+										{
+											"wd": "A1"
+										},
+										{
+											"wd": "awesome"
+										},
+										{
+											"wd": "banner"
+										},
+										{
+											"wd": "beautiful"
+										},
+										{
+											"wd": "blue-chip"
+										},
+										{
+											"wd": "blue-ribbon"
+										},
+										{
+											"wd": "boffo"
+										},
+										{
+											"wd": "bonny",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "bonnie"
+												}
+											],
+											"wsls": ["chiefly British"]
+										},
+										{
+											"wd": "boss",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "brag"
+										},
+										{
+											"wd": "brave"
+										},
+										{
+											"wd": "bully"
+										},
+										{
+											"wd": "bumper"
+										},
+										{
+											"wd": "capital"
+										},
+										{
+											"wd": "choice"
+										},
+										{
+											"wd": "classic"
+										},
+										{
+											"wd": "cool",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "corking"
+										},
+										{
+											"wd": "crackerjack"
+										},
+										{
+											"wd": "cracking"
+										},
+										{
+											"wd": "dandy"
+										},
+										{
+											"wd": "divine"
+										},
+										{
+											"wd": "dope",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "down",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "dynamite"
+										},
+										{
+											"wd": "excellent"
+										},
+										{
+											"wd": "fab"
+										},
+										{
+											"wd": "fabulous"
+										},
+										{
+											"wd": "famous"
+										},
+										{
+											"wd": "fantabulous",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "fantastic"
+										},
+										{
+											"wd": "fine"
+										},
+										{
+											"wd": "first-class"
+										},
+										{
+											"wd": "first-rate"
+										},
+										{
+											"wd": "first-string"
+										},
+										{
+											"wd": "five-star"
+										},
+										{
+											"wd": "four-star"
+										},
+										{
+											"wd": "frontline"
+										},
+										{
+											"wd": "gangbusters",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "gangbuster"
+												}
+											]
+										},
+										{
+											"wd": "gilt-edged",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "gilt-edge"
+												}
+											]
+										},
+										{
+											"wd": "gone",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "grand"
+										},
+										{
+											"wd": "great"
+										},
+										{
+											"wd": "groovy"
+										},
+										{
+											"wd": "heavenly"
+										},
+										{
+											"wd": "high-class"
+										},
+										{
+											"wd": "hot"
+										},
+										{
+											"wd": "hype",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "immense"
+										},
+										{
+											"wd": "jim-dandy"
+										},
+										{
+											"wd": "keen"
+										},
+										{
+											"wd": "lovely"
+										},
+										{
+											"wd": "marvelous",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "marvellous"
+												}
+											]
+										},
+										{
+											"wd": "mean"
+										},
+										{
+											"wd": "neat"
+										},
+										{
+											"wd": "nifty"
+										},
+										{
+											"wd": "noble"
+										},
+										{
+											"wd": "number one",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "No. 1"
+												}
+											]
+										},
+										{
+											"wd": "numero uno"
+										},
+										{
+											"wd": "out-of-sight",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "par excellence"
+										},
+										{
+											"wd": "peachy"
+										},
+										{
+											"wd": "peachy keen"
+										},
+										{
+											"wd": "phat",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "prime"
+										},
+										{
+											"wd": "primo",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "prize"
+										},
+										{
+											"wd": "prizewinning"
+										},
+										{
+											"wd": "quality"
+										},
+										{
+											"wd": "radical",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "righteous",
+											"wsls": ["slang"]
+										},
+										{
+											"wd": "sensational"
+										},
+										{
+											"wd": "slick"
+										},
+										{
+											"wd": "splendid"
+										},
+										{
+											"wd": "stellar"
+										},
+										{
+											"wd": "sterling"
+										},
+										{
+											"wd": "superb"
+										},
+										{
+											"wd": "superior"
+										},
+										{
+											"wd": "superlative"
+										},
+										{
+											"wd": "supernal"
+										},
+										{
+											"wd": "swell"
+										},
+										{
+											"wd": "terrific"
+										},
+										{
+											"wd": "tip-top"
+										},
+										{
+											"wd": "top"
+										},
+										{
+											"wd": "top-notch"
+										},
+										{
+											"wd": "top-of-the-line"
+										},
+										{
+											"wd": "top-shelf"
+										},
+										{
+											"wd": "topflight"
+										},
+										{
+											"wd": "topping",
+											"wsls": ["chiefly British"]
+										},
+										{
+											"wd": "unsurpassed"
+										},
+										{
+											"wd": "wizard",
+											"wsls": ["chiefly British"]
+										},
+										{
+											"wd": "wonderful"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "acceptable"
+										},
+										{
+											"wd": "adequate"
+										},
+										{
+											"wd": "all right"
+										},
+										{
+											"wd": "decent"
+										},
+										{
+											"wd": "good"
+										},
+										{
+											"wd": "OK",
+											"wvrs": [
+												{
+													"wvl": "or",
+													"wva": "okay"
+												}
+											]
+										},
+										{
+											"wd": "passable"
+										},
+										{
+											"wd": "satisfactory"
+										},
+										{
+											"wd": "tolerable"
+										}
+									],
+									[
+										{
+											"wd": "better"
+										},
+										{
+											"wd": "exceptional"
+										},
+										{
+											"wd": "fancy"
+										},
+										{
+											"wd": "high-grade"
+										},
+										{
+											"wd": "high-test"
+										},
+										{
+											"wd": "premium"
+										},
+										{
+											"wd": "select"
+										},
+										{
+											"wd": "special"
+										},
+										{
+											"wd": "superfine"
+										}
+									],
+									[
+										{
+											"wd": "classical"
+										},
+										{
+											"wd": "standard"
+										},
+										{
+											"wd": "traditional"
+										}
+									]
+								],
+								"phrase_list": [
+									[
+										{
+											"wd": "out of this world"
+										},
+										{
+											"wd": "too much"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "bad"
+										},
+										{
+											"wd": "inferior"
+										},
+										{
+											"wd": "low-grade"
+										},
+										{
+											"wd": "substandard"
+										},
+										{
+											"wd": "unsatisfactory"
+										}
+									],
+									[
+										{
+											"wd": "mediocre"
+										},
+										{
+											"wd": "middling"
+										},
+										{
+											"wd": "second-class"
+										},
+										{
+											"wd": "second-rate"
+										}
+									]
+								],
+								"ant_list": [
+									[
+										{
+											"wd": "atrocious"
+										},
+										{
+											"wd": "awful"
+										},
+										{
+											"wd": "execrable"
+										},
+										{
+											"wd": "lousy"
+										},
+										{
+											"wd": "pathetic"
+										},
+										{
+											"wd": "poor"
+										},
+										{
+											"wd": "rotten"
+										},
+										{
+											"wd": "terrible"
+										},
+										{
+											"wd": "vile"
+										},
+										{
+											"wd": "wretched"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["of the very best kind"]
+	},
+	{
+		"meta": {
+			"id": "bang away (at)",
+			"uuid": "15a5815a-de02-4d3b-9cf5-98e0a98a6ff2",
+			"src": "CTcompile",
+			"section": "alpha",
+			"stems": ["bang away (at)", "bang away at"],
+			"syns": [
+				[
+					"batter",
+					"buffet",
+					"plaster",
+					"barrage",
+					"cannon",
+					"cannonade",
+					"beleaguer",
+					"besiege",
+					"press",
+					"blitz",
+					"bomb",
+					"bombard",
+					"nuke",
+					"harry",
+					"loot",
+					"pillage",
+					"plunder",
+					"ravage",
+					"sack",
+					"ambuscade",
+					"ambush",
+					"surprise",
+					"waylay",
+					"foray",
+					"invade",
+					"overrun",
+					"mug",
+					"rob",
+					"envelop",
+					"flank",
+					"bum-rush",
+					"gang up (on)",
+					"mob",
+					"swarm"
+				]
+			],
+			"ants": [["cover", "defend", "guard", "protect", "secure", "shield"]],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang away (at)"
+		},
+		"fl": "verb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [["text", "as in {it}batter{/it}, {it}buffet{/it}"]],
+								"sim_list": [
+									[
+										{
+											"wd": "batter"
+										},
+										{
+											"wd": "buffet"
+										},
+										{
+											"wd": "plaster"
+										}
+									],
+									[
+										{
+											"wd": "barrage"
+										},
+										{
+											"wd": "cannon"
+										},
+										{
+											"wd": "cannonade"
+										}
+									],
+									[
+										{
+											"wd": "beleaguer"
+										},
+										{
+											"wd": "besiege"
+										},
+										{
+											"wd": "press"
+										}
+									],
+									[
+										{
+											"wd": "blitz"
+										},
+										{
+											"wd": "bomb"
+										},
+										{
+											"wd": "bombard"
+										},
+										{
+											"wd": "nuke"
+										}
+									],
+									[
+										{
+											"wd": "harry"
+										},
+										{
+											"wd": "loot"
+										},
+										{
+											"wd": "pillage"
+										},
+										{
+											"wd": "plunder"
+										},
+										{
+											"wd": "ravage"
+										},
+										{
+											"wd": "sack"
+										}
+									],
+									[
+										{
+											"wd": "ambuscade"
+										},
+										{
+											"wd": "ambush"
+										},
+										{
+											"wd": "surprise",
+											"wvrs": [
+												{
+													"wvl": "also",
+													"wva": "surprize"
+												}
+											]
+										},
+										{
+											"wd": "waylay"
+										}
+									],
+									[
+										{
+											"wd": "foray"
+										},
+										{
+											"wd": "invade"
+										},
+										{
+											"wd": "overrun"
+										}
+									],
+									[
+										{
+											"wd": "mug"
+										},
+										{
+											"wd": "rob"
+										}
+									],
+									[
+										{
+											"wd": "envelop"
+										},
+										{
+											"wd": "flank"
+										}
+									],
+									[
+										{
+											"wd": "bum-rush"
+										},
+										{
+											"wd": "gang up (on)"
+										},
+										{
+											"wd": "mob"
+										},
+										{
+											"wd": "swarm"
+										}
+									]
+								],
+								"opp_list": [
+									[
+										{
+											"wd": "cover"
+										},
+										{
+											"wd": "defend"
+										},
+										{
+											"wd": "guard"
+										},
+										{
+											"wd": "protect"
+										},
+										{
+											"wd": "secure"
+										},
+										{
+											"wd": "shield"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["as in batter, buffet"]
+	},
+	{
+		"meta": {
+			"id": "bang up",
+			"uuid": "ac8d0537-7805-4d4b-853a-8eb0bf303632",
+			"src": "CTcompile",
+			"section": "alpha",
+			"stems": ["bang up"],
+			"syns": [
+				[
+					"break",
+					"damage",
+					"harm",
+					"hurt",
+					"impair",
+					"mar",
+					"shatter",
+					"spoil",
+					"graffiti",
+					"tag",
+					"annihilate",
+					"demolish",
+					"destroy",
+					"devastate",
+					"ravage",
+					"raven",
+					"raze",
+					"ruin",
+					"scourge",
+					"smash",
+					"tear down",
+					"total",
+					"waste",
+					"wipe out",
+					"wrack",
+					"wreck",
+					"desecrate",
+					"violate",
+					"sabotage",
+					"deface",
+					"trash",
+					"vandalize",
+					"depredate",
+					"despoil",
+					"loot",
+					"maraud",
+					"pillage",
+					"plunder",
+					"ransack",
+					"sack",
+					"spoliate"
+				]
+			],
+			"ants": [["conserve", "preserve", "protect", "save", "salvage", "build", "rebuild"]],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "bang up"
+		},
+		"fl": "verb",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [["text", "as in {it}break{/it}, {it}hurt{/it}"]],
+								"sim_list": [
+									[
+										{
+											"wd": "break"
+										},
+										{
+											"wd": "damage"
+										},
+										{
+											"wd": "harm"
+										},
+										{
+											"wd": "hurt"
+										},
+										{
+											"wd": "impair"
+										},
+										{
+											"wd": "mar"
+										},
+										{
+											"wd": "shatter"
+										},
+										{
+											"wd": "spoil"
+										}
+									],
+									[
+										{
+											"wd": "graffiti"
+										},
+										{
+											"wd": "tag"
+										}
+									],
+									[
+										{
+											"wd": "annihilate"
+										},
+										{
+											"wd": "demolish"
+										},
+										{
+											"wd": "destroy"
+										},
+										{
+											"wd": "devastate"
+										},
+										{
+											"wd": "ravage"
+										},
+										{
+											"wd": "raven"
+										},
+										{
+											"wd": "raze"
+										},
+										{
+											"wd": "ruin"
+										},
+										{
+											"wd": "scourge"
+										},
+										{
+											"wd": "smash"
+										},
+										{
+											"wd": "tear down"
+										},
+										{
+											"wd": "total"
+										},
+										{
+											"wd": "waste"
+										},
+										{
+											"wd": "wipe out"
+										},
+										{
+											"wd": "wrack"
+										},
+										{
+											"wd": "wreck"
+										}
+									],
+									[
+										{
+											"wd": "desecrate"
+										},
+										{
+											"wd": "violate"
+										}
+									],
+									[
+										{
+											"wd": "sabotage"
+										}
+									],
+									[
+										{
+											"wd": "deface"
+										},
+										{
+											"wd": "trash"
+										},
+										{
+											"wd": "vandalize"
+										}
+									],
+									[
+										{
+											"wd": "depredate"
+										},
+										{
+											"wd": "despoil"
+										},
+										{
+											"wd": "loot"
+										},
+										{
+											"wd": "maraud"
+										},
+										{
+											"wd": "pillage"
+										},
+										{
+											"wd": "plunder"
+										},
+										{
+											"wd": "ransack"
+										},
+										{
+											"wd": "sack"
+										},
+										{
+											"wd": "spoliate"
+										}
+									]
+								],
+								"opp_list": [
+									[
+										{
+											"wd": "conserve"
+										},
+										{
+											"wd": "preserve"
+										},
+										{
+											"wd": "protect"
+										},
+										{
+											"wd": "save"
+										}
+									],
+									[
+										{
+											"wd": "salvage"
+										}
+									],
+									[
+										{
+											"wd": "build"
+										},
+										{
+											"wd": "rebuild"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["as in break, hurt"]
+	},
+	{
+		"meta": {
+			"id": "slam-bang",
+			"uuid": "329a972b-31a6-4355-ad80-3b42349c8e2f",
+			"src": "coll_thes",
+			"section": "alpha",
+			"target": {
+				"tuuid": "96217612-5e2f-4b53-92c4-80ac6fa76870",
+				"tsrc": "collegiate"
+			},
+			"stems": ["slam-bang"],
+			"syns": [
+				[
+					"blaring",
+					"blasting",
+					"booming",
+					"clamorous",
+					"clangorous",
+					"deafening",
+					"earsplitting",
+					"loud",
+					"piercing",
+					"plangent",
+					"resounding",
+					"ringing",
+					"roaring",
+					"sonorous",
+					"stentorian",
+					"thundering",
+					"thunderous"
+				]
+			],
+			"ants": [["gentle", "low", "soft"]],
+			"offensive": false
+		},
+		"hwi": {
+			"hw": "slam-bang"
+		},
+		"fl": "adjective",
+		"def": [
+			{
+				"sseq": [
+					[
+						[
+							"sense",
+							{
+								"dt": [
+									["text", "marked by a high volume of sound "],
+									[
+										"vis",
+										[
+											{
+												"t": "heard a {it}slam-bang{/it} crash from the garage"
+											}
+										]
+									]
+								],
+								"syn_list": [
+									[
+										{
+											"wd": "blaring"
+										},
+										{
+											"wd": "blasting"
+										},
+										{
+											"wd": "booming"
+										},
+										{
+											"wd": "clamorous"
+										},
+										{
+											"wd": "clangorous"
+										},
+										{
+											"wd": "deafening"
+										},
+										{
+											"wd": "earsplitting"
+										},
+										{
+											"wd": "loud"
+										},
+										{
+											"wd": "piercing"
+										},
+										{
+											"wd": "plangent"
+										},
+										{
+											"wd": "resounding"
+										},
+										{
+											"wd": "ringing"
+										},
+										{
+											"wd": "roaring"
+										},
+										{
+											"wd": "sonorous"
+										},
+										{
+											"wd": "stentorian"
+										},
+										{
+											"wd": "thundering"
+										},
+										{
+											"wd": "thunderous"
+										}
+									]
+								],
+								"rel_list": [
+									[
+										{
+											"wd": "brazen"
+										},
+										{
+											"wd": "dinning"
+										},
+										{
+											"wd": "discordant"
+										},
+										{
+											"wd": "noisy"
+										},
+										{
+											"wd": "obstreperous"
+										},
+										{
+											"wd": "raucous"
+										},
+										{
+											"wd": "rip-roaring"
+										},
+										{
+											"wd": "vociferous"
+										}
+									],
+									[
+										{
+											"wd": "grating"
+										},
+										{
+											"wd": "harsh"
+										},
+										{
+											"wd": "overloud"
+										},
+										{
+											"wd": "sharp"
+										},
+										{
+											"wd": "shrill"
+										},
+										{
+											"wd": "squealing"
+										},
+										{
+											"wd": "strident"
+										}
+									]
+								],
+								"near_list": [
+									[
+										{
+											"wd": "dead"
+										},
+										{
+											"wd": "quiet"
+										},
+										{
+											"wd": "silent"
+										},
+										{
+											"wd": "still"
+										},
+										{
+											"wd": "stilly"
+										},
+										{
+											"wd": "ultraquiet"
+										}
+									],
+									[
+										{
+											"wd": "calm"
+										},
+										{
+											"wd": "dreamy"
+										},
+										{
+											"wd": "peaceful"
+										},
+										{
+											"wd": "restful"
+										},
+										{
+											"wd": "serene"
+										},
+										{
+											"wd": "soothing"
+										},
+										{
+											"wd": "tranquil"
+										}
+									],
+									[
+										{
+											"wd": "hushed"
+										},
+										{
+											"wd": "muffled"
+										},
+										{
+											"wd": "muted"
+										},
+										{
+											"wd": "softened"
+										},
+										{
+											"wd": "toned (down)"
+										}
+									]
+								],
+								"ant_list": [
+									[
+										{
+											"wd": "gentle"
+										},
+										{
+											"wd": "low"
+										},
+										{
+											"wd": "soft"
+										}
+									]
+								]
+							}
+						]
+					]
+				]
+			}
+		],
+		"shortdef": ["marked by a high volume of sound"]
+	}
+]

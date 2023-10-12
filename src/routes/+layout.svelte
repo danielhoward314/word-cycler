@@ -75,7 +75,7 @@
 			body: JSON.stringify(data)
 		});
 		const responseContent = await rawResponse.json();
-		
+
 		if (responseContent && responseContent.success) {
 			$user = { isLoggedIn: true };
 			localStorage.setItem('word_cycler_local_fail_count', '0');
