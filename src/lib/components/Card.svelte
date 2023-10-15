@@ -107,8 +107,6 @@
 			const rawLocalStorage = localStorage.getItem(item.toLowerCase() + '_def');
 			if (rawLocalStorage) {
 				$modalData = JSON.parse(rawLocalStorage);
-				console.log('from localStorage');
-				console.log($modalData);
 				showModal = true;
 				return;
 			}
@@ -117,10 +115,7 @@
 		if (!isProduction) {
 			response = await fetch(`http://localhost:8080/definition?word=${item}`);
 			data = await response.json();
-			console.log('from local api');
-			console.log(data);
 			$modalData = convertMWDefinitionResponse(data);
-			console.log(data);
 			localStorage.setItem(item.toLowerCase() + '_def', JSON.stringify($modalData));
 			showModal = true;
 		} else {
@@ -128,10 +123,7 @@
 				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/definition?word=${item}`
 			);
 			data = await response.json();
-			console.log('from netlify function');
-			console.log(data);
 			$modalData = convertMWDefinitionResponse(data);
-			console.log($modalData);
 			localStorage.setItem(item.toLowerCase() + '_def', JSON.stringify($modalData));
 			showModal = true;
 		}
@@ -144,8 +136,6 @@
 			const rawLocalStorage = localStorage.getItem(item.toLowerCase() + '_syn');
 			if (!!rawLocalStorage) {
 				$modalData = JSON.parse(rawLocalStorage);
-				console.log('from localStorage');
-				console.log($modalData);
 				showModal = true;
 				return;
 			}
@@ -154,10 +144,7 @@
 		if (!isProduction) {
 			response = await fetch(`http://localhost:8080/synonyms?word=${item}`);
 			data = await response.json();
-			console.log('from local api');
-			console.log(data);
 			$modalData = convertMWSynonymResponse(data);
-			console.log($modalData);
 			localStorage.setItem(item.toLowerCase() + '_syn', JSON.stringify($modalData));
 			showModal = true;
 		} else {
@@ -165,10 +152,7 @@
 				`https://gilded-truffle-599b56.netlify.app/.netlify/functions/synonyms?word=${item}`
 			);
 			data = await response.json();
-			console.log('from netlify function');
-			console.log(data);
 			$modalData = convertMWSynonymResponse(data);
-			console.log($modalData);
 			localStorage.setItem(item.toLowerCase() + '_syn', JSON.stringify($modalData));
 			showModal = true;
 		}
