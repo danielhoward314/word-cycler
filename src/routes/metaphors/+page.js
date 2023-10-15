@@ -1,5 +1,5 @@
 import { dev } from '$app/environment';
-import { metaphors } from '$lib/data/metaphors';
+import { conceptualMetpahors } from '$lib/data/metaphors2';
 
 // we don't need any JS on this page, though we'll load
 // it in dev so that we get hot module replacement
@@ -11,8 +11,8 @@ export const prerender = true;
 
 /** @type {import('./$types').PageLoad} */
 export function load() {
-	let list = metaphors.map((m) => m.Metaphor);
+	let list = conceptualMetpahors.map((m) => m);
 	return {
-		list: list
+		list
 	};
 }

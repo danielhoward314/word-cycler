@@ -192,7 +192,6 @@
 	nav {
 		display: flex;
 		width: 100%;
-		/* background: #ffebb7; */
 		background: #9ddcdc;
 	}
 
@@ -213,6 +212,10 @@
 		position: relative;
 		height: 100%;
 		padding-right: 1em;
+	}
+
+	li:first-child {
+		padding-left: 15px;
 	}
 
 	nav a {

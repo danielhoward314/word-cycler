@@ -1,5 +1,5 @@
 <script>
-	import Card from '$lib/components/Card.svelte';
+	import MetaphorCard from '$lib/components/MetaphorCard.svelte';
 
 	/** @type {import('./$types').PageData} */
 	export let data;
@@ -10,4 +10,4 @@
 	<meta name="description" content="Metaphors List" />
 </svelte:head>
 
-<Card name="metaphors" list={data.list} />
+<MetaphorCard name="metaphors" list={data.list} />
