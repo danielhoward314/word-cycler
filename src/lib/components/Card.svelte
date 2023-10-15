@@ -58,11 +58,13 @@
 		}
 
 		return data.map((syn) => {
+			// TODO shortdef is an array of definitions
+			// shortdef[0] maps to syns[0] and ants[0]
 			return {
-				partOfSpeech: (syn || {}).fl,
+				partOfSpeech: (syn || {}).fl ? (syn || {}).fl : '',
 				synonyms: ((syn || {}).meta || {}).syns ? ((syn || {}).meta || {}).syns : [],
 				antonyms: ((syn || {}).meta || {}).ants ? ((syn || {}).meta || {}).ants : [], 
-				definition: (syn || {}).shortdef,
+				definition: (syn || {}).shortdef ? (syn || {}).shortdef : [],
 			}
 		});
 	}
@@ -78,15 +80,15 @@
 				etymology = et[0][1];
 			}
 			let partOfSpeech = (def || {}).fl;
-			let preposition;
-			if (partOfSpeech === 'phrasal verb') {
-				preposition = ((def || {}).hwi || {}).hw;
+			let definitionAddedContext;
+			if (partOfSpeech === 'phrasal verb' || partOfSpeech === 'idiom') {
+				definitionAddedContext = ((def || {}).hwi || {}).hw;
 			}
 			return {
 				partOfSpeech: (def || {}).fl,
 				definitions: (def || {}).shortdef ? (def || {}).shortdef : [],
 				etymology,
-				preposition
+				definitionAddedContext
 			};
 		});
 	}

@@ -3,8 +3,6 @@
 	export let type;
 	export let word;
 
-	console.log(data);
-
 	function convertFormattingTokens(et) {
 		const tokenReplacements = [
 			{ mw: '{b}', html: '<strong>' },
@@ -29,6 +27,8 @@
 		});
 		return et;
 	}
+
+	
 </script>
 
 <p class="word">
@@ -38,8 +38,8 @@
 {#if (data || []).length > 0 && type === 'DEFINITION'}
 	{#each data as defsOuter}
 		<p class="part-of-speech">{@html defsOuter.partOfSpeech}</p>
-		{#if defsOuter.preposition}
-			<span><em>{@html defsOuter.preposition}</em></span>
+		{#if defsOuter.definitionAddedContext}
+			<span><em>{@html defsOuter.definitionAddedContext}</em></span>
 		{/if}
 		<ol class="definition-list">
 			{#each defsOuter.definitions as defs}
@@ -51,9 +51,11 @@
 		{/if}
 	{/each}
 {:else if (data || []).length > 0 && type === 'SYNONYMS'}
-{#each data as synonymsOuter}
+{#each data as synonymsOuter, i}
 <p class="part-of-speech">{@html synonymsOuter.partOfSpeech}</p>
-<span>{@html synonymsOuter.definition}</span>
+{#if synonymsOuter.definition.length > 0}
+<span>{@html synonymsOuter.definition[0]}</span>
+{/if}
 {#if (synonymsOuter.synonyms || []).length > 0}
 <h2>Synonyms</h2>
 <ol class="synonyms-list">
@@ -61,6 +63,9 @@
 		<li class="synonym">{@html syns}</li>
 	{/each}
 </ol>
+{#if (synonymsOuter.antonyms || []).length === 0}
+<hr/>
+{/if}
 {/if}
 {#if (synonymsOuter.antonyms || []).length > 0}
 <h2>Antonyms</h2>
@@ -69,7 +74,9 @@
 		<li class="antonym">{@html ants}</li>
 	{/each}
 </ol>
-<hr />
+{#if !(i === (data.length - 1))}
+<hr/>
+{/if}
 {/if}
 {/each}
 {/if}
@@ -106,5 +113,10 @@
 
 	.bottom {
 		margin: 20px 0;
+	}
+
+	li {
+		padding: 5px;
+		line-height: 1;
 	}
 </style>
