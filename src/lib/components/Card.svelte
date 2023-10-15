@@ -58,14 +58,18 @@
 		}
 
 		return data.map((syn) => {
+			// some entries just return an array of strings
+			if (typeof syn === 'string') {
+				return syn;
+			}
 			// TODO shortdef is an array of definitions
 			// shortdef[0] maps to syns[0] and ants[0]
 			return {
 				partOfSpeech: (syn || {}).fl ? (syn || {}).fl : '',
 				synonyms: ((syn || {}).meta || {}).syns ? ((syn || {}).meta || {}).syns : [],
-				antonyms: ((syn || {}).meta || {}).ants ? ((syn || {}).meta || {}).ants : [], 
-				definition: (syn || {}).shortdef ? (syn || {}).shortdef : [],
-			}
+				antonyms: ((syn || {}).meta || {}).ants ? ((syn || {}).meta || {}).ants : [],
+				definition: (syn || {}).shortdef ? (syn || {}).shortdef : []
+			};
 		});
 	}
 
@@ -74,6 +78,9 @@
 			return [];
 		}
 		return data.map((def) => {
+			if (typeof def === 'string') {
+				return def;
+			}
 			const et = (def || {}).et ? (def || {}).et : [];
 			let etymology = '';
 			if (et.length === 1 && et[0].length === 2) {
