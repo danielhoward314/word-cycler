@@ -1,5 +1,6 @@
 export const routes = [
 	'abstract-nouns',
+	'adjectives',
 	'binary-adjective-pairs',
 	'color-list',
 	'epithets',
@@ -8,5 +9,6 @@ export const routes = [
 	'latinate-verbs',
 	'metaphors',
 	'tier-one-verbs',
-	'tier-two-verbs'
+	'tier-two-verbs',
+	'datamuse'
 ];

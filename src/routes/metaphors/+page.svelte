@@ -10,4 +10,4 @@
 	<meta name="description" content="Metaphors List" />
 </svelte:head>
 
-<MetaphorCard name="metaphors" list={data.list} />
+<MetaphorCard list={data.list} />

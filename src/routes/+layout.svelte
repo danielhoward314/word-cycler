@@ -112,15 +112,18 @@
 					<li aria-current={$page.url.pathname.startsWith('/latinate-verbs') ? 'page' : undefined}>
 						<a href="/latinate-verbs">Latinate Verbs</a>
 					</li>
+					<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
+						<a href="/abstract-nouns">Abstract Nouns</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/adjectives') ? 'page' : undefined}>
+						<a href="/adjectives">Adjectives</a>
+					</li>
 					<li
 						aria-current={$page.url.pathname.startsWith('/binary-adjective-pairs')
 							? 'page'
 							: undefined}
 					>
 						<a href="/binary-adjective-pairs">Adjective Pairs</a>
-					</li>
-					<li aria-current={$page.url.pathname.startsWith('/abstract-nouns') ? 'page' : undefined}>
-						<a href="/abstract-nouns">Abstract Nouns</a>
 					</li>
 					<li aria-current={$page.url.pathname.startsWith('/epithets') ? 'page' : undefined}>
 						<a href="/epithets">Epithets</a>
@@ -138,6 +141,9 @@
 					</li>
 					<li aria-current={$page.url.pathname.startsWith('/metaphors') ? 'page' : undefined}>
 						<a href="/metaphors">Metaphors</a>
+					</li>
+					<li aria-current={$page.url.pathname.startsWith('/datamuse') ? 'page' : undefined}>
+						<a href="/datamuse">datamuse</a>
 					</li>
 				</ul>
 			</nav>

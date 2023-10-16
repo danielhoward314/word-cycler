@@ -8,7 +8,9 @@ export const conceptualMetpahors = [
 			},
 			{
 				subtype: 'The Object Has A Goal And Direction',
-				examples: ["The attractive force of the females' pheromones is directed only at males of the same species."]
+				examples: [
+					"The attractive force of the females' pheromones is directed only at males of the same species."
+				]
 			},
 			{
 				subtype: 'The Object May Have An Intention',
@@ -16,7 +18,9 @@ export const conceptualMetpahors = [
 			},
 			{
 				subtype: 'The Object Can Hit An Affected Party',
-				examples: ['It takes a long time for force applied at one end of a long train to reach the other end.']
+				examples: [
+					'It takes a long time for force applied at one end of a long train to reach the other end.'
+				]
 			},
 			{
 				subtype: 'The Object Can Move An Affected Party In Its Own Direction',
@@ -174,156 +178,136 @@ export const conceptualMetpahors = [
 				subtype: 'Progress Is Forward Movement',
 				examples: [
 					"Let's keep moving forward on this experiment.",
-					"He hadn't made much headway in writing the termpaper.",
+					"He hadn't made much headway in writing the termpaper."
 				]
 			},
 			{
-				subtype: "Progress Is Measured In Distance To Destination Or In Distance From Starting Point",
+				subtype:
+					'Progress Is Measured In Distance To Destination Or In Distance From Starting Point',
 				examples: [
-					"After working on the application for days, I finally saw the light at the end of the tunnel.",
+					'After working on the application for days, I finally saw the light at the end of the tunnel.',
 					"We've come a long way in our efforts to realize fusion."
 				]
-			},
+			}
 		]
 	},
 	{
 		name: 'Active Is Alive',
-		examples: [
-			'The club seems dead tonight'
-		]
+		examples: ['The club seems dead tonight']
 	},
 	{
 		name: 'Affection Is Warmth',
-		examples: [
-			'They gave me a warm welcome.',
-			'He took a while to warm up to me.'
-		]
+		examples: ['They gave me a warm welcome.', 'He took a while to warm up to me.']
 	},
 	{
 		name: 'Anger Is Heat',
 		examples: [
 			"She's a real hothead.",
-			"You make my blood boil.",
-			"Let her stew.",
+			'You make my blood boil.',
+			'Let her stew.',
 			"He's just blowing off steam.",
-			"His temper flared up."
+			'His temper flared up.'
 		]
 	},
 	{
 		name: 'Aspects Of The Self Are Distinct Individuals',
 		examples: [
 			"He's at war with himself over the decision whether to move.",
-			"He talked himself into it.",
-			"He finally got a grip on himself."
+			'He talked himself into it.',
+			'He finally got a grip on himself.'
 		]
 	},
 	{
 		name: 'Beliefs Are Beings With A Life Cycle',
 		examples: [
-			"The belief lives on.",
-			"That belief died out years ago.",
-			"That belief was born of the early philosophers."
+			'The belief lives on.',
+			'That belief died out years ago.',
+			'That belief was born of the early philosophers.'
 		]
 	},
 	{
 		name: 'Beliefs Are Fashions',
-		examples: [
-			"A belief in materialism is passe/old-fashioned/out-moded/antiquated."
-		]
+		examples: ['A belief in materialism is passe/old-fashioned/out-moded/antiquated.']
 	},
 	{
 		name: 'Beliefs Are Guides',
-		examples: [
-			"You are guided by beliefs.",
-			"There are misleading beliefs."
-		]
+		examples: ['You are guided by beliefs.', 'There are misleading beliefs.']
 	},
 	{
 		name: 'Beliefs Are Love Objects',
 		examples: [
 			{
-				subtype: "Considering Believing Is Considering Entering A Relationship",
+				subtype: 'Considering Believing Is Considering Entering A Relationship',
+				examples: ['He flirted with a belief in utter hedonism in his youth.']
+			},
+			{
+				subtype: 'Accepting A Belief Is Entering A Relationship',
 				examples: [
-					"He flirted with a belief in utter hedonism in his youth."
+					'He embraced that belief wholeheartedly.',
+					'He is wedded to a belief in his own infallability.',
+					'He espoused that belief publically.'
 				]
 			},
 			{
-				subtype: "Accepting A Belief Is Entering A Relationship",
-				examples: [
-					"He embraced that belief wholeheartedly.",
-					"He is wedded to a belief in his own infallability.",
-					"He espoused that belief publically.",
-				]
-			},
-			{
-				subtype: "A Tempting Belief Is A Tempting Possible Partner",
+				subtype: 'A Tempting Belief Is A Tempting Possible Partner',
 				examples: [
 					"That's a seductive belief.",
 					"That's an enticing belief.",
-					"There is something attractive about that belief.",
+					'There is something attractive about that belief.'
 				]
 			},
 			{
-				subtype: "Maintaining A Belief Is Loving A Partner",
+				subtype: 'Maintaining A Belief Is Loving A Partner',
 				examples: [
-					"He cherishes his faith.",
-					"He holds that belief dear.",
-					"He is taken with that belief.",
+					'He cherishes his faith.',
+					'He holds that belief dear.',
+					'He is taken with that belief.'
 				]
 			},
 			{
-				subtype: "Giving Up A Belief Is Ending The Relationship",
+				subtype: 'Giving Up A Belief Is Ending The Relationship',
 				examples: [
-					"He repudiated his earlier belief.",
-					"He has totally divorced himself from that belief.",
+					'He repudiated his earlier belief.',
+					'He has totally divorced himself from that belief.'
 				]
-			},
+			}
 		]
 	},
 	{
 		name: 'Beliefs Are Possessions',
 		examples: [
 			{
-				subtype: "Believing Is Holding",
+				subtype: 'Believing Is Holding',
+				examples: ['I hold that he is innocent.']
+			},
+			{
+				subtype: 'Acquiring A Belief Is Acquiring A Possession',
 				examples: [
-					"I hold that he is innocent.",
+					'He acquired his beliefs during childhood.',
+					'He took up a whole new set of beliefs while he was in prison.'
 				]
 			},
 			{
-				subtype: "Acquiring A Belief Is Acquiring A Possession",
-				examples: [
-					"He acquired his beliefs during childhood.",
-					"He took up a whole new set of beliefs while he was in prison.",
-				]
+				subtype: 'Deciding To Believe Is Deciding To Acquire A Possession',
+				examples: ['I briefly toyed with a belief in a higher power.']
 			},
 			{
-				subtype: "Deciding To Believe Is Deciding To Acquire A Possession",
+				subtype: 'No Longer Believing Is No Longer Having In Possession',
 				examples: [
-					"I briefly toyed with a belief in a higher power.",
-				]
-			},
-			{
-				subtype: "No Longer Believing Is No Longer Having In Possession",
-				examples: [
-					"I dropped my belief in his innocence when I saw the evidence.",
+					'I dropped my belief in his innocence when I saw the evidence.',
 					"You'll have to let go of your belief in Santa Claus.",
 					"I don't hold that belief.",
-					"That isn't one of my beliefs.",
+					"That isn't one of my beliefs."
 				]
 			},
 			{
-				subtype: "Believing Is Owning Goods",
-				examples: [
-					"He took stock of what he believed.",
-					"She took inventory of her beliefs.",
-				]
+				subtype: 'Believing Is Owning Goods',
+				examples: ['He took stock of what he believed.', 'She took inventory of her beliefs.']
 			},
 			{
-				subtype: "No Longer Believing Is Selling Out",
-				examples: [
-					"He sold out his dearest beliefs.",
-				]
-			},
+				subtype: 'No Longer Believing Is Selling Out',
+				examples: ['He sold out his dearest beliefs.']
+			}
 		]
-	},
+	}
 ];

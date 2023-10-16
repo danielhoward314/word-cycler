@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from "svelte";
+	import { onMount } from 'svelte';
 
 	export let data;
 	export let type;
@@ -40,9 +40,9 @@
 <hr />
 {#if (data || []).length > 0 && typeof data[0] === 'string'}
 	<ol class="definition-list">
-	{#each data as stringEntry}
-		<li class="definition">{@html stringEntry}</li>
-	{/each}
+		{#each data as stringEntry}
+			<li class="definition">{@html stringEntry}</li>
+		{/each}
 	</ol>
 {:else if (data || []).length > 0 && type === 'DEFINITION'}
 	{#each data as defsOuter}
@@ -89,7 +89,7 @@
 		{/if}
 	{/each}
 {:else}
-<p>{@html noDataMsg}</p>
+	<p>{@html noDataMsg}</p>
 {/if}
 
 <a class="mw-link" target="_blank" href={`https://www.merriam-webster.com/dictionary/${word}`}

@@ -33,7 +33,8 @@
 		name === 'tier_one_verbs' ||
 		name === 'tier_two_verbs' ||
 		name === 'latinate_verbs' ||
-		name === 'abstract_nouns';
+		name === 'abstract_nouns' ||
+		name === 'adjectives';
 
 	/**
 	 * @type {string[]}
