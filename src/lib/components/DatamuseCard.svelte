@@ -36,7 +36,6 @@
 		let response, undividedData;
 		response = await fetch(`${baseURL}${data.param}=${data.word}`);
 		undividedData = await response.json();
-		console.log(undividedData.length);
 		let colOne, colTwo, colThree, colFour, colFive;
 		if (undividedData && undividedData.length > 80) {
 			colOne = undividedData.slice(0, 20);
@@ -102,7 +101,7 @@
 		<div class="input-row-container">
 			<label for="datamuse-word-input">Word</label>
 			<input
-				placeholder="Type word or hit shuffle"
+				placeholder="Search typed word or hit shuffle"
 				name="word"
 				type="text"
 				id="datamuse-word-input"
@@ -184,6 +183,7 @@
 		height: 100%;
 		justify-content: space-around;
 		align-items: center;
+        padding-right: 5px;
 	}
 
 	.examples-container {
