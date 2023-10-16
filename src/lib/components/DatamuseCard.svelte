@@ -34,7 +34,9 @@
 			data[key] = value;
 		}
 		let response, undividedData;
-		response = await fetch(`${baseURL}${data.param}=${data.word}`);
+		let searchTerm = data.word.replace(/\s/g, '+');
+		searchTerm = searchTerm.toLowerCase();
+		response = await fetch(`${baseURL}${data.param}=${searchTerm}`);
 		undividedData = await response.json();
 		let colOne, colTwo, colThree, colFour, colFive;
 		if (undividedData && undividedData.length > 80) {
@@ -85,7 +87,7 @@
 			<select name="param" id="datamuse-search-select">
 				<option value="ml">words with similar meaning</option>
 				<option value="sl">words with similar sound</option>
-                <option value="sp">words with similar spelling</option>
+				<option value="sp">words with similar spelling</option>
 				<option value="rel_jja">nouns modified by the given adjective</option>
 				<option value="rel_jjb">adjectives used to modify the given noun</option>
 				<option value="rel_spc">"Kind of" (direct hypernyms, per WordNet)</option>
@@ -108,7 +110,7 @@
 				bind:value={datamuseWord}
 			/>
 			<button>Search</button>
-            <!-- svelte-ignore a11y-autofocus -->
+			<!-- svelte-ignore a11y-autofocus -->
 			<button on:click={handleShuffle} autofocus>Shuffle</button>
 		</div>
 	</form>
@@ -183,16 +185,16 @@
 		height: 100%;
 		justify-content: space-around;
 		align-items: center;
-        padding-right: 5px;
+		padding-right: 5px;
 	}
 
 	.examples-container {
 		display: flex;
-        width: 100%;
+		width: 100%;
 	}
 
-    .examples-container li {
-        font-size: 1.25rem;
-        padding-right: 50px;
-    }
+	.examples-container li {
+		font-size: 1.25rem;
+		padding-right: 50px;
+	}
 </style>
