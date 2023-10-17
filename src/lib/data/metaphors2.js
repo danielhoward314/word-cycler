@@ -309,5 +309,310 @@ export const conceptualMetpahors = [
 				examples: ['He sold out his dearest beliefs.']
 			}
 		]
-	}
+	},
+	{
+		name: "Causal Precedence Is Temporal Precedence",
+		examples: [
+			"If she kicks me then I'll kick her.",
+"He's popular, hence he's always busy.",
+"Since she insulted him he felt bad.",
+"Water has to be at 212 before it boils.",
+		],
+	},
+    {
+		name: "Causation Is Commercial Transaction",
+		examples: [
+            "The wind robbed him of an official land speed record.",
+            "Reckless skiing cost her a leg.",
+		]
+	},
+	{
+		name: "Having Detrimental Things Happen To One Is Losing Money",
+		examples: [
+			"He profitted from experience.",
+		]
+	},
+	{
+		name: "Causing Beneficial Effects Is Giving Money",
+		examples: [
+            "He paid with his life for my/his mistake.",
+		]
+	},
+    {
+		name: "Causing Detrimental Effects Is Taking Money",
+		examples: [
+            "I was well paid for my efforts with their gratitude.",
+            "I bought myself some time through delaying tactics.",
+		]
+	},
+	{
+		name: "Causation Is Control Over Relative Location",
+		examples: [
+            "The detective had to find the causal chain",
+            "What is the link between these two events?",
+            "Hume spoke of a 'necessary connection' in causal events.",
+            "Smoking is tied to numerous varieties of cancer.",
+		]
+	},
+    {
+		name: "A Repeating Causal Sequence Is A Circle",
+		examples: [
+            "It's part of the endless cycle of abuse.",
+            "It's a vicious circle.",
+            "It's a circular argument. ",
+            "Causes And Effects Are Linked Objects",
+		]
+	},
+    {
+		name: "Change Is Motion",
+		examples: [
+            "He went from innocent to worldly.",
+            "She was nearly insane.",
+            "He slipped into a depression.",
+            "His hair went gray.",
+            "He went from laughing to crying.",
+            "She was nearly crying.",
+            "He went back to/returned to polishing the silver.",
+		]
+	},
+	{
+		name: "Change Within A State Is Motion Within A Location",
+		examples: [
+            "He slipped farther into a depression.",
+		]
+	},
+    {
+		name: "Stopping Being In A State Is Leaving A Location",
+		examples: [
+            "He came out of the coma with little long-term damage.",
+		]
+	},
+	{
+		name: "Progress Is Forward Motion",
+		examples: [
+            "We fall back two steps for every one we take.",
+            "The project is going ahead as planned.",
+            "How're things going?",
+            "Things are at a standstill--no progress is being made.",
+		]
+	},
+    {
+		name: "Change Is Motion (location)",
+		examples: [
+            "After the experiment, the water was gone, and hydrogen and oxygen was in its place.",
+            "Under hypnosis, the sweet old lady was replaced by a scheming criminal.",
+            "The man I had known was gone, and in his place was an aging fool.",
+            "The jell-o liquid had been replaced by a rubbery mass.",
+		]
+	},
+    {
+		name: "Change Is Replacement",
+		examples: [
+            "He turned all funny.",
+            "He turned into a monster.",
+		]
+	},
+	{
+		name: "Coherent Is Aligned",
+		examples: [
+            "...an anomaly that cannot....be aligned with professional expectation. (Kuhn, Structure of Scientific Revolutions, p. 15)",
+            "I can't get this fact to line up with what I already know.",
+		]
+	},
+	{
+		name: "Coherent Is Whole",
+		examples: [
+            "Something is missing in that argument,",
+            "A unified theory,",
+            "His thoughts are scattered,",
+            "The theory is a mess/ all over the place",
+            "Everything fell into place.",
+            "I'm missing a piece of the puzzle.",
+            "How/where does this fit with what you were saying before?",
+            "His argument lacked coherence.",
+            "That story just doesn't hang together.",
+		]
+	},
+    {
+		name: "Communication Is Linguistic Communication",
+		examples: [
+            "Body language",
+            "A picture is worth a thousand words",
+            "He gave me a look that spoke volumes.",
+            "What does that painting say to you?",
+            "A glance in the box told me all I needed to know.",
+            "Her eyes said yes.",
+            "His face related to me a story of hard times.",
+            "His clothes were loud;  they shouted his bad taste to the world.",
+            "He made an eloquent gesture.",
+            "His poetry was possessed of its own special voice.",
+            "His guilt was written all over his face.",
+            "I read more into his actions than actually was there.",
+            "I finally managed to decode/interpret his actions.",
+            "Do I have to spell it out for you?",
+            "I can read him like a book.",
+            "His gestures underlined what he was saying.",
+            "She always spoke in italics.",
+		]
+	},
+	{
+		name: "Comparing And Seeking Is Shopping",
+		examples: [
+            "I'm shopping for a better philosophy",
+            "(My mama told me) You'd better shop around.",
+		]
+	},
+	{
+		name: "Comparison Of Properties Is Comparison Of Physical Properties",
+		examples: [
+            "This class is bigger than that one.",
+            "He's a bigger eater than she is.",
+		]
+	},
+	{
+		name: "Comparison Of Properties Is Comparison Of Possessions (non-evaluative)", 
+		examples: [
+            "The hostess with the most-ess.",
+            "He has less compassion than anyone I know.",
+            "She used to have more of a sense of humor.",
+		]
+	},
+	{
+		name: "Competition Is 1 On 1 Physical Aggression",
+		examples: [
+            "He clobbered me at tennis.",
+            "I beat him at chess.",
+            "She kicked-butt at the audition.",
+            "She whipped him at handball.",
+            "They really murdered the other team.",
+            "Losing the contest was a real black eye for her.",
+            "Those swim teams have been slugging it out all season.",
+		]
+	},
+	{
+		name: "Competition Is A Race",
+		examples: [
+            "The arms race.",
+            "We've been playing chess for years, and he's finally pulling ahead of me.",
+            "He's a better writer than I am, and he's widening the distance.",
+		]
+	},
+	{
+		name: "Competition Is War",
+		examples: [
+            "The debate team brought out their big guns.",
+            "The other team sent in the cavalry against us.",
+            "We took over the ball deep in their territory.",
+		]
+	},
+	{
+		name: "Compliance Is Adherence",
+		examples: [
+            "He stuck by his word.",
+		]
+	},
+	{
+		name: "Complience Is Following",
+		examples: [
+            "He went along with what he was told to do.",
+            "He followed his orders.",
+		]
+	},
+	{
+		name: "Compliance Is Tightness",
+		examples: [
+            "He runs a tight ship.",
+            "He's a real slacker.",
+		]
+	},
+	{
+		name: "Conceit Is Inflation",
+		examples: [
+            "She's got an inflated ego/sense of herself",
+            "He's a stuffed shirt",
+            "She was puffed up with pride",
+            "She's got a big/swollen head",
+		]
+	},
+	{
+		name: "Control Is Up",
+		examples: [
+            "I have control over him.",
+            "He is under my power.",
+            "I'm on top of the situation.",
+            "I have it all under control.",
+		]
+	},
+	{
+		name: "Creating Is Making Visible",
+		examples: [
+            "The Packer's play-off hopes were erased by a string of losses.",
+            "The current policy is making a lot of new problems appear.",
+		]
+	},
+    {
+		name: "Necessary Prerequisites Are Necessary Prerequisties For Plant Life",
+		examples: [
+            "He planted seeds of doubt in my mind.",
+            "Money is the root of all evil.",
+            "Jealousy is an off-shoot of amibition.",
+		]
+	},
+	{
+		name: "Creation Is Cultivation",
+		examples: [
+            "China is a fertile ground for revolt.",
+		]
+	},
+	{
+		name: "Conveying The Belief Is Spreading The Disease",
+		examples: [
+            "an infectious idea",
+            "the contagion of democratic ideas",
+		]
+	},
+	{
+		name: "Believers Are Infected",
+		examples: [
+            "the children were infected with ideas about socialism",
+		]
+	},
+	{
+		name: "Controlling The Belief Is Containing The Spread Of The Disease",
+		examples: [
+            "we have to take extreme measures and amputate the gangrenous limb before it kills our nation",
+		]
+	},
+	{
+		name: "Dangerous Beliefs Are Contagious Diseases",
+		examples: [
+            "Under cover of darkness.",
+            "He was enveloped in darkness.",
+            "Darkness closed in over us.",
+		]
+	},
+	{
+		name: "Darkness Is A Cover",
+		examples: [
+            "The darkness was palpable.",
+            "We had to feel our way through the darkness.",
+            "The light shone through the darkness.",
+            "The darkness was inpenetrable.",
+		]
+	},
+	{
+		name: "Thinking Is Struggling",
+		examples: [
+            "My brain has been struggling with math for weeks.",
+            "He wrestled with the new subject until he came to understand it.",
+		]
+	},
+	{
+		name: "Mental Control is Physical Control",
+		examples: [
+            "She wasn't able to tackle all the material, so he stayed behind.",
+            "He successfully conquered the material.",
+            "He has command over the material",
+		]
+	},
 ];
